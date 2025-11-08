@@ -1,0 +1,1 @@
+To be very clear, this is not meant to be shared. I tried making this for portable use out of curiosity. I was not the original creator of this incredible HTML code, a very big thank you to the one who did make this. I am merely the person who modified the code to be usable for the future. Out of respect for the original person, please do not share this. 
