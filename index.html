@@ -89,8 +89,8 @@
         }
     </style>
 
-    <script src="Test2.js"></script>
     <script src="Test1.js"></script>
+    <script src="Test2.js"></script>
 	<script src="Test3.js"></script>
 	<script src="Test4.js"></script>
 	<script src="Test5.js"></script>
@@ -402,7 +402,7 @@ const newTestData = [
                 performanceChart = new Chart(ctx, {
                     type: 'doughnut',
                     data: { labels: ['Correct', 'Incorrect'], datasets: [{ data: [correctCount, incorrectCount], backgroundColor: ['rgba(75, 192, 192, 0.8)', 'rgba(255, 99, 132, 0.8)'], borderColor: 'var(--bg-card)', borderWidth: 4 }] },
-                    options: { responsive: true, plugins: { legend: { position: 'top' }, tooltip: { callbacks: { label: (c) => `${c.label}: ${c.raw} (${((c.raw / totalQuestions)* 100).toFixed(0)}%)` } } } }
+                    options: { responsive: true, plugins: { legend: { position: 'top' }, tooltip: { callbacks: { label: (c) => `${c.label}: ${c.raw} (${((c.raw / totalQuestions) * 100).toFixed(0)}%)` } } } }
                 });
 
                 const categoryStats = {};
@@ -444,7 +444,7 @@ const newTestData = [
                 promptOutputArea.value = '';
             };
             
-            // --- REPLACED switchToTest FUNCTION ---
+            // --- REPLACED switchToTest FUNCTION (with new title fix) ---
             function switchToTest(testName) {
                 // Save current test state before switching
                 if (currentTestName && testStates[currentTestName]) {
@@ -455,10 +455,10 @@ const newTestData = [
                 const state = testStates[testName];
                 if (!state) return;
                 
-                // Update UI elements
-                getEl('exam-title').textContent = `Practice Exam: ${testName}`;
+                // --- MODIFICATION: Clean the test name for the title ---
+                const displayName = testName.replace(/^(\d+)-/, '').trim();
+                getEl('exam-title').textContent = `Practice Exam: ${displayName}`;
 
-                // --- MODIFICATION START ---
                 // 1. Update only the test-item-buttons
                 const selectorBtns = getEl('test-selector-nav').querySelectorAll('.test-item-btn');
                 selectorBtns.forEach(btn => {
@@ -479,7 +479,7 @@ const newTestData = [
                         toggle.classList.add('test-selector-btn-inactive');
                     }
                 });
-                // --- MODIFICATION END ---
+                // --- END MODIFICATION ---
 
                 // Restore timer display
                 getEl('timer-display').textContent = formatTime(Math.floor(state.timer.elapsedTime / 1000));
