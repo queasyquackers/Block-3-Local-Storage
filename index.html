@@ -912,6 +912,7 @@ const newTestData = [
                     
                     const answerState = state.userAnswers[index];
                     
+                    // 1. Apply Submission State (Correct/Incorrect)
                     // This logic now applies always
                     if (answerState.isSubmitted) {
                         if (answerState.isCorrect) {
@@ -923,10 +924,16 @@ const newTestData = [
 
                     // These apply only if exam is NOT finished
                     if (!state.examFinished) {
+                        // 2. Apply Flagged State (OVERRIDE SUBMISSION COLOR if flagged)
                         if (state.flaggedQuestions.has(index)) {
+                            // If flagged, explicitly remove correct/incorrect and add flagged
+                            btn.classList.remove('q-grid-btn-correct', 'q-grid-btn-incorrect');
                             btn.classList.add('q-grid-btn-flagged');
                         }
+                        
+                        // 3. Apply Current State (OVERRIDE everything else)
                         if (index === state.currentQuestionIndex) {
+                            btn.classList.remove('q-grid-btn-flagged', 'q-grid-btn-correct', 'q-grid-btn-incorrect');
                             btn.classList.add('q-grid-btn-current');
                         }
                     }
