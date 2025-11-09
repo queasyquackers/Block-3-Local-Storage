@@ -37,10 +37,19 @@
             border-color: var(--border-color); 
             position: relative; /* Added for icon positioning */
         }
-        .q-grid-btn-current { background-color: #374151; color: white; transform: scale(1.1); }
-        .q-grid-btn-flagged { background-color: #f59e0b; color: white; }
+
+        /* --- CSS FIX #1: Modified .q-grid-btn-current (Removed border) --- */
+        .q-grid-btn-current { 
+            transform: scale(1.15); 
+            z-index: 5;
+        }
+        
+        /* --- CSS FIX #2: Re-ordered rules so .q-grid-btn-flagged wins --- */
         .q-grid-btn-correct { background-color: #22c55e; color: white; border-color: #16a34a; }
         .q-grid-btn-incorrect { background-color: #ef4444; color: white; border-color: #dc2626; }
+        .q-grid-btn-flagged { background-color: #f59e0b; color: white; } /* Moved after correct/incorrect */
+        /* --- End CSS Fixes --- */
+
         
         /* --- MODIFIED ICON STYLES --- */
         .q-grid-btn-correct::after, .q-grid-btn-incorrect::after {
@@ -63,13 +72,13 @@
             content: '✔';
             color: #22c55e; /* Green text */
             border: 2px solid #22c55e; /* Green border */
-            font-size: 0.75rem; /* 14px */
+            font-size: 0.75rem; /* 12px */
         }
         .q-grid-btn-incorrect::after {
-           content: '✖'; /* Back to original X */
+            content: '✖'; /* Back to original X */
             color: #ef4444; /* Red text */
             border: 2px solid #ef4444; /* Red border */
-            font-size: 0.885rem; /* 14px */
+            font-size: 0.875rem; /* 14px */
         }
         /* --- END MODIFIED STYLES --- */
 
@@ -172,7 +181,7 @@
                     <div class="flex items-center mt-1"><span class="w-3 h-3 bg-green-500 rounded-full mr-2"></span>Correct</div>
                     <div class="flex items-center mt-1"><span class="w-3 h-3 bg-red-500 rounded-full mr-2"></span>Incorrect</div>
                     <div class="flex items-center mt-1"><span class="w-3 h-3 bg-yellow-500 rounded-full mr-2"></span>Flagged</div>
-                    <div class="flex items-center mt-1"><span class="w-3 h-3 bg-gray-700 rounded-full mr-2"></span>Current</div>
+                    <div class="flex items-center mt-1"><span class="w-3 h-3 border-2 border-default rounded-full mr-2" style="transform: scale(1.1); border-color: var(--border-accent);"></span>Current</div>
                 </div>
                 <button id="finish-test-btn" class="w-full bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded disabled:opacity-50 disabled:cursor-not-allowed">
                     Finish & Grade Exam
@@ -576,7 +585,7 @@ const newTestData = [
                         const parsedState = JSON.parse(savedState);
                         const state = testStates[testObject.name];
                         state.currentQuestionIndex = parsedState.currentQuestionIndex;
-                        state.userAnswers = parsedState.userAnswers.map(a => ({...a, strikedOutIndices: new Set(a.strikedOutIndices)})),
+                        state.userAnswers = parsedState.userAnswers.map(a => ({...a, strikedOutIndices: new Set(a.strikedOutIndices)}));
                         state.flaggedQuestions = new Set(parsedState.flaggedQuestions);
                         state.timer.elapsedTime = parsedState.timer.elapsedTime;
                     } else {
@@ -901,19 +910,18 @@ const newTestData = [
                 updateSidebarState();
             };
             
-            // --- MODIFIED updateSidebarState FUNCTION ---
+            /* --- JAVASCRIPT FIX: Replaced updateSidebarState function --- */
             const updateSidebarState = () => {
                 const state = getCurrentTestState();
                 if (!state) return;
                 const buttons = getEl('question-grid').querySelectorAll('button');
                 buttons.forEach((btn, index) => {
-                    // Clear all state classes
+                    // Clear ALL state classes first
                     btn.classList.remove('q-grid-btn-current', 'q-grid-btn-flagged', 'q-grid-btn-correct', 'q-grid-btn-incorrect');
                     
                     const answerState = state.userAnswers[index];
                     
-                    // 1. Apply Submission State (Correct/Incorrect)
-                    // This logic now applies always
+                    // 1. Apply Submission State (Correct/Incorrect) - This adds the mini-bubble
                     if (answerState.isSubmitted) {
                         if (answerState.isCorrect) {
                             btn.classList.add('q-grid-btn-correct');
@@ -924,21 +932,20 @@ const newTestData = [
 
                     // These apply only if exam is NOT finished
                     if (!state.examFinished) {
-                        // 2. Apply Flagged State (OVERRIDE SUBMISSION COLOR if flagged)
+                        
+                        // 2. Apply Flagged State (This adds yellow bg, overriding 1. due to new CSS order)
                         if (state.flaggedQuestions.has(index)) {
-                            // If flagged, explicitly remove correct/incorrect and add flagged
-                            btn.classList.remove('q-grid-btn-correct', 'q-grid-btn-incorrect');
-                            btn.classList.add('q-grid-btn-flagged');
+                            btn.classList.add('q-grid-btn-flagged'); 
                         }
                         
-                        // 3. Apply Current State (OVERRIDE everything else)
+                        // 3. Apply Current State (This adds scale/z-index via new CSS)
                         if (index === state.currentQuestionIndex) {
-                            btn.classList.remove('q-grid-btn-flagged', 'q-grid-btn-correct', 'q-grid-btn-incorrect');
-                            btn.classList.add('q-grid-btn-current');
+                            btn.classList.add('q-grid-btn-current'); 
                         }
                     }
                 });
             };
+            /* --- End JavaScript Fix --- */
             
             const jumpToQuestion = (index) => {
                 const state = getCurrentTestState();
