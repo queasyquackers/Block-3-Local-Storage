@@ -48,26 +48,29 @@
             position: absolute;
             bottom: -2px;
             right: -2px;
-            width: 1.125rem; /* 18px */
-            height: 1.125rem; /* 18px */
+            width: 1rem; /* 18px */
+            height: 1rem; /* 18px */
             display: flex;
             align-items: center;
             justify-content: center;
             border-radius: 50%;
             background-color: var(--bg-card); /* White/dark bg */
-            font-size: 0.875rem; /* 14px (bigger icon) */
             font-weight: bold;
             line-height: 1;
+            box-shadow: 0 0 0 2px var(--bg-main); /* Separation border */
         }
         .q-grid-btn-correct::after {
             content: '✔';
             color: #22c55e; /* Green text */
             border: 2px solid #22c55e; /* Green border */
+            font-size: 0.875rem; /* 14px */
         }
         .q-grid-btn-incorrect::after {
-            content: '✖'; /* Heavy X for better centering */
+            content: '+'; /* Using a plus sign */
             color: #ef4444; /* Red text */
             border: 2px solid #ef4444; /* Red border */
+            font-size: 1rem; /* 16px - makes the + bold */
+            transform: rotate(45deg); /* Rotate the + to make an X */
         }
         /* --- END MODIFIED STYLES --- */
 
@@ -574,7 +577,7 @@ const newTestData = [
                         const parsedState = JSON.parse(savedState);
                         const state = testStates[testObject.name];
                         state.currentQuestionIndex = parsedState.currentQuestionIndex;
-                        state.userAnswers = parsedState.userAnswers.map(a => ({...a, strikedOutIndices: new Set(a.strikedOutIndices)}));
+                        state.userAnswers = parsedState.userAnswers.map(a => ({...a, strikedOutIndices: new Set(a.strikedOutIndices)})),
                         state.flaggedQuestions = new Set(parsedState.flaggedQuestions);
                         state.timer.elapsedTime = parsedState.timer.elapsedTime;
                     } else {
@@ -910,7 +913,7 @@ const newTestData = [
                     
                     const answerState = state.userAnswers[index];
                     
-                    // This logic now applies always, not just when exam is finished
+                    // This logic now applies always
                     if (answerState.isSubmitted) {
                         if (answerState.isCorrect) {
                             btn.classList.add('q-grid-btn-correct');
@@ -982,7 +985,7 @@ const newTestData = [
                 const unansweredCount = state.userAnswers.filter(a => !a.isSubmitted).length;
                 const modalText = getEl('modal-text');
                 if(unansweredCount > 0){
-                    modalText.innerHTML = `You have <span class="font-bold">${unansweredCount} unanswered</span> questions. Are you sure you want to finish? They will be marked incorrect.`;
+                    modalText.innerHTML = `<span class="font-bold">${unansweredCount} unanswered</span> questions. Are you sure you want to finish? They will be marked incorrect.`;
                 } else {
                     modalText.textContent = "Are you sure you want to finish and grade the exam?";
                 }
