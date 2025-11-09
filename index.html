@@ -48,6 +48,7 @@
     </style>
 
     <script src="Test1.js"></script>
+	<script src="Test2.js"></script>
 	<script src="Test3.js"></script>
 	<script src="Test4.js"></script>
 	<script src="Test5.js"></script>
@@ -573,7 +574,7 @@ const newTestData = [
                 
                 const qText = document.createElement('p');
                 qText.className = 'text-lg leading-relaxed mb-6';
-                qText.textContent = question.questionText;
+                qText.innerHTML = question.questionText;
                 questionContainer.appendChild(qText);
                 
                 const optsContainer = document.createElement('div');
@@ -587,7 +588,7 @@ const newTestData = [
                     if (answerState.strikedOutIndices.has(index)) btn.classList.add('option-strikethrough');
                     const explanationEl = document.createElement('div');
                     explanationEl.className = 'explanation';
-                    explanationEl.textContent = opt.explanation;
+                    explanationEl.innerHTML = opt.explanation;
                     if (answerState.isSubmitted) {
                         btn.disabled = true;
                         explanationEl.style.display = 'block';
