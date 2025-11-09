@@ -45,10 +45,52 @@
         .option-btn-incorrect { background-color: var(--incorrect-bg); border-color: var(--incorrect-border); color: var(--incorrect-text); }
         .option-strikethrough { text-decoration: line-through; background-color: var(--bg-main) !important; color: var(--text-secondary) !important; opacity: 0.7; }
         .explanation { display: none; margin-top: 0.5rem; padding: 0.75rem; border-left: 4px solid var(--border-color); background-color: var(--bg-card-subtle); color: var(--text-secondary); }
+    
+        /* --- NEW STYLES FOR DROPDOWN --- */
+        .week-toggle-btn {
+             width: 100%;
+        }
+        .week-dropdown-panel {
+            position: absolute;
+            z-index: 10;
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            margin-top: 4px;
+            width: 100%;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .test-item-btn {
+            display: block;
+            width: 100%;
+            text-align: left;
+            border-radius: 0;
+            border: none;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .test-item-btn:last-child {
+            border-bottom: none;
+        }
+        .test-item-btn.test-selector-btn-active {
+            background-color: var(--accent-color);
+            color: white;
+        }
+
+        /* This makes the layout responsive for desktop */
+        @media (min-width: 640px) { /* sm breakpoint */
+            .week-toggle-btn {
+                width: auto;
+            }
+            .week-dropdown-panel {
+                width: 250px;
+            }
+        }
     </style>
 
+    <script src="Test2.js"></script>
     <script src="Test1.js"></script>
-	<script src="Test2.js"></script>
 	<script src="Test3.js"></script>
 	<script src="Test4.js"></script>
 	<script src="Test5.js"></script>
@@ -181,15 +223,43 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
+            // --- NEW HELPER FUNCTION ---
+            function groupTests(tests) {
+                const grouped = {};
+                tests.forEach(test => {
+                    const match = test.name.match(/^(\d+)-(.+)/);
+                    let groupKey = "General";
+                    let displayName = test.name;
+
+                    if (match) {
+                        const weekNum = match[1].trim();
+                        displayName = match[2].trim(); // This is the clean name
+                        groupKey = `Week ${weekNum}`;
+                    }
+
+                    if (!grouped[groupKey]) {
+                        grouped[groupKey] = [];
+                    }
+                    
+                    // Add the original test object, but with a new property for the display name.
+                    grouped[groupKey].push({
+                        ...test,
+                        displayName: displayName 
+                    });
+                });
+                return grouped;
+            }
+
+            // --- MODIFIED testsToLoad ARRAY ---
             const testsToLoad = [
-                { name: "13-OMM Lumbar Dx", data: L102 },
+		        { name: "13-OMM Lumbar Dx", data: L102 },
 				{ name: "13-H&N Anatomy", data: L103 },
 				{ name: "13-H&N Embryology", data: L104 },
 				{ name: "13-H&N Pathways", data: L105 },
 				{ name: "13-DPR Health Disparities", data: L106 },
 				{ name: "13-Pharmacodynamics", data: L107L108 },
 				{ name: "13-Pharmacokinetics", data: L109L110 },
-				{ name: "14-Special Afferents", data: L112 },
+            	{ name: "14-Special Afferents", data: L112 },
 				{ name: "14-Autonomics of H&N", data: L113 },
 				{ name: "14-DPR - GI", data: L114 },
 				{ name: "14-Clinical Pharmacokinetics", data: L115L116 },
@@ -332,7 +402,7 @@ const newTestData = [
                 performanceChart = new Chart(ctx, {
                     type: 'doughnut',
                     data: { labels: ['Correct', 'Incorrect'], datasets: [{ data: [correctCount, incorrectCount], backgroundColor: ['rgba(75, 192, 192, 0.8)', 'rgba(255, 99, 132, 0.8)'], borderColor: 'var(--bg-card)', borderWidth: 4 }] },
-                    options: { responsive: true, plugins: { legend: { position: 'top' }, tooltip: { callbacks: { label: (c) => `${c.label}: ${c.raw} (${((c.raw / totalQuestions) * 100).toFixed(0)}%)` } } } }
+                    options: { responsive: true, plugins: { legend: { position: 'top' }, tooltip: { callbacks: { label: (c) => `${c.label}: ${c.raw} (${((c.raw / totalQuestions)* 100).toFixed(0)}%)` } } } }
                 });
 
                 const categoryStats = {};
@@ -374,6 +444,7 @@ const newTestData = [
                 promptOutputArea.value = '';
             };
             
+            // --- REPLACED switchToTest FUNCTION ---
             function switchToTest(testName) {
                 // Save current test state before switching
                 if (currentTestName && testStates[currentTestName]) {
@@ -386,12 +457,30 @@ const newTestData = [
                 
                 // Update UI elements
                 getEl('exam-title').textContent = `Practice Exam: ${testName}`;
-                const selectorBtns = getEl('test-selector-nav').querySelectorAll('button');
+
+                // --- MODIFICATION START ---
+                // 1. Update only the test-item-buttons
+                const selectorBtns = getEl('test-selector-nav').querySelectorAll('.test-item-btn');
                 selectorBtns.forEach(btn => {
                     btn.classList.toggle('test-selector-btn-active', btn.dataset.name === testName);
                     btn.classList.toggle('test-selector-btn-inactive', btn.dataset.name !== testName);
                 });
-                
+
+                // 2. Update the parent Week Toggle Button
+                const weekToggles = getEl('test-selector-nav').querySelectorAll('.week-toggle-btn');
+                weekToggles.forEach(toggle => {
+                    const panel = toggle.nextElementSibling; // Get the dropdown panel
+                    // Check if any button *inside* this panel is active
+                    if (panel && panel.querySelector('.test-selector-btn-active')) {
+                        toggle.classList.add('test-selector-btn-active'); // Make the week button active
+                        toggle.classList.remove('test-selector-btn-inactive');
+                    } else {
+                        toggle.classList.remove('test-selector-btn-active'); // Make it inactive
+                        toggle.classList.add('test-selector-btn-inactive');
+                    }
+                });
+                // --- MODIFICATION END ---
+
                 // Restore timer display
                 getEl('timer-display').textContent = formatTime(Math.floor(state.timer.elapsedTime / 1000));
                 
@@ -471,17 +560,70 @@ const newTestData = [
                 switchToTest(testObject.name);
             }
             
+            // --- REPLACED createTestSelector FUNCTION ---
             function createTestSelector() { 
                 const navContainer = getEl('test-selector-nav'); 
                 navContainer.innerHTML = ''; 
-                testsToLoad.forEach(testObj => { 
-                    const button = document.createElement('button'); 
-                    button.textContent = testObj.name; 
-                    button.dataset.name = testObj.name; 
-                    button.className = 'test-selector-btn test-selector-btn-inactive'; 
-                    button.onclick = () => loadTest(testObj); 
-                    navContainer.appendChild(button); 
-                }); 
+
+                const grouped = groupTests(testsToLoad);
+                
+                // Re-order to put "General" last (if it exists)
+                const groupKeys = Object.keys(grouped).sort((a, b) => {
+                    if (a === "General") return 1;
+                    if (b === "General") return -1;
+                    return a.localeCompare(b, undefined, { numeric: true }); // Sorts "Week 13" before "Week 14"
+                });
+
+                groupKeys.forEach(groupName => {
+                    // Create a container for the whole group (Week button + dropdown)
+                    const groupContainer = document.createElement('div');
+                    groupContainer.className = 'relative inline-block text-left w-full sm:w-auto';
+
+                    // Create the main "Week" toggle button
+                    const weekButton = document.createElement('button');
+                    weekButton.textContent = groupName + ' ▼'; // Add a dropdown arrow
+                    weekButton.className = 'week-toggle-btn test-selector-btn test-selector-btn-inactive w-full sm:w-auto text-left sm:text-center justify-between sm:inline-flex items-center';
+                    
+                    // Create the dropdown panel
+                    const dropdownPanel = document.createElement('div');
+                    dropdownPanel.className = 'week-dropdown-panel';
+                    dropdownPanel.style.display = 'none'; // Start hidden
+
+                    // Add test buttons to the panel
+                    const testsInGroup = grouped[groupName];
+                    testsInGroup.forEach(testObj => {
+                        const button = document.createElement('button');
+                        button.textContent = testObj.displayName; // Use the clean display name
+                        button.dataset.name = testObj.name; // Use the original full name as the key
+                        button.className = 'test-selector-btn test-selector-btn-inactive test-item-btn';
+                        
+                        // Find the original object to pass to loadTest
+                        const originalTestObj = testsToLoad.find(t => t.name === testObj.name);
+                        button.onclick = () => {
+                            loadTest(originalTestObj);
+                            // Close all dropdowns after selection
+                            document.querySelectorAll('.week-dropdown-panel').forEach(p => p.style.display = 'none');
+                        };
+                        dropdownPanel.appendChild(button);
+                    });
+                    
+                    // Add click handler to the week button to toggle the panel
+                    weekButton.onclick = (e) => {
+                        // Close all *other* dropdowns first
+                        document.querySelectorAll('.week-dropdown-panel').forEach(panel => {
+                            if (panel !== dropdownPanel) {
+                                panel.style.display = 'none';
+                            }
+                        });
+                        // Toggle the current one
+                        const isHidden = dropdownPanel.style.display === 'none';
+                        dropdownPanel.style.display = isHidden ? 'block' : 'none';
+                    };
+
+                    groupContainer.appendChild(weekButton);
+                    groupContainer.appendChild(dropdownPanel);
+                    navContainer.appendChild(groupContainer);
+                });
             }
             
             const finishTest = () => {
@@ -574,6 +716,7 @@ const newTestData = [
                 
                 const qText = document.createElement('p');
                 qText.className = 'text-lg leading-relaxed mb-6';
+                // --- THIS IS THE FIX FOR SUBSCRIPTS ---
                 qText.innerHTML = question.questionText;
                 questionContainer.appendChild(qText);
                 
@@ -588,7 +731,8 @@ const newTestData = [
                     if (answerState.strikedOutIndices.has(index)) btn.classList.add('option-strikethrough');
                     const explanationEl = document.createElement('div');
                     explanationEl.className = 'explanation';
-                    explanationEl.innerHTML = opt.explanation;
+                    // --- THIS IS THE FIX FOR SUBSCRIPTS ---
+                    explanationEl.innerHTML = opt.explanation; 
                     if (answerState.isSubmitted) {
                         btn.disabled = true;
                         explanationEl.style.display = 'block';
@@ -831,8 +975,10 @@ const newTestData = [
                         if (optIndex === q.correctAnswerIndex) optionClass += ' option-btn-correct';
                         else if (userAnswer.selectedIndex === optIndex) optionClass += ' option-btn-incorrect';
                         else optionClass += ' border-default';
+                        // --- MODIFIED THIS LINE FOR INNERHTML ---
                         return `<div class="${optionClass}"><p>${String.fromCharCode(65 + optIndex)}. ${opt.text} ${indicators}</p><p class="text-sm text-secondary mt-1 pl-5"><em>Explanation:</em> ${opt.explanation}</p></div>`;
                     }).join('');
+                    // --- MODIFIED THIS LINE FOR INNERHTML ---
                     questionEl.innerHTML = `<p class="font-semibold text-secondary">Question ${originalIndex + 1} (${q.category})</p><p class="font-bold text-lg mt-1">${q.questionText}</p><div class="mt-4 space-y-2">${optionsHtml}</div>`;
                     container.appendChild(questionEl);
                 });
@@ -860,6 +1006,7 @@ const newTestData = [
             updateThemeIcons();
             createTestSelector();
             if (testsToLoad.length > 0) {
+                // --- MODIFIED: No more "General" tests, so just load the first test in the list
                 loadTest(testsToLoad[0]);
             } else {
                 getEl('main-content-area').innerHTML = `<p class="text-secondary text-center">No tests found. Please add a test script to the HTML head and add it to the 'testsToLoad' array.</p>`;
