@@ -31,12 +31,46 @@
         .tab-active { border-bottom-color: var(--accent-color); color: var(--accent-text); }
         .test-selector-btn-active { background-color: var(--accent-color); color: white; }
         .test-selector-btn-inactive { background-color: var(--bg-main); color: var(--text-secondary); }
-        .q-grid-btn { transition: all 0.2s ease-in-out; border-color: var(--border-color); }
+        
+        .q-grid-btn { 
+            transition: all 0.2s ease-in-out; 
+            border-color: var(--border-color); 
+            position: relative; /* Added for icon positioning */
+        }
         .q-grid-btn-current { background-color: #374151; color: white; transform: scale(1.1); }
-        .q-grid-btn-answered { background-color: #3b82f6; color: white; }
         .q-grid-btn-flagged { background-color: #f59e0b; color: white; }
         .q-grid-btn-correct { background-color: #22c55e; color: white; border-color: #16a34a; }
         .q-grid-btn-incorrect { background-color: #ef4444; color: white; border-color: #dc2626; }
+        
+        /* --- MODIFIED ICON STYLES --- */
+        .q-grid-btn-correct::after, .q-grid-btn-incorrect::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            right: -2px;
+            width: 1.125rem; /* 18px */
+            height: 1.125rem; /* 18px */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background-color: var(--bg-card); /* White/dark bg */
+            font-size: 0.875rem; /* 14px (bigger icon) */
+            font-weight: bold;
+            line-height: 1;
+        }
+        .q-grid-btn-correct::after {
+            content: '✔';
+            color: #22c55e; /* Green text */
+            border: 2px solid #22c55e; /* Green border */
+        }
+        .q-grid-btn-incorrect::after {
+            content: '✖'; /* Heavy X for better centering */
+            color: #ef4444; /* Red text */
+            border: 2px solid #ef4444; /* Red border */
+        }
+        /* --- END MODIFIED STYLES --- */
+
         .test-selector-btn { padding: 8px 16px; border-radius: 6px; font-weight: 500; transition: background-color 0.2s; }
         .option-btn { border: 1px solid var(--border-color); transition: background-color 0.2s, border-color 0.2s; }
         .option-btn:hover { background-color: var(--bg-hover); border-color: var(--border-accent); }
@@ -46,7 +80,6 @@
         .option-strikethrough { text-decoration: line-through; background-color: var(--bg-main) !important; color: var(--text-secondary) !important; opacity: 0.7; }
         .explanation { display: none; margin-top: 0.5rem; padding: 0.75rem; border-left: 4px solid var(--border-color); background-color: var(--bg-card-subtle); color: var(--text-secondary); }
     
-        /* --- NEW STYLES FOR DROPDOWN --- */
         .week-toggle-btn {
              width: 100%;
         }
@@ -77,8 +110,6 @@
             background-color: var(--accent-color);
             color: white;
         }
-
-        /* This makes the layout responsive for desktop */
         @media (min-width: 640px) { /* sm breakpoint */
             .week-toggle-btn {
                 width: auto;
@@ -136,7 +167,8 @@
                 <div id="question-grid" class="grid grid-cols-5 gap-2 mb-4"></div>
                 <div class="text-xs text-secondary mb-4">
                     <div class="flex items-center"><span class="w-3 h-3 border border-default rounded-full mr-2"></span>Not Answered</div>
-                    <div class="flex items-center mt-1"><span class="w-3 h-3 bg-blue-500 rounded-full mr-2"></span>Answered</div>
+                    <div class="flex items-center mt-1"><span class="w-3 h-3 bg-green-500 rounded-full mr-2"></span>Correct</div>
+                    <div class="flex items-center mt-1"><span class="w-3 h-3 bg-red-500 rounded-full mr-2"></span>Incorrect</div>
                     <div class="flex items-center mt-1"><span class="w-3 h-3 bg-yellow-500 rounded-full mr-2"></span>Flagged</div>
                     <div class="flex items-center mt-1"><span class="w-3 h-3 bg-gray-700 rounded-full mr-2"></span>Current</div>
                 </div>
@@ -382,7 +414,7 @@ const newTestData = [
                 answerState.isSubmitted = true;
                 answerState.isCorrect = answerState.selectedIndex === state.questions[state.currentQuestionIndex].correctAnswerIndex;
                 answerState.strikedOutIndices.clear();
-                displayQuestion();
+                displayQuestion(); // This will re-render the question and update the sidebar
                 saveState();
             };
             
@@ -444,7 +476,7 @@ const newTestData = [
                 promptOutputArea.value = '';
             };
             
-            // --- REPLACED switchToTest FUNCTION (with new title fix) ---
+            // --- REPLACED switchToTest FUNCTION ---
             function switchToTest(testName) {
                 // Save current test state before switching
                 if (currentTestName && testStates[currentTestName]) {
@@ -656,9 +688,12 @@ const newTestData = [
                 localStorage.removeItem(`examProgress_${currentTestName}`);
                 generateSummary(currentTestName);
                 
+                // --- MODIFIED navButton update logic ---
                 const navButtons = getEl('question-grid').querySelectorAll('button');
                 navButtons.forEach((btn, index) => {
-                    btn.classList.remove('q-grid-btn-answered', 'q-grid-btn-flagged');
+                    // Clear all in-progress styles
+                    btn.classList.remove('q-grid-btn-answered', 'q-grid-btn-flagged', 'q-grid-btn-current');
+                    // Add final grade styles
                     if(state.userAnswers[index].isCorrect) {
                         btn.classList.add('q-grid-btn-correct');
                     } else {
@@ -716,8 +751,7 @@ const newTestData = [
                 
                 const qText = document.createElement('p');
                 qText.className = 'text-lg leading-relaxed mb-6';
-                // --- THIS IS THE FIX FOR SUBSCRIPTS ---
-                qText.innerHTML = question.questionText;
+                qText.innerHTML = question.questionText; // Fixed for subscripts
                 questionContainer.appendChild(qText);
                 
                 const optsContainer = document.createElement('div');
@@ -731,8 +765,7 @@ const newTestData = [
                     if (answerState.strikedOutIndices.has(index)) btn.classList.add('option-strikethrough');
                     const explanationEl = document.createElement('div');
                     explanationEl.className = 'explanation';
-                    // --- THIS IS THE FIX FOR SUBSCRIPTS ---
-                    explanationEl.innerHTML = opt.explanation; 
+                    explanationEl.innerHTML = opt.explanation; // Fixed for subscripts
                     if (answerState.isSubmitted) {
                         btn.disabled = true;
                         explanationEl.style.display = 'block';
@@ -866,22 +899,34 @@ const newTestData = [
                 updateSidebarState();
             };
             
+            // --- MODIFIED updateSidebarState FUNCTION ---
             const updateSidebarState = () => {
                 const state = getCurrentTestState();
                 if (!state) return;
                 const buttons = getEl('question-grid').querySelectorAll('button');
                 buttons.forEach((btn, index) => {
-                    btn.classList.remove('q-grid-btn-current', 'q-grid-btn-answered', 'q-grid-btn-flagged', 'q-grid-btn-correct', 'q-grid-btn-incorrect');
-                    if (state.examFinished) {
-                        if (state.userAnswers[index].isCorrect) {
+                    // Clear all state classes
+                    btn.classList.remove('q-grid-btn-current', 'q-grid-btn-flagged', 'q-grid-btn-correct', 'q-grid-btn-incorrect');
+                    
+                    const answerState = state.userAnswers[index];
+                    
+                    // This logic now applies always, not just when exam is finished
+                    if (answerState.isSubmitted) {
+                        if (answerState.isCorrect) {
                             btn.classList.add('q-grid-btn-correct');
                         } else {
                             btn.classList.add('q-grid-btn-incorrect');
                         }
-                    } else {
-                        if (state.userAnswers[index]?.isSubmitted) btn.classList.add('q-grid-btn-answered');
-                        if (state.flaggedQuestions.has(index)) btn.classList.add('q-grid-btn-flagged');
-                        if (index === state.currentQuestionIndex) btn.classList.add('q-grid-btn-current');
+                    }
+
+                    // These apply only if exam is NOT finished
+                    if (!state.examFinished) {
+                        if (state.flaggedQuestions.has(index)) {
+                            btn.classList.add('q-grid-btn-flagged');
+                        }
+                        if (index === state.currentQuestionIndex) {
+                            btn.classList.add('q-grid-btn-current');
+                        }
                     }
                 });
             };
@@ -975,10 +1020,8 @@ const newTestData = [
                         if (optIndex === q.correctAnswerIndex) optionClass += ' option-btn-correct';
                         else if (userAnswer.selectedIndex === optIndex) optionClass += ' option-btn-incorrect';
                         else optionClass += ' border-default';
-                        // --- MODIFIED THIS LINE FOR INNERHTML ---
                         return `<div class="${optionClass}"><p>${String.fromCharCode(65 + optIndex)}. ${opt.text} ${indicators}</p><p class="text-sm text-secondary mt-1 pl-5"><em>Explanation:</em> ${opt.explanation}</p></div>`;
                     }).join('');
-                    // --- MODIFIED THIS LINE FOR INNERHTML ---
                     questionEl.innerHTML = `<p class="font-semibold text-secondary">Question ${originalIndex + 1} (${q.category})</p><p class="font-bold text-lg mt-1">${q.questionText}</p><div class="mt-4 space-y-2">${optionsHtml}</div>`;
                     container.appendChild(questionEl);
                 });
@@ -1006,7 +1049,6 @@ const newTestData = [
             updateThemeIcons();
             createTestSelector();
             if (testsToLoad.length > 0) {
-                // --- MODIFIED: No more "General" tests, so just load the first test in the list
                 loadTest(testsToLoad[0]);
             } else {
                 getEl('main-content-area').innerHTML = `<p class="text-secondary text-center">No tests found. Please add a test script to the HTML head and add it to the 'testsToLoad' array.</p>`;
