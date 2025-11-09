@@ -38,18 +38,18 @@
             position: relative; /* Added for icon positioning */
         }
 
-        /* --- CSS FIX #1: Modified .q-grid-btn-current (Removed border) --- */
+        /* --- CSS FIX: Re-ordered rules & new .q-grid-btn-current style --- */
+        .q-grid-btn-correct { background-color: #22c55e; color: white; border-color: #16a34a; }
+        .q-grid-btn-incorrect { background-color: #ef4444; color: white; border-color: #dc2626; }
+
         .q-grid-btn-current { 
             transform: scale(1.15); 
             z-index: 5;
+            background-color: var(--bg-selected); /* This is the light blue */
+            color: var(--text-primary); /* Ensures text readability */
         }
-        
-        /* --- CSS FIX #2: Re-ordered rules so .q-grid-btn-flagged wins --- */
-        .q-grid-btn-correct { background-color: #22c55e; color: white; border-color: #16a34a; }
-        .q-grid-btn-incorrect { background-color: #ef4444; color: white; border-color: #dc2626; }
-        .q-grid-btn-flagged { background-color: #f59e0b; color: white; } /* Moved after correct/incorrect */
-        /* --- End CSS Fixes --- */
-
+        .q-grid-btn-flagged { background-color: #f59e0b; color: white; }
+        /* --- End CSS Fix --- */
         
         /* --- MODIFIED ICON STYLES --- */
         .q-grid-btn-correct::after, .q-grid-btn-incorrect::after {
@@ -181,7 +181,7 @@
                     <div class="flex items-center mt-1"><span class="w-3 h-3 bg-green-500 rounded-full mr-2"></span>Correct</div>
                     <div class="flex items-center mt-1"><span class="w-3 h-3 bg-red-500 rounded-full mr-2"></span>Incorrect</div>
                     <div class="flex items-center mt-1"><span class="w-3 h-3 bg-yellow-500 rounded-full mr-2"></span>Flagged</div>
-                    <div class="flex items-center mt-1"><span class="w-3 h-3 border-2 border-default rounded-full mr-2" style="transform: scale(1.1); border-color: var(--border-accent);"></span>Current</div>
+                    <div class="flex items-center mt-1"><span class="w-3 h-3 rounded-full mr-2" style="background-color: var(--bg-selected);"></span>Current</div>
                 </div>
                 <button id="finish-test-btn" class="w-full bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded disabled:opacity-50 disabled:cursor-not-allowed">
                     Finish & Grade Exam
@@ -916,12 +916,14 @@ const newTestData = [
                 if (!state) return;
                 const buttons = getEl('question-grid').querySelectorAll('button');
                 buttons.forEach((btn, index) => {
-                    // Clear ALL state classes first
-                    btn.classList.remove('q-grid-btn-current', 'q-grid-btn-flagged', 'q-grid-btn-correct', 'q-grid-btn-incorrect');
+                    
+                    // 1. Clear only the background/state classes
+                    btn.classList.remove('q-grid-btn-current', 'q-grid-btn-flagged');
+                    
+                    // 2. Clear AND re-apply the mini-bubble classes
+                    btn.classList.remove('q-grid-btn-correct', 'q-grid-btn-incorrect');
                     
                     const answerState = state.userAnswers[index];
-                    
-                    // 1. Apply Submission State (Correct/Incorrect) - This adds the mini-bubble
                     if (answerState.isSubmitted) {
                         if (answerState.isCorrect) {
                             btn.classList.add('q-grid-btn-correct');
@@ -930,17 +932,15 @@ const newTestData = [
                         }
                     }
 
-                    // These apply only if exam is NOT finished
+                    // 3. Layer on top (if exam is running)
                     if (!state.examFinished) {
-                        
-                        // 2. Apply Flagged State (This adds yellow bg, overriding 1. due to new CSS order)
+                        // Add flag color (overrides green/red)
                         if (state.flaggedQuestions.has(index)) {
-                            btn.classList.add('q-grid-btn-flagged'); 
+                            btn.classList.add('q-grid-btn-flagged');
                         }
-                        
-                        // 3. Apply Current State (This adds scale/z-index via new CSS)
+                        // Add current color (overrides flag AND green/red)
                         if (index === state.currentQuestionIndex) {
-                            btn.classList.add('q-grid-btn-current'); 
+                            btn.classList.add('q-grid-btn-current');
                         }
                     }
                 });
