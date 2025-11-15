@@ -10,7 +10,8 @@ const L114 = [
 {"text": "Palpation, Inspection, Auscultation, Percussion", "explanation": "This sequence is incorrect. Inspection must be first, and palpation must be last (or at least after auscultation)."},
 {"text": "Inspection, Percussion, Auscultation, Palpation", "explanation": "This sequence is incorrect. Percussion must be performed *after* auscultation to avoid altering bowel sounds."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L114_p_page-0016.jpg"
 },
 {
 "id": 2,
@@ -23,7 +24,8 @@ const L114 = [
 {"text": "Paradoxical diarrhea with leakage of stool.", "explanation": "In an elderly patient, this is a 'red flag' symptom suggestive of fecal impaction, not simple constipation."},
 {"text": "High-pitched tinkling sounds heard in the abdomen.", "explanation": "This is a physical exam finding (auscultation), not a patient-reported symptom, and it suggests dilated bowel."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L114_p_page-0004.jpg"
 },
 {
 "id": 3,
@@ -36,7 +38,8 @@ const L114 = [
 {"text": "Unintentional weight loss of 15 pounds.", "explanation": "Correct. New-onset constipation in an older patient, especially when paired with unintentional weight loss (over 10 lbs), is a 'red flag' for colon cancer."},
 {"text": "Use of diltiazem for hypertension.", "explanation": "Diltiazem is a calcium channel blocker, which is a common medication cause for constipation, making it a likely etiology but not a 'red flag' for cancer."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L114_p_page-0006.jpg"
 },
 {
 "id": 4,
@@ -49,7 +52,8 @@ const L114 = [
 {"text": "Striae; Cushing's syndrome", "explanation": "Striae are 'stretch marks' related to rapid skin stretching, which can be seen in conditions like Cushing's or pregnancy."},
 {"text": "Jaundice; Hepatic failure", "explanation": "Jaundice is a yellowing of the skin due to bilirubin issues, not periumbilical bruising."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L114_p_page-0027.jpg"
 },
 {
 "id": 5,
@@ -62,7 +66,8 @@ const L114 = [
 {"text": "5 minutes", "explanation": "While this would certainly be sufficient, the standard minimum requirement is 2-3 minutes."},
 {"text": "10 seconds in each quadrant", "explanation": "This is too short; normal bowel sounds are intermittent and might be missed in such a short interval."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L114_p_page-0037.jpg"
 },
 {
 "id": 6,
@@ -75,7 +80,8 @@ const L114 = [
 {"text": "Renal artery stenosis", "explanation": "Renal artery stenosis would present with a vascular *bruit* over the renal artery, not high-pitched bowel sounds."},
 {"text": "Normal peristalsis", "explanation": "Normal bowel sounds are 5-34 clicks or gurgles per minute and are not typically high-pitched or associated with cramps."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L114_p_page-0038.jpg"
 },
 {
 "id": 7,
@@ -88,7 +94,8 @@ const L114 = [
 {"text": "Mid-clavicular line, 4-8 cm", "explanation": "This is the correct landmark, but the 4-8 cm range is associated with the mid-sternal line."},
 {"text": "Mid-sternal line, 6-12 cm", "explanation": "This is the incorrect landmark; this range (6-12 cm) applies to the mid-clavicular line."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L114_p_page-0044.jpg"
 },
 {
 "id": 8,
@@ -101,7 +108,8 @@ const L114 = [
 {"text": "This suggests a left lower lobe pneumonia.", "explanation": "Pneumonia would cause dullness at the lung base, but the change *with inspiration* at this specific location (Traube's space) is characteristic of splenomegaly."},
 {"text": "This suggests a large amount of gastric air.", "explanation": "Gastric air would cause tympany, not a shift to dullness on inspiration."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L114_p_page-0046.jpg"
 },
 {
 "id": 9,
@@ -114,7 +122,8 @@ const L114 = [
 {"text": "Splenomegaly", "explanation": "Splenomegaly is an enlarged spleen, which would be palpated in the left upper quadrant, separate from the aorta."},
 {"text": "Fecal impaction", "explanation": "Fecal impaction may present as a palpable mass, but it would not be pulsatile like the aorta."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L114_p_page-0055.jpg"
 },
 {
 "id": 10,
@@ -127,7 +136,8 @@ const L114 = [
 {"text": "Ask the patient to keep their knees straight to tense the abdominal muscles.", "explanation": "This is incorrect. The patient's knees should be *bent* to *relax* the abdominal muscles, making palpation easier."},
 {"text": "Observe the patient from their left side for better access to the RLQ.", "explanation": "The examiner should conventionally observe and examine from the *right* side of the patient."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L114_p_page-0017.jpg"
 },
 {
 "id": 11,
@@ -140,7 +150,8 @@ const L114 = [
 {"text": "The xiphoid process and the 7th rib", "explanation": "This describes the anterior epigastric region, not the posterior CVA."},
 {"text": "The 12th rib and the spinous process of T12", "explanation": "This is incorrect; the angle is formed with the *transverse processes* of the *lumbar* vertebrae, not the spinous process of T12."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L114_p_page-0014.jpg"
 },
 {
 "id": 12,
@@ -153,7 +164,8 @@ const L114 = [
 {"text": "S2-S4", "explanation": "These levels provide *parasympathetic* innervation to the left side of the colon via the pelvic splanchnic nerves."},
 {"text": "Vagus (CN X)", "explanation": "The vagus nerve provides *parasympathetic* innervation to the right side of the colon; it would not produce a thoracic viscerosomatic reflex."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L114_p_page-0058.jpg"
 },
 {
 "id": 13,
@@ -166,7 +178,8 @@ const L114 = [
 {"text": "On the 5th and 6th intercostal spaces near the sternum.", "explanation": "These points are typically associated with the stomach or liver."},
 {"text": "At the pubic symphysis, lateral to the midline.", "explanation": "This area is typically associated with the bladder or reproductive organs."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L114_p_page-0058.jpg"
 },
 {
 "id": 14,
@@ -176,10 +189,11 @@ const L114 = [
 {"text": "Dementia", "explanation": "Dementia is listed as a common past medical history cause for constipation."},
 {"text": "Parkinson's disease", "explanation": "Parkinsonism is listed as a common past medical history cause for constipation."},
 {"text": "Diltiazem", "explanation": "Diltiazem is a calcium channel blocker, which is a common medication cause for constipation."},
-{"textm": "Iron supplements", "explanation": "Iron supplements are listed as a common medication cause for constipation."},
+{"text": "Iron supplements", "explanation": "Iron supplements are listed as a common medication cause for constipation."},
 {"text": "Ulcerative colitis", "explanation": "Ulcerative colitis is a form of inflammatory bowel disease, which is typically associated with *hyperactive* bowel sounds and *diarrhea*, not constipation."}
 ],
-"correctAnswerIndex": 4
+"correctAnswerIndex": 4,
+"slideImagePath": "images/L114_p_page-0036.jpg"
 },
 {
 "id": 15,
@@ -192,6 +206,7 @@ const L114 = [
 {"text": "High-pitched tinkling, implying bowel obstruction.", "explanation": "High-pitched tinkling sounds are associated with dilated bowel, not the liver surface."},
 {"text": "Absent bowel sounds, implying an ileus.", "explanation": "This is a lack of sound, not a grating sound, and would be heard over the intestines."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L114_p_page-0040.jpg"
 }
 ];

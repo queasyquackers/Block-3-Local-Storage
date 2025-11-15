@@ -8,9 +8,10 @@ const L105 = [
 {"text": "Inferior division of CN III", "explanation": "The inferior division innervates the medial rectus, inferior rectus, and inferior oblique, and carries parasympathetics. Lesion causes severe eye positioning issues and parasympathetic deficits, but an *isolated* medial rectus weakness is not characteristic of the full inferior division lesion."},
 {"text": "External laryngeal nerve branch of CN X", "explanation": "This nerve is motor to the cricothyroid muscle and has no relation to eye movement."},
 {"text": "CN VI (Abducens) nerve", "explanation": "The symptoms (laterally deviated eye, inability to adduct) describe paralysis of the Medial Rectus muscle, which is innervated by the Inferior division of CN III."},
-{"text": "Inferior division of CN III (Medial Rectus branch)", "explanation": "The Medial Rectus is primarily responsible for adduction, and its weakness or paralysis (medial rectus palsy) causes the eye to deviate laterally (unopposed CN VI action), suggesting a lesion to the inferior division of the oculomotor nerve."},
+{"text": "Inferior division of CN III (Medial Rectus branch)", "explanation": "The Medial Rectus is primarily responsible for adduction, and its weakness or paralysis (medial rectus palsy) causes the eye to deviate laterally (unopposed CN VI action), suggesting a lesion to the inferior division of the oculomotor nerve."}
 ],
-"correctAnswerIndex": 4
+"correctAnswerIndex": 4,
+"slideImagePath": "images/L105_p_page-0004.jpg"
 },
 {
 "id": 2,
@@ -21,9 +22,10 @@ const L105 = [
 {"text": "Auriculotemporal nerve", "explanation": "This nerve provides sensation to the temporal region and ear, not the mandibular teeth."},
 {"text": "Lingual nerve", "explanation": "The lingual nerve provides sensation to the anterior two-thirds of the tongue, not the mandibular teeth."},
 {"text": "Inferior alveolar nerve", "explanation": "The inferior alveolar nerve descends, enters the mandible at the mandibular foramen, and travels through the mandibular canal to innervate the majority of mandibular teeth."},
-{"text": "Nerve to mylohyoid", "explanation": "This is a motor nerve that innervates the mylohyoid and anterior belly of the digastric muscle."},
+{"text": "Nerve to mylohyoid", "explanation": "This is a motor nerve that innervates the mylohyoid and anterior belly of the digastric muscle."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L105_p_page-0027.jpg"
 },
 {
 "id": 3,
@@ -34,9 +36,10 @@ const L105 = [
 {"text": "Abduction of the vocal folds via the posterior cricoarytenoid muscle", "explanation": "This function is provided by the Inferior Laryngeal nerve, which would be compromised."},
 {"text": "Motor innervation to the cricothyroid muscle", "explanation": "The cricothyroid muscle is innervated by the External Laryngeal nerve (branch of the Superior Laryngeal nerve), which branches off CN X superior to the hypothetical lesion."},
 {"text": "Motor innervation to the soft palate muscles (excluding tensor veli palatini)", "explanation": "Motor to the soft palate (except tensor veli palatini) is provided by the Pharyngeal branch of CN X, which typically branches off superiorly, but the lesion is described as inferior to the Superior Laryngeal nerve, meaning the pharyngeal branch is likely also compromised."},
-{"text": "Taste sensation from the epiglottis", "explanation": "Taste sensation near the epiglottis is primarily via the Internal Laryngeal nerve, which would be compromised by the lesion below the Superior Laryngeal branch point."},
+{"text": "Taste sensation from the epiglottis", "explanation": "Taste sensation near the epiglottis is primarily via the Internal Laryngeal nerve, which would be compromised by the lesion below the Superior Laryngeal branch point."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L105_p_page-0058.jpg"
 },
 {
 "id": 4,
@@ -47,9 +50,10 @@ const L105 = [
 {"text": "Tensor veli palatini: CN XII", "explanation": "Tensor veli palatini has 'tensor'; it is innervated by CN V3, superseding the palate rule."},
 {"text": "Tensor tympani: CN V3", "explanation": "Tensor tympani has 'tensor'; it is innervated by CN V3."},
 {"text": "Mylohyoid: CN X", "explanation": "Mylohyoid is innervated by CN V3 (nerve to mylohyoid)."},
-{"text": "Styloglossus: CN X", "explanation": "Styloglossus has 'glossus' but no 'palate' or 'tensor'; it is innervated by CN XII."},
+{"text": "Styloglossus: CN X", "explanation": "Styloglossus has 'glossus' but no 'palate' or 'tensor'; it is innervated by CN XII."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L105_p_page-0067.jpg"
 },
 {
 "id": 5,
@@ -60,9 +64,10 @@ const L105 = [
 {"text": "CN V3 (Trigeminal)", "explanation": "CN V3 is involved in Stage 2 (tensor veli palatini)."},
 {"text": "CN X (Vagus)", "explanation": "Stage 3 of deglutition is Vagus dominant, controlling the rhythmic peristaltic contraction of the pharyngeal constrictors."},
 {"text": "CN XII (Hypoglossal)", "explanation": "CN XII is dominant in Stage 1, pushing the bolus to the back of the mouth."},
-{"text": "CN VII (Facial)", "explanation": "CN VII is not a direct participant in the pharyngeal peristaltic mechanism."},
+{"text": "CN VII (Facial)", "explanation": "CN VII is not a direct participant in the pharyngeal peristaltic mechanism."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L105_p_page-0071.jpg"
 },
 {
 "id": 6,
@@ -73,9 +78,10 @@ const L105 = [
 {"text": "CN IV (Trochlear) in the lateral wall", "explanation": "CN IV is in the lateral wall and is also less commonly compressed by carotid aneurysms than CN VI."},
 {"text": "CN VI (Abducens) medial to the artery", "explanation": "CN VI lies furthest medially within the cavernous sinus, placing it closest to the Internal Carotid Artery (ICA), making it the most vulnerable to compression from ICA aneurysms or blood clots, leading to the most common palsy."},
 {"text": "CN V1 (Ophthalmic) in the lateral wall", "explanation": "CN V1 is in the lateral wall and is less frequently affected by isolated ICA aneurysms compared to CN VI."},
-{"text": "CN V2 (Maxillary) in the lateral wall", "explanation": "CN V2 is in the lateral wall and is less frequently affected by isolated ICA aneurysms compared to CN VI."},
+{"text": "CN V2 (Maxillary) in the lateral wall", "explanation": "CN V2 is in the lateral wall and is less frequently affected by isolated ICA aneurysms compared to CN VI."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L105_p_page-0008.jpg"
 },
 {
 "id": 7,
@@ -86,9 +92,10 @@ const L105 = [
 {"text": "Motor to buccinator muscle and sensation to the auricle.", "explanation": "Motor to buccinator is via the parotid plexus (outside the canal)."},
 {"text": "Motor to stapedius muscle and taste to anterior 2/3 tongue.", "explanation": "The Nerve to Stapedius and Chorda Tympani (taste for anterior 2/3) both branch off CN VII within the facial canal before the nerve exits the skull."},
 {"text": "Motor to digastric anterior belly and motor to platysma.", "explanation": "Motor to the anterior belly of the digastric is CN V3. Platysma is innervated by the cervical branch of the parotid plexus."},
-{"text": "General sensation to the cheek mucosa and motor to tensor veli palatini.", "explanation": "Sensation to the cheek mucosa is the Buccal nerve (CN V3), and motor to tensor veli palatini is also CN V3."},
+{"text": "General sensation to the cheek mucosa and motor to tensor veli palatini.", "explanation": "Sensation to the cheek mucosa is the Buccal nerve (CN V3), and motor to tensor veli palatini is also CN V3."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L105_p_page-0044.jpg"
 },
 {
 "id": 8,
@@ -99,9 +106,10 @@ const L105 = [
 {"text": "Anterior and Posterior Ethmoidal nerves", "explanation": "These nerves provide sensation to the paranasal sinuses and nasal cavity."},
 {"text": "Long Ciliary nerves", "explanation": "Long ciliary nerves provide sensation to the remainder of the eyeball and transmit postganglionic sympathetic fibers to the dilator pupillae muscle."},
 {"text": "Infratrochlear nerve", "explanation": "This nerve provides cutaneous sensation to the nose, eyelids, and conjunctiva."},
-{"text": "Lacrimal nerve", "explanation": "The lacrimal nerve provides sensory innervation to the lacrimal gland, not the eyeball itself."},
+{"text": "Lacrimal nerve", "explanation": "The lacrimal nerve provides sensory innervation to the lacrimal gland, not the eyeball itself."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L105_p_page-0016.jpg"
 },
 {
 "id": 9,
@@ -112,9 +120,10 @@ const L105 = [
 {"text": "CN V3 (Trigeminal)", "explanation": "CN V3 is involved in opening the jaw during the gag reflex, but is not the primary sensory afferent."},
 {"text": "CN IX (Glossopharyngeal)", "explanation": "CN IX is the primary sensory nerve of the pharynx and conveys the afferent signal of the gag reflex to the medulla."},
 {"text": "CN XII (Hypoglossal)", "explanation": "CN XII is involved in lowering the tongue during the gag reflex."},
-{"text": "CN VII (Facial)", "explanation": "CN VII is not the primary sensory afferent for the gag reflex."},
+{"text": "CN VII (Facial)", "explanation": "CN VII is not the primary sensory afferent for the gag reflex."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L105_p_page-0070.jpg"
 },
 {
 "id": 10,
@@ -125,9 +134,10 @@ const L105 = [
 {"text": "Internal laryngeal nerve", "explanation": "The internal laryngeal nerve is purely sensory."},
 {"text": "Inferior laryngeal nerve", "explanation": "The Inferior Laryngeal nerve (a continuation of the Recurrent Laryngeal nerve) innervates all intrinsic laryngeal muscles except the cricothyroid, including the posterior cricoarytenoids (the sole abductors)."},
 {"text": "Superior laryngeal nerve", "explanation": "The superior laryngeal nerve splits into sensory (internal) and motor (external) branches and is not the main motor supply to the intrinsic laryngeal muscles."},
-{"text": "Pharyngeal branch of CN X", "explanation": "The pharyngeal branch innervates the pharyngeal constrictors and soft palate muscles."},
+{"text": "Pharyngeal branch of CN X", "explanation": "The pharyngeal branch innervates the pharyngeal constrictors and soft palate muscles."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L105_p_page-0061.jpg"
 },
 {
 "id": 11,
@@ -138,9 +148,10 @@ const L105 = [
 {"text": "Foramen rotundum", "explanation": "This exit is used by CN V2."},
 {"text": "Foramen ovale", "explanation": "The mandibular division (V3), carrying both sensory and motor components, exits the endocranium via the foramen ovale."},
 {"text": "Internal acoustic meatus", "explanation": "This exit is used by CN VII and VIII."},
-{"text": "Hypoglossal canal", "explanation": "This exit is used by CN XII."},
+{"text": "Hypoglossal canal", "explanation": "This exit is used by CN XII."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L105_p_page-0023.jpg"
 },
 {
 "id": 12,
@@ -151,9 +162,10 @@ const L105 = [
 {"text": "Ciliary ganglion", "explanation": "The ciliary ganglion is related to parasympathetic control of the pupil/ciliary body, innervated by CN III."},
 {"text": "The parotid plexus of CN VII", "explanation": "The parotid plexus, formed by CN VII deep within the parotid gland, sends out the motor branches responsible for facial expression muscles; damage here causes Bell's Palsy."},
 {"text": "Geniculate ganglion", "explanation": "The geniculate ganglion is a sensory/autonomic ganglion on CN VII; damage affects taste or glandular function, but the primary *motor* deficits seen in Bell's palsy occur distal to the ganglion."},
-{"text": "The intermediate root of CN VII", "explanation": "The intermediate nerve is the autonomic/sensory root of CN VII; damage to the motor root (Facial Nerve proper) is needed for facial paralysis."},
+{"text": "The intermediate root of CN VII", "explanation": "The intermediate nerve is the autonomic/sensory root of CN VII; damage to the motor root (Facial Nerve proper) is needed for facial paralysis."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L105_p_page-0049.jpg"
 },
 {
 "id": 13,
@@ -164,9 +176,10 @@ const L105 = [
 {"text": "Right subclavian artery", "explanation": "The **right** recurrent laryngeal nerve loops around the right subclavian artery before ascending into the neck."},
 {"text": "Internal carotid artery", "explanation": "The recurrent laryngeal nerve travels near the common carotid artery, but does not loop around the internal carotid artery in the thorax."},
 {"text": "Brachiocephalic artery", "explanation": "The recurrent laryngeal nerve branches off CN X before the brachiocephalic artery, but the loop is typically around the subclavian artery on the right side."},
-{"text": "External laryngeal artery", "explanation": "The external laryngeal nerve is a separate branch of CN X, and this is an incorrect vessel name."},
+{"text": "External laryngeal artery", "explanation": "The external laryngeal nerve is a separate branch of CN X, and this is an incorrect vessel name."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L105_p_page-0059.jpg"
 },
 {
 "id": 14,
@@ -177,9 +190,10 @@ const L105 = [
 {"text": "Buccal nerve", "explanation": "The buccal nerve passes between the heads of the lateral pterygoid."},
 {"text": "Inferior alveolar nerve", "explanation": "The inferior alveolar nerve is largely a continuation of the mandibular division and enters the mandibular foramen."},
 {"text": "Auriculotemporal nerve", "explanation": "The auriculotemporal nerve forms from two roots that pass around the middle meningeal artery and supplies sensation to the ear and temporal region."},
-{"text": "Mental nerve", "explanation": "The mental nerve is a terminal branch of the inferior alveolar nerve."},
+{"text": "Mental nerve", "explanation": "The mental nerve is a terminal branch of the inferior alveolar nerve."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L105_p_page-0025.jpg"
 },
 {
 "id": 15,
@@ -190,9 +204,10 @@ const L105 = [
 {"text": "CN X (Vagus)", "explanation": "CN X innervates only the palatoglossus muscle of the tongue, which elevates/retracts, and its paralysis would not cause deviation upon protrusion."},
 {"text": "CN XII (Hypoglossal)", "explanation": "Damage to CN XII causes weakness of the genioglossus muscle on the same side (ipsilateral), resulting in the tongue deviating *toward* the side of the lesion (the left side) due to the strong push of the contralateral, healthy genioglossus muscle."},
 {"text": "CN V3 (Trigeminal)", "explanation": "CN V3 innervates muscles of mastication, not the major tongue protrusion muscles."},
-{"text": "Cervical plexus (Ansa Cervicalis)", "explanation": "Ansa cervicalis is a set of nerve fibers that 'hitch a ride' on CN XII, but innervates infrahyoid muscles, not the tongue muscles."},
+{"text": "Cervical plexus (Ansa Cervicalis)", "explanation": "Ansa cervicalis is a set of nerve fibers that 'hitch a ride' on CN XII, but innervates infrahyoid muscles, not the tongue muscles."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L105_p_page-0068.jpg"
 },
 {
 "id": 16,
@@ -203,9 +218,10 @@ const L105 = [
 {"text": "Pterygopalatine fossa", "explanation": "The infraorbital nerve is passing through this region, but the alveolar nerves branch off later."},
 {"text": "Infraorbital groove/canal", "explanation": "The infraorbital nerve courses through the infraorbital groove/canal, where the anterior, middle, and posterior superior alveolar nerves branch off to innervate the upper teeth."},
 {"text": "Incisive canal", "explanation": "The nasopalatine nerve exits the skull here, supplying the anterior hard palate."},
-{"text": "Superior orbital fissure", "explanation": "This is the exit for CN V1, not V2."},
+{"text": "Superior orbital fissure", "explanation": "This is the exit for CN V1, not V2."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L105_p_page-0021.jpg"
 },
 {
 "id": 17,
@@ -215,10 +231,11 @@ const L105 = [
 {"text": "Jaw elevation and retraction (closing)", "explanation": "Closing the jaw is performed by the Temporalis, Masseter, and Medial Pterygoid muscles."},
 {"text": "Jaw depression (opening)", "explanation": "Opening the mouth is accomplished by the Lateral Pterygoid, Mylohyoid, Anterior Digastric, and gravity."},
 {"text": "Jaw lateral deviation to the ipsilateral side", "explanation": "Lateral deviation is a complex movement, but is not the primary function of these muscles as a group."},
-{"text": "Tensing the soft palate for swallowing", "explanation": "This is the function of the tensor veli palatini muscle."},
-{"text": "Stiffening the tympanic membrane for loud noise protection", "explanation": "This is the function of the tensor tympani muscle."},
+{"textS": "Tensing the soft palate for swallowing", "explanation": "This is the function of the tensor veli palatini muscle."},
+{"text": "Stiffening the tympanic membrane for loud noise protection", "explanation": "This is the function of the tensor tympani muscle."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L105_p_page-0033.jpg"
 },
 {
 "id": 18,
@@ -229,9 +246,10 @@ const L105 = [
 {"text": "Greater palatine nerve", "explanation": "The greater palatine nerve conveys sensation from the **hard palate**."},
 {"text": "Lesser palatine nerve", "explanation": "The lesser palatine nerve conveys sensation from the **soft palate**."},
 {"text": "Infraorbital nerve", "explanation": "The infraorbital nerve provides sensation to the lower eyelid, side of the nose, and upper lip."},
-{"text": "Posterior superior alveolar nerve", "explanation": "This nerve supplies sensory innervation to the upper molar teeth."},
+{"text": "Posterior superior alveolar nerve", "explanation": "This nerve supplies sensory innervation to the upper molar teeth."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L105_p_page-0019.jpg"
 },
 {
 "id": 19,
@@ -242,9 +260,10 @@ const L105 = [
 {"text": "Hoarse voice", "explanation": "A unilateral recurrent laryngeal nerve lesion results in a hoarse voice due to the inability of the affected vocal fold to fully adduct/abduct."},
 {"text": "Complete muteness", "explanation": "Complete muteness occurs with **bilateral** RLN lesions."},
 {"text": "Inability to swallow (dysphagia) Stage 1", "explanation": "Stage 1 swallowing is dominated by CN XII (Hypoglossal)."},
-{"text": "Difficulty opening the Eustachian tube", "explanation": "Eustachian tube opening is controlled by CN V3 (tensor veli palatini)."},
+{"text": "Difficulty opening the Eustachian tube", "explanation": "Eustachian tube opening is controlled by CN V3 (tensor veli palatini)."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L105_p_page-0062.jpg"
 },
 {
 "id": 20,
@@ -255,9 +274,10 @@ const L105 = [
 {"text": "Mylohyoid and Anterior belly of the Digastric muscle", "explanation": "The nerve to Mylohyoid innervates both the mylohyoid muscle and the anterior belly of the digastric muscle."},
 {"text": "Mylohyoid and Posterior belly of the Digastric muscle", "explanation": "The posterior belly of the digastric muscle is innervated by CN VII."},
 {"text": "Medial pterygoid and Tensor veli palatini", "explanation": "These are innervated by the nerve to medial pterygoid and nerve to tensor veli palatini, respectively."},
-{"text": "Tensor tympani and Tensor veli palatini", "explanation": "These are innervated by separate V3 branches passing through the otic ganglion."},
+{"text": "Tensor tympani and Tensor veli palatini", "explanation": "These are innervated by separate V3 branches passing through the otic ganglion."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L105_p_page-0030.jpg"
 },
 {
 "id": 21,
@@ -268,9 +288,10 @@ const L105 = [
 {"text": "V1: Superior orbital fissure; V2: Foramen ovale; V3: Foramen rotundum", "explanation": "Incorrect order. V1 exits the superior orbital fissure, V2 the foramen rotundum, and V3 the foramen ovale."},
 {"text": "V1: Superior orbital fissure; V2: Foramen rotundum; V3: Foramen ovale", "explanation": "This sequence correctly matches the three major divisions of CN V with their respective endocranial exits."},
 {"text": "V1: Foramen magnum; V2: Jugular foramen; V3: Hypoglossal canal", "explanation": "These foramina are exits for CN XI, IX/X, and XII, respectively."},
-{"text": "V1: Foramen ovale; V2: Foramen rotundum; V3: Superior orbital fissure", "explanation": "This order is incorrect."},
+{"text": "V1: Foramen ovale; V2: Foramen rotundum; V3: Superior orbital fissure", "explanation": "This order is incorrect."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L105_p_page-0014.jpg"
 },
 {
 "id": 22,
@@ -281,9 +302,10 @@ const L105 = [
 {"text": "Contraction of the stapedius muscle.", "explanation": "Stapedius dampens loud sounds by acting on the stapes (innervated by CN VII)."},
 {"text": "Contraction of the levator veli palatini muscle.", "explanation": "Levator veli palatini elevates the soft palate (innervated by CN X), but tensor veli palatini is primarily responsible for opening the tube."},
 {"text": "Contraction of the tensor veli palatini muscle.", "explanation": "Tensor veli palatini opens the Eustachian tube by pulling on its base, equalizing pressure in the ear."},
-{"text": "Contraction of the medial pterygoid muscle.", "explanation": "Medial pterygoid closes the jaw."},
+{"text": "Contraction of the medial pterygoid muscle.", "explanation": "Medial pterygoid closes the jaw."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L105_p_page-0036.jpg"
 },
 {
 "id": 23,
@@ -294,9 +316,10 @@ const L105 = [
 {"text": "It provides sensory innervation to the sternocleidomastoid and trapezius.", "explanation": "It provides **motor** innervation to the sternocleidomastoid and trapezius muscles."},
 {"text": "It enters the endocranium through the foramen magnum and exits via the jugular foramen.", "explanation": "CN XI begins in the cervical spine, enters the endocranium through the foramen magnum, and runs with CN X to exit through the jugular foramen."},
 {"text": "Damage results in the head tilting away from the lesion and the face turning toward it.", "explanation": "Damage results in the head tilting *toward* the lesion and the face turning *away* from the lesion."},
-{"text": "It travels most medially in the cavernous sinus, making it vulnerable to aneurysms.", "explanation": "This description applies to CN VI (Abducens)."},
+{"text": "It travels most medially in the cavernous sinus, making it vulnerable to aneurysms.", "explanation": "This description applies to CN VI (Abducens)."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L105_p_page-0063.jpg"
 },
 {
 "id": 24,
@@ -307,9 +330,10 @@ const L105 = [
 {"text": "It provides somatic sensory innervation to the mucous membranes of the cheek.", "explanation": "This is the function of the Buccal nerve (CN V3)."},
 {"text": "It joins with the lingual nerve to carry taste sensation to the posterior 1/3 of the tongue.", "explanation": "Taste to the posterior 1/3 is CN IX."},
 {"text": "It provides sensory innervation to the lower two molar teeth of the mandible.", "explanation": "This sensation is provided by the Inferior Alveolar nerve and occasionally the Buccal nerve (V3)."},
-{"text": "It passes between the two heads of the lateral pterygoid muscle.", "explanation": "This describes the path of the Buccal nerve (V3)."},
+{"text": "It passes between the two heads of the lateral pterygoid muscle.", "explanation": "This describes the path of the Buccal nerve (V3)."}
 ],
-"correctAnswerIndex": 0
+"correctAnswerIndex": 0,
+"slideImagePath": "images/L105_p_page-0048.jpg"
 },
 {
 "id": 25,
@@ -320,9 +344,10 @@ const L105 = [
 {"text": "Masseter", "explanation": "The Masseter muscle is a primary jaw closer."},
 {"text": "Medial Pterygoid", "explanation": "The Medial Pterygoid muscle is a primary jaw closer."},
 {"text": "Lateral Pterygoid", "explanation": "The Lateral Pterygoid muscle is a primary jaw **opener**."},
-{"text": "Tensor Veli Palatini", "explanation": "Tensor veli palatini tenses the soft palate, an associated muscle, not a primary jaw closer."},
+{"text": "Tensor Veli Palatini", "explanation": "Tensor veli palatini tenses the soft palate, an associated muscle, not a primary jaw closer."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L105_p_page-0033.jpg"
 },
 {
 "id": 26,
@@ -333,9 +358,10 @@ const L105 = [
 {"text": "Geniculate ganglion", "explanation": "The geniculate ganglion is a swelling on CN VII."},
 {"text": "Superior (Jugular) and Inferior (Nodose) ganglia", "explanation": "CN X forms the Superior/Jugular (sensory/afferent) and Inferior/Nodose (autonomic motor/efferent) ganglia inferior to its exit via the Jugular foramen."},
 {"text": "Pterygopalatine ganglion", "explanation": "This ganglion is related to CN V2 and CN VII."},
-{"text": "Trigeminal ganglion", "explanation": "The trigeminal ganglion is sensory for CN V."},
+{"text": "Trigeminal ganglion", "explanation": "The trigeminal ganglion is sensory for CN V."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L105_p_page-0055.jpg"
 },
 {
 "id": 27,
@@ -346,9 +372,10 @@ const L105 = [
 {"text": "Internal carotid artery and Internal jugular vein.", "explanation": "CN XII crosses anteriorly between the Internal Carotid Artery and the Internal Jugular Vein."},
 {"text": "Subclavian artery and Brachiocephalic artery.", "explanation": "These vessels are much lower in the thorax/base of the neck."},
 {"text": "External carotid artery and Vagus nerve.", "explanation": "CN XII travels near the vagus, but passes between the IJV and ICA."},
-{"text": "Vertebral artery and Basilar artery.", "explanation": "These are intracranial vessels."},
+{"text": "Vertebral artery and Basilar artery.", "explanation": "These are intracranial vessels."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L105_p_page-0065.jpg"
 },
 {
 "id": 28,
@@ -359,9 +386,10 @@ const L105 = [
 {"text": "Inferior laryngeal nerve", "explanation": "The ILN is another name for the terminal RLN, innervating intrinsic laryngeal muscles."},
 {"text": "Superior laryngeal nerve", "explanation": "The SLN innervates the cricothyroid and is sensory above the vocal folds."},
 {"text": "Pharyngeal branch", "explanation": "The Pharyngeal branch of CN X provides the motor innervation to most soft palate muscles (except tensor veli palatini) for sealing the nasopharynx."},
-{"text": "Internal laryngeal nerve", "explanation": "The internal laryngeal nerve is purely sensory."},
+{"text": "Internal laryngeal nerve", "explanation": "The internal laryngeal nerve is purely sensory."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L105_p_page-0056.jpg"
 },
 {
 "id": 29,
@@ -372,9 +400,10 @@ const L105 = [
 {"text": "Nasociliary nerve", "explanation": "The nasociliary nerve travels anteromedially through the orbit."},
 {"text": "Lacrimal nerve", "explanation": "The lacrimal nerve is the smallest and is the only branch that travels laterally, heading straight for the lacrimal gland in the superolateral corner of the orbital rim."},
 {"text": "Supraorbital nerve", "explanation": "Supraorbital is a terminal branch of the frontal nerve."},
-{"text": "Infratrochlear nerve", "explanation": "Infratrochlear is a terminal branch of the nasociliary nerve that travels inferiorly and medially."},
+{"text": "Infratrochlear nerve", "explanation": "Infratrochlear is a terminal branch of the nasociliary nerve that travels inferiorly and medially."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L105_p_page-0014.jpg"
 },
 {
 "id": 30,
@@ -385,8 +414,9 @@ const L105 = [
 {"text": "Trochlear nerve (CN IV) lesion", "explanation": "A lesion to CN IV causes paralysis of the superior oblique muscle, resulting in the eye deviating upward and inward (unopposed Inferior Oblique and Superior Rectus action)."},
 {"text": "Abducens nerve (CN VI) lesion", "explanation": "A CN VI lesion causes the eye to deviate medially (unopposed Medial Rectus action)."},
 {"text": "Optic nerve (CN II) lesion", "explanation": "A CN II lesion results in blindness, not muscle deviation."},
-{"text": "Trigeminal nerve (CN V) lesion", "explanation": "CN V controls mastication and facial sensation, not extraocular movement."},
+{"text": "Trigeminal nerve (CN V) lesion", "explanation": "CN V controls mastication and facial sensation, not extraocular movement."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L105_p_page-0006.jpg"
 }
 ];

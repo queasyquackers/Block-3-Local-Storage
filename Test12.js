@@ -10,7 +10,8 @@ const L117L118 = [
 {"text": "Type D (Delayed)", "explanation": "This is incorrect. Type D reactions, like carcinogenesis, occur a long time after exposure and are not related to this acute presentation."},
 {"text": "Type F (Failure)", "explanation": "This is incorrect. Type F is a failure of therapy (e.g., from a drug interaction), not a toxic effect from drug accumulation."}
 ],
-"correctAnswerIndex": 0
+"correctAnswerIndex": 0,
+"slideImagePath": "images/L117L118_p_page-0011.jpg"
 },
 {
 "id": 2,
@@ -23,7 +24,8 @@ const L117L118 = [
 {"text": "Type D (Delayed)", "explanation": "This is incorrect. While some Type D reactions (like SJS) are delayed, this patient's immediate anaphylactic reaction is not a Type D (delayed) effect like teratogenesis."},
 {"text": "Type E (End of Use)", "explanation": "This is incorrect. Type E reactions are due to withdrawal or stopping a drug, not an acute reaction to its administration."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L117L118_p_page-0027.jpg"
 },
 {
 "id": 3,
@@ -36,7 +38,8 @@ const L117L118 = [
 {"text": "TPMT", "explanation": "This enzyme is responsible for metabolizing azathioprine; low activity leads to myelosuppression."},
 {"text": "G6PD", "explanation": "This is an enzyme in the RBC hexose monophosphate shunt; deficiency leads to hemolytic anemia with oxidative drugs."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L117L118_p_page-0034.jpg"
 },
 {
 "id": 4,
@@ -49,7 +52,8 @@ const L117L118 = [
 {"text": "VKORC1", "explanation": "This is the molecular target of warfarin, not an enzyme for clopidogrel activation."},
 {"text": "SLCO1B1", "explanation": "This is a hepatic uptake transporter; variants are associated with simvastatin-induced myopathy."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L117L118_p_page-0033.jpg"
 },
 {
 "id": 5,
@@ -62,7 +66,8 @@ const L117L118 = [
 {"text": "CYP2C9", "explanation": "This enzyme is primarily responsible for metabolizing warfarin."},
 {"text": "G6PD", "explanation": "Deficiency in this enzyme is associated with hemolytic anemia, not a lack of codeine efficacy."}
 ],
-"correctAnswerIndex": 0
+"correctAnswerIndex": 0,
+"slideImagePath": "images/L117L118_p_page-0034.jpg"
 },
 {
 "id": 6,
@@ -75,7 +80,8 @@ const L117L118 = [
 {"text": "Hemolytic anemia", "explanation": "This is characteristic of G6PD deficiency when exposed to oxidative drugs, not TPMT deficiency."},
 {"text": "Stevens-Johnson Syndrome (SJS)", "explanation": "This Type IV hypersensitivity is associated with drugs like carbamazepine in HLA-B*15:02 positive patients."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L117L118_p_page-0033.jpg"
 },
 {
 "id": 7,
@@ -88,7 +94,8 @@ const L117L118 = [
 {"text": "G6PD (Glucose-6-Phosphate Dehydrogenase)", "explanation": "Correct. G6PD deficiency is an X-linked condition (common in African, Asian, and Mediterranean populations) that makes RBCs vulnerable to oxidative stress from drugs like nitrofurantoin, sulfonamides, and antimalarials, leading to hemolytic anemia."},
 {"text": "SLCO1B1", "explanation": "This is a transporter polymorphism associated with statin-induced myopathy, not hemolytic anemia."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L117L118_p_page-0037.jpg"
 },
 {
 "id": 8,
@@ -101,7 +108,8 @@ const L117L118 = [
 {"text": "Stevens-Johnson Syndrome (SJS) / Toxic Epidermal Necrolysis (TEN)", "explanation": "Correct. The HLA-B*15:02 allele, found almost exclusively in patients of Asian ancestry, is strongly associated with a risk of developing SJS/TEN (a severe Type IV hypersensitivity) when exposed to carbamazepine."},
 {"text": "Drug-induced lupus erythematosus", "explanation": "This reaction is more commonly associated with drugs like hydralazine or procainamide."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L117L118_p_page-0040.jpg"
 },
 {
 "id": 9,
@@ -114,7 +122,8 @@ const L117L118 = [
 {"text": "Acute hemolytic anemia.", "explanation": "This is associated with G6PD deficiency and oxidative drugs."},
 {"text": "Statin-induced myopathy.", "explanation": "This is associated with SLCO1B1 polymorphisms."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L117L118_p_page-0041.jpg"
 },
 {
 "id": 10,
@@ -127,7 +136,8 @@ const L117L118 = [
 {"text": "An X-linked enzyme (G6PD)", "explanation": "G6PD deficiency is associated with hemolytic anemia, not myopathy."},
 {"text": "A drug target (VKORC1)", "explanation": "VKORC1 is the target for warfarin; the target for statins is HMG-CoA reductase."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L117L118_p_page-0031.jpg"
 },
 {
 "id": 11,
@@ -140,7 +150,8 @@ const L117L118 = [
 {"text": "Binding to mu-opioid receptors, causing respiratory depression.", "explanation": "This is the mechanism of toxicity for *opioids*, not acetaminophen."},
 {"text": "Irreversibly inhibiting acetylcholinesterase.", "explanation": "This is the mechanism of toxicity for *organophosphates*, not acetaminophen."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L117L118_p_page-0014.jpg"
 },
 {
 "id": 12,
@@ -153,7 +164,8 @@ const L117L118 = [
 {"text": "It acts as a glutathione precursor, replenishing hepatic stores.", "explanation": "Correct. N-acetylcysteine (NAC) acts as a precursor for glutathione, replenishing the hepatic stores needed to detoxify the toxic metabolite NAPQI."},
 {"text": "It is a benzodiazepine used to manage CNS agitation and seizures.", "explanation": "This describes the treatment for *cocaine* toxicity."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L117L118_p_page-0014.jpg"
 },
 {
 "id": 13,
@@ -166,7 +178,8 @@ const L117L118 = [
 {"text": "Organophosphates", "explanation": "Organophosphate poisoning causes a cholinergic crisis (DUMBBELSS), not this acid-base disorder."},
 {"text": "Salicylates (Aspirin)", "explanation": "Correct. Salicylate overdose classically presents with tinnitus and a mixed acid-base disorder: direct respiratory center stimulation causes respiratory alkalosis, while uncoupling of oxidative phosphorylation causes metabolic acidosis."}
 ],
-"correctAnswerIndex": 4
+"correctAnswerIndex": 4,
+"slideImagePath": "images/L117L118_p_page-0003.jpg"
 },
 {
 "id": 14,
@@ -179,7 +192,8 @@ const L117L118 = [
 {"text": "To reactivate inhibited acetylcholinesterase.", "explanation": "This is the mechanism of *pralidoxime (2-PAM)* for organophosphate poisoning."},
 {"text": "To bind the drug in the GI tract (chelation).", "explanation": "This describes activated charcoal, which would be given much earlier; sodium bicarbonate works on *systemic* elimination."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L117L118_p_page-0003.jpg"
 },
 {
 "id": 15,
@@ -192,7 +206,8 @@ const L117L118 = [
 {"text": "Naloxone", "explanation": "Correct. Naloxone is a competitive antagonist at the mu-opioid receptor and is the first-line antidote for reversing the life-threatening respiratory depression and miosis of an opioid overdose."},
 {"text": "Sodium bicarbonate", "explanation": "This is the treatment for salicylate overdose."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L117L118_p_page-0059.jpg"
 },
 {
 "id": 16,
@@ -205,7 +220,8 @@ const L117L118 = [
 {"text": "N-acetylcysteine (NAC)", "explanation": "This is the antidote for acetaminophen overdose."},
 {"text": "Atropine", "explanation": "Atropine is an anticholinergic used for *bradycardia* or organophosphate poisoning; this patient is tachycardic."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L117L118_p_page-0003.jpg"
 },
 {
 "id": 17,
@@ -218,7 +234,8 @@ const L117L118 = [
 {"text": "Atropine and Pralidoxime (2-PAM)", "explanation": "Correct. Atropine is a muscarinic antagonist that dries up secretions (reversing DUMBBELSS), while 2-PAM reactivates the acetylcholinesterase enzyme that was irreversibly inhibited by the organophosphate."},
 {"text": "Propranolol and Atropine", "explanation": "Propranolol (a beta-blocker) is not indicated; 2-PAM is needed to reactivate the enzyme and treat the nicotinic (muscle weakness) symptoms."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L117L118_p_page-0059.jpg"
 },
 {
 "id": 18,
@@ -231,7 +248,8 @@ const L117L118 = [
 {"text": "Type E (End of Use / Withdrawal)", "explanation": "Correct. This is a classic Type E (End of Use) reaction, also known as a withdrawal syndrome, which occurs when a drug causing physical dependence (Type C) is stopped abruptly."},
 {"text": "Type F (Failure)", "explanation": "This is incorrect. This is a reaction to the *absence* of the drug, not a *failure* of the drug to work."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L117L118_p_page-0012.jpg"
 },
 {
 "id": 19,
@@ -244,7 +262,8 @@ const L117L118 = [
 {"text": "ACE Inhibitors (e.g., Lisinopril)", "explanation": "Correct. ACE inhibitors and ARBs are contraindicated in pregnancy (especially the 2nd and 3rd trimesters) as they are known teratogens (Type D ADR) that cause fetal renal failure and skull hypoplasia."},
 {"text": "Warfarin", "explanation": "Warfarin is a teratogen (causing bone/cartilage defects), but the specific findings of renal failure and skull hypoplasia are classic for ACE inhibitors."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L117L118_p_page-0021.jpg"
 },
 {
 "id": 20,
@@ -257,7 +276,8 @@ const L117L118 = [
 {"text": "It is a pass/fail system based on animal studies only.", "explanation": "This is incorrect. The PLLR is a narrative summary that includes human data, animal data, and clinical considerations."},
 {"text": "It states that all drugs are contraindicated in pregnancy until proven safe.", "explanation": "This is incorrect. The PLLR is a risk/benefit summary to *guide* prescribing, not a blanket contraindication."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L117L118_p_page-0020.jpg"
 },
 {
 "id": 21,
@@ -270,7 +290,8 @@ const L117L118 = [
 {"text": "A Toxic Reaction (a type of Type A ADR)", "explanation": "A toxic reaction is also Type A, but implies a *harmful* effect, often at *supratherapeutic* doses or due to accumulation (e.g., digoxin toxicity). Mild, expected nausea is a side effect."},
 {"text": "A Delayed Reaction (Type D)", "explanation": "This is an immediate or acute effect of the dose, not a delayed effect like teratogenesis."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L117L118_p_page-0011.jpg"
 },
 {
 "id": 22,
@@ -283,7 +304,8 @@ const L117L118 = [
 {"text": "A Side Effect (Type A)", "explanation": "This was a toxic effect from an overdose, not a known, mild effect at a therapeutic dose."},
 {"text": "A Delayed Reaction (Type D)", "explanation": "This was an acute toxic reaction, not a delayed one."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L117L118_p_page-0077.jpg"
 },
 {
 "id": 23,
@@ -296,7 +318,8 @@ const L117L118 = [
 {"text": "Type IV (Cell-Mediated)", "explanation": "Type IV is a *delayed*, T-cell mediated reaction (e.g., contact dermatitis, SJS/TEN), not an antibody-mediated cytotoxic reaction."},
 {"text": "Type F (Failure)", "explanation": "This is a classification for therapeutic failure, not an immunologic reaction."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L117L118_p_page-0027.jpg"
 },
 {
 "id": 24,
@@ -309,7 +332,8 @@ const L117L118 = [
 {"text": "T-cell mediated cytokine release and direct cell killing.", "explanation": "This describes a Type IV (cell-mediated) hypersensitivity reaction."},
 {"text": "Direct, non-immunologic toxicity of the drug.", "explanation": "This would be a Type A (augmented) reaction; serum sickness is a Type B (immunologic) reaction."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L117L118_p_page-0027.jpg"
 },
 {
 "id": 25,
@@ -322,7 +346,8 @@ const L117L118 = [
 {"text": "Type IV (Cell-Mediated)", "explanation": "Correct. Contact dermatitis is a classic Type IV (delayed-type) hypersensitivity, which is mediated by T-cells and occurs 24-72 hours after re-exposure to the antigen."},
 {"text": "Type A (Augmented)", "explanation": "This is an unpredictable (Type B) immunologic reaction, not a predictable (Type A) pharmacologic effect."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L117L118_p_page-0027.jpg"
 },
 {
 "id": 26,
@@ -335,7 +360,8 @@ const L117L118 = [
 {"text": "Both genes code for subunits of the CYP3A4 enzyme.", "explanation": "This is incorrect. They are two separate, unrelated genes that both happen to be crucial for warfarin's dose-response relationship."},
 {"text": "CYP2C9 variants are linked to SJS, and VKORC1 variants are linked to myopathy.", "explanation": "These associations are incorrect; both variants relate directly to warfarin's anticoagulant effect and dosing."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L117L118_p_page-0039.jpg"
 },
 {
 "id": 27,
@@ -348,7 +374,8 @@ const L117L118 = [
 {"text": "Pharmacodynamic (PD) - Antagonistic", "explanation": "Correct. Propranolol (a non-selective beta-blocker) antagonizes the effect of albuterol (a beta-2 agonist) at the beta-2 receptors in the lungs, preventing bronchodilation."},
 {"text": "Pharmacokinetic (PK) - Chelation", "explanation": "Chelation is a PK interaction that occurs during absorption in the GI tract."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L117L118_p_page-0059.jpg"
 },
 {
 "id": 28,
@@ -361,7 +388,8 @@ const L117L118 = [
 {"text": "Plasma Protein Displacement", "explanation": "Aspirin can displace warfarin from albumin (a PK interaction), but the *additive effect* on hemostasis is the key pharmacodynamic interaction."},
 {"text": "P-glycoprotein Induction", "explanation": "This is a pharmacokinetic interaction affecting absorption or excretion, not a pharmacodynamic one at the level of hemostasis."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L117L118_p_page-0068.jpg"
 },
 {
 "id": 29,
@@ -374,7 +402,8 @@ const L117L118 = [
 {"text": "A Pharmacodynamic (Antagonistic) interaction", "explanation": "This is incorrect. The drugs have similar, not opposing, effects."},
 {"text": "A Type D (Delayed) reaction", "explanation": "This is an acute toxicity, not a delayed reaction."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L117L118_p_page-0068.jpg"
 },
 {
 "id": 30,
@@ -387,7 +416,8 @@ const L117L118 = [
 {"text": "P-glycoprotein (P-gp)", "explanation": "Grapefruit juice also inhibits P-gp, but its *CYP3A4* inhibition is the most clinically significant mechanism for this interaction."},
 {"text": "VKORC1", "explanation": "This is the target of warfarin, not a metabolic enzyme inhibited by grapefruit juice."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L117L118_p_page-0065.jpg"
 },
 {
 "id": 31,
@@ -400,7 +430,8 @@ const L117L118 = [
 {"text": "Pharmacodynamic - The high Vitamin K in spinach *potentiates* the effect of warfarin.", "explanation": "This is incorrect. Vitamin K *reverses* or *antagonizes* warfarin's effect, it does not potentiate it."},
 {"text": "Pharmacokinetic - Spinach is a P-glycoprotein *inducer*, increasing warfarin excretion.", "explanation": "This is incorrect. The interaction is pharmacodynamic, not related to P-gp."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L117L118_p_page-0039.jpg"
 },
 {
 "id": 32,
@@ -413,7 +444,8 @@ const L117L118 = [
 {"text": "The patient is having a Type B (idiosyncratic) allergic reaction to the phenelzine.", "explanation": "This is a predictable (Type A) pharmacodynamic interaction in *any* patient taking an MAOI who consumes tyramine."},
 {"text": "The phenelzine blocked sodium channels, leading to cardiac toxicity.", "explanation": "This describes the mechanism of other drug classes (e.g., TCAs), not the MAOI-tyramine interaction."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L117L118_p_page-0065.jpg"
 },
 {
 "id": 33,
@@ -426,7 +458,8 @@ const L117L118 = [
 {"text": "The polyvalent cations (Ca<sup>2+</sup>, Mg<sup>2+</sup>) form an insoluble chelate with ciprofloxacin, preventing its absorption.", "explanation": "Correct. Fluoroquinolones and tetracyclines are known to chelate with polyvalent cations. This forms a large, insoluble complex in the gut, which cannot be absorbed and leads to therapeutic failure."},
 {"text": "The ciprofloxacin will cause a hypertensive crisis if taken with these foods.", "explanation": "This describes the MAOI-tyramine interaction, not an antibiotic-calcium interaction."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L117L118_p_page-0056.jpg"
 },
 {
 "id": 34,
@@ -439,7 +472,8 @@ const L117L118 = [
 {"text": "The two drugs form an insoluble chelate in the GI tract.", "explanation": "This describes interactions with polyvalent cations (e.g., calcium), not an interaction between a PPI and an azole antifungal."},
 {"text": "Both drugs are competing for the same renal transporter, OAT.", "explanation": "This describes a renal excretion interaction (e.g., probenecid/penicillin), not this GI absorption interaction."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L117L118_p_page-0068.jpg"
 },
 {
 "id": 35,
@@ -452,7 +486,8 @@ const L117L118 = [
 {"text": "Antagonist at the HMG-CoA reductase enzyme", "explanation": "This is incorrect. St. John's Wort is not a pharmacodynamic antagonist of statins; it is a pharmacokinetic inducer."},
 {"text": "Chelating agent in the GI tract", "explanation": "This is incorrect. The interaction is metabolic, not one of absorption/chelation."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L117L118_p_page-0063.jpg"
 },
 {
 "id": 36,
@@ -465,7 +500,8 @@ const L117L118 = [
 {"text": "Increase the activation of the prodrug clopidogrel, leading to risk of thrombosis.", "explanation": "This is incorrect. An *inhibitor* *decreases* activation of a prodrug."},
 {"text": "Displace clopidogrel from plasma proteins, leading to a transient risk of bleeding.", "explanation": "This is a metabolic (PK) interaction, not a protein displacement (PK) interaction. The outcome is clotting, not bleeding."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L117L118_p_page-0064.jpg"
 },
 {
 "id": 37,
@@ -478,7 +514,8 @@ const L117L118 = [
 {"text": "The drug will be 100% bioavailable and will not require dose adjustments.", "explanation": "This is incorrect. Auto-induction *requires* dose adjustments (titration) to maintain a therapeutic level."},
 {"text": "The drug's half-life will get progressively *longer* over time.", "explanation": "Induction *increases* clearance, which will cause the half-life to get progressively *shorter* over the first few weeks."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L117L118_p_page-0062.jpg"
 },
 {
 "id": 38,
@@ -491,7 +528,8 @@ const L117L118 = [
 {"text": "Organic Anion Transporter (OAT)", "explanation": "OAT transports acidic drugs (like penicillin); digoxin is not a primary substrate."},
 {"text": "SLCO1B1 (OATP1B1)", "explanation": "This is a hepatic *uptake* transporter associated with statins."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L117L118_p_page-0069.jpg"
 },
 {
 "id": 39,
@@ -504,7 +542,8 @@ const L117L118 = [
 {"text": "Probenecid acidifies the urine, trapping the penicillin in the tubule.", "explanation": "Probenecid does not primarily work by acidifying the urine."},
 {"text": "Probenecid induces CYP enzymes in the kidney, increasing penicillin reabsorption.", "explanation": "This is incorrect. The interaction is at the OAT transporter, not metabolic."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L117L118_p_page-0060.jpg"
 },
 {
 "id": 40,
@@ -517,7 +556,8 @@ const L117L118 = [
 {"text": "A synergistic pharmacodynamic interaction at the level of the vitamin K receptor.", "explanation": "This is a *pharmacokinetic* (metabolic) interaction, not a pharmacodynamic one."},
 {"text": "A rapid switch to zero-order kinetics for both drugs.", "explanation": "This is a first-order kinetics interaction (inhibition of metabolism), not a switch to zero-order."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L117L118_p_page-0039.jpg"
 },
 {
 "id": 41,
@@ -530,7 +570,8 @@ const L117L118 = [
 {"text": "Immediate: Decreased free warfarin. Long-term: Therapeutic failure.", "explanation": "Displacement *increases* the free fraction, it does not decrease it."},
 {"text": "Immediate: Increased free warfarin. Long-term: Increased half-life and permanent toxicity.", "explanation": "The increased free fraction leads to *increased clearance*, which *shortens* the half-life, not increases it. The toxicity risk is transient."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L117L118_p_page-0038.jpg"
 },
 {
 "id": 42,
@@ -543,12 +584,13 @@ const L117L118 = [
 {"text": "A Type IV hypersensitivity reaction", "explanation": "This is incorrect. This is a pharmacologic effect, not a delayed, T-cell-mediated immunologic reaction."},
 {"text": "A Type F (Failure) reaction", "explanation": "This is incorrect. The drug is *working* (in fact, it's working too well), it is not *failing*."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L117L118_p_page-0013.jpg"
 },
 {
 "id": 43,
 "category": "Adverse Drug Reactions: Definitions",
-"questionText": "A patient is prescribed an antibiotic for a sinus infection. The physician notes the antibiotic may disrupt normal gut flora, leading to C. difficile colitis. This type of adverse drug reaction, which is not the primary therapeutic effect but is a known consequence of the drug's mechanism, is best described as:",
+"questionText": "A patient begins taking an antibiotic for a sinus infection. The physician notes the antibiotic may disrupt normal gut flora, leading to C. difficile colitis. This type of adverse drug reaction, which is not the primary therapeutic effect but is a known consequence of the drug's mechanism, is best described as:",
 "options": [
 {"text": "A side effect (Type A)", "explanation": "A side effect is typically a minor, non-deleterious effect. C. difficile colitis is a severe, harmful effect."},
 {"text": "A secondary effect (a type of Type A ADR)", "explanation": "Correct. This is a Type A (Augmented) reaction. A secondary effect is an indirect consequence of the drug's primary pharmacologic action (e.g., killing normal flora, leading to an opportunistic infection)."},
@@ -556,7 +598,8 @@ const L117L118 = [
 {"text": "A Type III hypersensitivity reaction", "explanation": "This is incorrect. This is an indirect pharmacologic effect, not an immune-complex-mediated reaction."},
 {"text": "A Type D (Delayed) reaction", "explanation": "This is incorrect. While it may take days to develop, it is not a 'delayed' reaction in the same sense as teratogenesis or carcinogenesis."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L117L118_p_page-0011.jpg"
 },
 {
 "id": 44,
@@ -569,7 +612,8 @@ const L117L118 = [
 {"text": "Pharmacokinetic (Protein Displacement)", "explanation": "This is incorrect. The interaction is pharmacodynamic, at the receptor."},
 {"text": "Chemical Antagonism", "explanation": "Chemical antagonism involves one drug binding directly to another (e.g., chelation). Naloxone works at the *receptor*."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L117L118_p_page-0059.jpg"
 },
 {
 "id": 45,
@@ -580,9 +624,10 @@ const L117L118 = [
 {"text": "Phentolamine (an alpha-blocker)", "explanation": "Correct. Cocaine toxicity is a state of massive alpha- and beta-adrenergic stimulation. After benzodiazepines, an alpha-blocker like phentolamine is used to reverse the severe vasoconstriction and hypertension."},
 {"text": "Naloxone", "explanation": "This is the antidote for opioid overdose, not cocaine toxicity."},
 {"text": "Atropine", "explanation": "Atropine is an anticholinergic used for bradycardia; this patient is tachycardic."},
-{"text": "Labetalol (a mixed alpha/beta-blocker)", "explanation": "While sometimes considered, a pure alpha-blocker like phentolamine is preferred to directly reverse the primary cause of the hypertension (vasoconstriction) without risking any unopposed alpha-activity."}
+{"textm": "Labetalol (a mixed alpha/beta-blocker)", "explanation": "While sometimes considered, a pure alpha-blocker like phentolamine is preferred to directly reverse the primary cause of the hypertension (vasoconstriction) without risking any unopposed alpha-activity."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L117L118_p_page-0003.jpg"
 },
 {
 "id": 46,
@@ -595,7 +640,8 @@ const L117L118 = [
 {"text": "The patient's acetylcholinesterase is permanently inhibited.", "explanation": "This is true (aging), but it explains *why* the symptoms are occurring, not why atropine only treats *some* of them."},
 {"text": "Atropine is an enzyme inducer and lowered its own plasma concentration.", "explanation": "This is incorrect. Atropine is a pharmacodynamic antagonist."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L117L118_p_page-0059.jpg"
 },
 {
 "id": 47,
@@ -608,7 +654,8 @@ const L117L118 = [
 {"text": "F will decrease and CL will increase.", "explanation": "Correct. Rifampin (an inducer) *increases* P-gp efflux and *increases* CYP3A4 metabolism. This results in *decreased* absorption/bioavailability (F) and *increased* systemic clearance (CL), leading to therapeutic failure."},
 {"text": "F and CL will be unchanged as the two effects cancel each other out.", "explanation": "This is incorrect. Both induction effects are synergistic, leading to a profound *decrease* in drug levels."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L117L118_p_page-0063.jpg"
 },
 {
 "id": 48,
@@ -621,7 +668,8 @@ const L117L118 = [
 {"text": "Increased risk of toxicity due to decreased volume of distribution.", "explanation": "This interaction primarily affects *absorption* (F) and *clearance* (CL), not Vd."},
 {"text." : "No effect, as grapefruit juice only affects CYP3A4, not P-glycoprotein.", "explanation": "Grapefruit juice is a known inhibitor of *both* intestinal CYP3A4 and P-glycoprotein."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L117L118_p_page-0065.jpg"
 },
 {
 "id": 49,
@@ -634,7 +682,8 @@ const L117L118 = [
 {"text": "G6PD and SLCO1B1", "explanation": "These are involved in hemolytic anemia and statin myopathy, respectively."},
 {"text": "HLA-B*15:02 and HLA-B*57:01", "explanation": "These are HLA alleles associated with carbamazepine and abacavir hypersensitivity, respectively."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L117L118_p_page-0039.jpg"
 },
 {
 "id": 50,
@@ -647,7 +696,8 @@ const L117L118 = [
 {"text": "CYP3A4", "explanation": "While a major enzyme, it is not the primary one induced by smoking or the primary one that metabolizes theophylline."},
 {"text": "CYP2C19", "explanation": "This enzyme activates clopidogrel."}
 ],
-"correctAnswerIndex": 0
+"correctAnswerIndex": 0,
+"slideImagePath": "images/L117L118_p_page-0063.jpg"
 },
 {
 "id": 51,
@@ -660,7 +710,8 @@ const L117L118 = [
 {"text": "PD: Both drugs are vitamin K antagonists. PK: Both drugs are CYP3A4 inhibitors.", "explanation": "This is incorrect. Ibuprofen is an anti-platelet, not a vitamin K antagonist, and warfarin is a CYP2C9 substrate."},
 {"text": "PD: Additive CNS depression. PK: Both drugs are renally cleared by OAT.", "explanation": "This is incorrect. Neither drug is a primary CNS depressant, and the interaction is not primarily renal."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L117L118_p_page-0068.jpg"
 },
 {
 "id": 52,
@@ -673,7 +724,8 @@ const L117L118 = [
 {"text": "A Type II hypersensitivity reaction", "explanation": "This is incorrect. The cough is due to bradykinin, not an antibody-mediated cytotoxic reaction."},
 {"text": "A Type D (Delayed) reaction", "explanation": "This is incorrect. This reaction occurs relatively soon after starting therapy, it is not a delayed effect like teratogenesis."}
 ],
-"correctAnswerIndex": 0
+"correctAnswerIndex": 0,
+"slideImagePath": "images/L117L118_p_page-0011.jpg"
 },
 {
 "id": 53,
@@ -686,7 +738,8 @@ const L117L118 = [
 {"text": "Hemolytic anemia", "explanation": "This is not a teratogenic effect, but a reaction seen in G6PD deficient individuals."},
 {"text": "Hepatotoxicity and myelosuppression", "explanation": "These are toxicities, but not the specific teratogenic pattern of isotretinoin."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L117L118_p_page-0021.jpg"
 },
 {
 "id": 54,
@@ -699,7 +752,8 @@ const L117L118 = [
 {"text": "Both induction and inhibition are slow (weeks).", "explanation": "This is incorrect. Inhibition is a rapid process."},
 {"text": "The onset depends only on the half-life of the *substrate*, not the mechanism.", "explanation": "This is incorrect. The *mechanism* (induction vs. inhibition) is the primary determinant of the onset of the interaction."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L117L118_p_page-0062.jpg"
 },
 {
 "id": 55,
@@ -712,7 +766,8 @@ const L117L118 = [
 {"text": "Grapefruit juice", "explanation": "Correct. Grapefruit juice is a classic, potent *inhibitor* of intestinal CYP3A4, which *decreases* the first-pass metabolism of substrates like statins and calcium channel blockers, *increasing* their bioavailability and risk of toxicity."},
 {"text": "Tobacco smoke", "explanation": "Tobacco smoke is a potent *inducer* of *CYP1A2*, not an inhibitor of CYP3A4."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L117L118_p_page-0065.jpg"
 },
 {
 "id": 56,
@@ -725,7 +780,8 @@ const L117L118 = [
 {"text": "Tobacco smoke", "explanation": "Correct. Polycyclic aromatic hydrocarbons (PAHs) in tobacco smoke are potent *inducers* of CYP1A2. This *increases* the clearance of theophylline, *lowering* its concentration and leading to therapeutic failure."},
 {"text": "Ketoconazole", "explanation": "Ketoconazole is a potent *inhibitor* of CYP3A4."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L117L118_p_page-0063.jpg"
 },
 {
 "id": 57,
@@ -738,7 +794,8 @@ const L117L118 = [
 {"text": "Drug-induced Hemolysis", "explanation": "This is a Type II (cytotoxic) reaction where antibodies attack blood cells directly."},
 {"text": "Stevens-Johnson Syndrome (SJS)", "explanation": "SJS is a severe, delayed (Type IV) T-cell-mediated reaction."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L117L118_p_page-0027.jpg"
 },
 {
 "id": 58,
@@ -751,7 +808,8 @@ const L117L118 = [
 {"text": "It acts as a competitive antagonist at nicotinic receptors at the NMJ.", "explanation": "This is incorrect. 2-PAM *reverses* the inhibition of the *enzyme*, thereby *restoring* normal function at the nicotinic (and muscarinic) receptors."},
 {"text": "It chelates the organophosphate in the blood, promoting renal excretion.", "explanation": "This is incorrect. It is an enzyme reactivator, not a chelator."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L117L118_p_page-0059.jpg"
 },
 {
 "id": 59,
@@ -764,7 +822,8 @@ const L117L118 = [
 {"text": "By inhibiting P-glycoprotein, which increases bioavailability.", "explanation": "This is incorrect. The primary interaction is mechanical (motility)."},
 {"text": "By acidifying the stomach, which helps the ER tablet dissolve.", "explanation": "Opioids do not primarily work by acidifying the stomach."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L117L118_p_page-0071.jpg"
 },
 {
 "id": 60,
@@ -775,8 +834,9 @@ const L117L118 = [
 {"text": "F will decrease, because rifampin increases P-gp efflux in the gut.", "explanation": "Correct. Rifampin *induces* (upregulates) P-glycoprotein, the efflux pump in the intestinal wall. This leads to *increased* pumping of digoxin *out* of the intestinal cells and back into the gut lumen, thereby *decreasing* its net absorption and bioavailability (F)."},
 {"text": "F will be unchanged, as rifampin only affects CYP enzymes.", "explanation": "Rifampin is a classic inducer of *both* CYP enzymes and P-glycoprotein."},
 {"text": "F will increase, because rifampin displaces digoxin from plasma proteins.", "explanation": "This describes a *distribution* interaction, not an *absorption* interaction, and the outcome would be complex, not a simple increase in F."},
-{"text": "F will decrease, because rifampin chelates digoxin in the stomach.", "explanation": "This is incorrect. The mechanism is induction of P-gp, not chelation."}
+{"text" : "F will decrease, because rifampin chelates digoxin in the stomach.", "explanation": "This is incorrect. The mechanism is induction of P-gp, not chelation."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L117L118_p_page-0063.jpg"
 }
 ];

@@ -10,7 +10,8 @@ const L115L116 = [
 {"text": "The drug is highly lipid-soluble and is sequestered in adipose tissue.", "explanation": "This would result in a very *high* apparent Vd, as seen with drugs like propofol."},
 {"text": "The drug's elimination rate is faster than its distribution rate.", "explanation": "This describes an elimination characteristic, not what the Vd value itself indicates about drug location."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L115L116_p_page-0036.jpg"
 },
 {
 "id": 2,
@@ -23,20 +24,22 @@ const L115L116 = [
 {"text": "The drug is avidly bound to molecules in peripheral tissues.", "explanation": "Correct. A large Vd (>42 L) indicates the drug is sequestered in extravascular compartments, such as being avidly bound to tissue proteins or fat, leaving very little in the plasma to be measured."},
 {"text": "The drug is eliminated by zero-order kinetics.", "explanation": "The Vd is a parameter of distribution; it does not determine the *order* of elimination kinetics."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L115L116_p_page-0036.jpg"
 },
 {
 "id": 3,
 "category": "Pharmacokinetics: Clearance",
 "questionText": "A 70 kg patient is receiving a continuous IV infusion of a drug at a rate of 28 mg/h. At steady state, the measured plasma concentration (Css) is 10 mg/L. This information is used to calculate the patient's clearance (CL) for this drug. Which statement BEST defines clearance?",
 "options": [
-{"text": "The time required to reduce the drug concentration by 50%.", "explanation": "This is the definition of elimination half-life (t<sub>1/2</sub>), not clearance."},
+{"text": "The time required to reduce the drug concentration by 50%.", "explanation": "This is the definition of elimination half-life (t1/2), not clearance."},
 {"text": "The volume of blood from which the drug is removed per unit of time.", "explanation": "Correct. Clearance is the proportionality factor that relates the rate of elimination to the plasma concentration; it is defined as a volume of blood cleared per unit time (e.g., L/h)."},
 {"text": "The fraction of the administered dose that reaches the systemic circulation.", "explanation": "This is the definition of bioavailability (F), not clearance."},
 {"text": "The theoretical volume in the body that the drug occupies.", "explanation": "This is the definition of the apparent volume of distribution (Vd), not clearance."},
 {"text": "The constant *amount* of drug eliminated per unit of time.", "explanation": "This describes zero-order elimination; clearance is a concept used in first-order elimination where a constant *fraction* is removed."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L115L116_p_page-0007.jpg"
 },
 {
 "id": 4,
@@ -49,7 +52,8 @@ const L115L116 = [
 {"text": "t<sub>1/2</sub> will decrease, because volume of distribution (Vd) is increased.", "explanation": "An increase in Vd would *increase* the half-life, but the primary effect of HF on half-life is via its reduction of clearance."},
 {"text": "t<sub>1/2</sub> will not change, as it is an independent constant.", "explanation": "Half-life is a *dependent* variable that changes as a function of both Vd and CL, both of which can be altered by heart failure."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L115L116_p_page-0072.jpg"
 },
 {
 "id": 5,
@@ -62,7 +66,8 @@ const L115L116 = [
 {"text": "24.2 hours", "explanation": "This calculation is incorrect. Ensure you are using the formula t<sub>1/2</sub> = (0.693 * Vd) / CL."},
 {"text": "97.0 hours", "explanation": "This calculation is incorrect. This value might be obtained by multiplying CL by Vd instead of dividing."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L115L116_p_page-0007.jpg"
 },
 {
 "id": 6,
@@ -75,7 +80,8 @@ const L115L116 = [
 {"text": "Bioavailability will become zero.", "explanation": "Bioavailability would only become zero if the drug was not absorbed or was 100% extracted, which is not the scenario described."},
 {"text": "Bioavailability will become unpredictable, but clearance will increase.", "explanation": "Bioavailability will increase, and *clearance* (CL) will *decrease* due to the reduced blood flow and shunting."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L115L116_p_page-0025.jpg"
 },
 {
 "id": 7,
@@ -88,7 +94,8 @@ const L115L116 = [
 {"text": "Bioavailability will become zero.", "explanation": "This is incorrect; the drug is already highly bioavailable and shunting does not prevent absorption."},
 {"text": "Bioavailability will become 100% (F=1).", "explanation": "While F is already high, shunting has little effect, and F=1 is unlikely as some minimal metabolism still occurs."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L115L116_p_page-0025.jpg"
 },
 {
 "id": 8,
@@ -101,7 +108,8 @@ const L115L116 = [
 {"text": "Changes in plasma protein binding will significantly alter clearance.", "explanation": "This is characteristic of a *low* extraction ratio drug, where clearance is 'capacity-limited' and dependent on the unbound fraction."},
 {"text": "The drug is likely excreted 100% unchanged by the kidneys.", "explanation": "A high *hepatic* extraction ratio implies significant *hepatic* metabolism, not renal excretion."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L115L116_p_page-0025.jpg"
 },
 {
 "id": 9,
@@ -114,7 +122,8 @@ const L115L116 = [
 {"text": "The drug will have a very low oral bioavailability.", "explanation": "A low extraction ratio means a small first-pass effect, resulting in *high* oral bioavailability."},
 {"text": "The drug must be administered intravenously.", "explanation": "A low extraction ratio drug is often an excellent candidate for *oral* administration due to its high bioavailability."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L115L116_p_page-0025.jpg"
 },
 {
 "id": 10,
@@ -127,7 +136,8 @@ const L115L116 = [
 {"text": "Vd = Dose / C<sub>p</sub>", "explanation": "This calculates the volume of distribution, not the bioequivalence between two formulations."},
 {"text": "E = CL / Q", "explanation": "This calculates the extraction ratio, which is a property of the drug and organ, not a comparison of two tablet formulations."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L115L116_p_page-0031.jpg"
 },
 {
 "id": 11,
@@ -140,7 +150,8 @@ const L115L116 = [
 {"text": "10 mg/L", "explanation": "The concentration will increase because the dose was increased."},
 {"text": "100 mg/L", "explanation": "This is an incorrect calculation; the concentration change is proportional, not equal to the new dose number."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L115L116_p_page-0060.jpg"
 },
 {
 "id": 12,
@@ -153,7 +164,8 @@ const L115L116 = [
 {"text": "The drug's volume of distribution (Vd) must have decreased.", "explanation": "A decrease in Vd would increase concentration, but not in this disproportionate, dose-dependent manner characteristic of zero-order kinetics."},
 {"text": "The patient is non-adherent with the new medication dose.", "explanation": "Non-adherence (missing doses) would lead to a *lower* concentration, not a higher one."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L115L116_p_page-0054.jpg"
 },
 {
 "id": 13,
@@ -166,7 +178,8 @@ const L115L116 = [
 {"text": "The metabolic enzymes for the drug are saturated at therapeutic doses.", "explanation": "This is the mechanism of zero-order kinetics."},
 {"text": "Doubling the dose will cause a more-than-doubling of the steady-state concentration.", "explanation": "This is the result of zero-order kinetics; in first-order kinetics, doubling the dose doubles the concentration."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L115L116_p_page-0053.jpg"
 },
 {
 "id": 14,
@@ -174,12 +187,13 @@ const L115L116 = [
 "questionText": "A patient is brought to the emergency department after ingesting a large quantity of aspirin (salicylate). At these high, toxic doses, aspirin's elimination kinetics switch from first-order to zero-order. What is the primary implication of this switch?",
 "options": [
 {"text": "The drug's half-life will become constant, allowing for predictable removal.", "explanation": "The half-life is constant in *first-order* kinetics; in zero-order kinetics, it is not constant and depends on the concentration."},
-{"text": "A constant *amount* of drug will be eliminated per unit of time as enzymes are saturated.", "explanation": "Correct. In zero-order kinetics, the metabolic enzymes are saturated (Vmax), and a constant *amount* (e.g., X mg per hour) is eliminated, regardless of the high concentration, prolonging toxicity."},
+{"text": "A constant *amount* of drug will be eliminated per unit of time as enzymes are saturated.", "explanation": "Correct. In zero-order (capacity-limited) kinetics, the metabolic enzymes are saturated (Vmax), and a constant *amount* (e.g., X mg per hour) is eliminated, regardless of how much higher the concentration gets, prolonging toxicity."},
 {"text": "The drug will be eliminated more rapidly as a constant *fraction* is removed.", "explanation": "A constant *fraction* (percentage) is removed in *first-order* kinetics."},
 {"text": "The volume of distribution will decrease, trapping the drug in the plasma.", "explanation": "The Vd is not the primary parameter that changes; the *clearance* becomes capacity-limited."},
 {"text": "The drug's bioavailability will increase to 100%.", "explanation": "Bioavailability relates to absorption and first-pass effect, not the order of elimination kinetics once the drug is already systemic."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L115L116_p_page-0054.jpg"
 },
 {
 "id": 15,
@@ -192,7 +206,8 @@ const L115L116 = [
 {"text": "Phenytoin", "explanation": "Correct. Phenytoin is a classic example, along with ethanol and high-dose aspirin, of a drug that follows zero-order (capacity-limited) elimination kinetics at therapeutic concentrations."},
 {"text": "Lisinopril", "explanation": "Lisinopril is an ACE inhibitor that follows first-order kinetics."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L115L116_p_page-0057.jpg"
 },
 {
 "id": 16,
@@ -205,7 +220,8 @@ const L115L116 = [
 {"text": "A straight line (zero-order) followed by a curved line (first-order).", "explanation": "This is incorrect. On a *linear* plot, zero-order is a straight line, but on a *semilog* plot, first-order is the straight line."},
 {"text": "Two distinct straight lines representing the alpha and beta phases.", "explanation": "This describes a two-compartment model drug following first-order kinetics, not zero-order kinetics."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L115L116_p_page-0056.jpg"
 },
 {
 "id": 17,
@@ -218,7 +234,8 @@ const L115L116 = [
 {"text": "A straight line followed by a curved line.", "explanation": "This pattern is not typical for standard elimination kinetics."},
 {"text": "Two distinct straight lines (biphasic).", "explanation": "A biphasic (two-line) plot on a semilog graph indicates a *two-compartment* model (alpha/distribution phase and beta/elimination phase), not a one-compartment model."}
 ],
-"correctAnswerIndex": 0
+"correctAnswerIndex": 0,
+"slideImagePath": "images/L115L116_p_page-0053.jpg"
 },
 {
 "id": 18,
@@ -231,7 +248,8 @@ const L115L116 = [
 {"text": "t<sub>1/2</sub> = Vmax / (Km * C)", "explanation": "This is not the correct formula; the concept of a constant half-life does not apply to zero-order kinetics."},
 {"text": "t<sub>1/2</sub> = CL / (0.693 * Vd)", "explanation": "This is an incorrect inversion of the first-order formula."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L115L116_p_page-0008.jpg"
 },
 {
 "id": 19,
@@ -244,7 +262,8 @@ const L115L116 = [
 {"text": "6.25 mg/L", "explanation": "This would be the concentration after four half-lives (16 hours)."},
 {"text": "0 mg/L", "explanation": "Elimination is exponential and approaches zero asymptotically; it does not reach zero at a specific time."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L115L116_p_page-0059.jpg"
 },
 {
 "id": 20,
@@ -257,7 +276,8 @@ const L115L116 = [
 {"text": "5 g/hour (one-half of Vmax).", "explanation": "The rate would be 1/2 Vmax only if the concentration was *equal* to Km, not much greater than it."},
 {"text": "Dependent on the drug's half-life.", "explanation": "The concept of a constant half-life does not apply to zero-order kinetics."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L115L116_p_page-0054.jpg"
 },
 {
 "id": 21,
@@ -270,7 +290,8 @@ const L115L116 = [
 {"text": "28 days (4 half-lives)", "explanation": "Correct. It takes approximately 4 half-lives to reach ~94% of steady state, which is when the full clinical effect is expected to be seen."},
 {"text": "70 days (10 half-lives)", "explanation": "This is much longer than the 4-5 half-lives required to approach steady state."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L115L116_p_page-0059.jpg"
 },
 {
 "id": 22,
@@ -283,7 +304,8 @@ const L115L116 = [
 {"text": "Friday at 8:00 AM", "explanation": "Correct. 4 half-lives (4 x 24h = 96h = 4 days) are required to reach steady state. A trough level drawn Friday at 8:00 AM (just before the 5th dose) would be the first appropriate steady-state trough."},
 {"text": "Thursday at 8:00 AM", "explanation": "This is after only three half-lives; the drug is only at 87.5% of steady state."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L115L116_p_page-0059.jpg"
 },
 {
 "id": 23,
@@ -296,7 +318,8 @@ const L115L116 = [
 {"text": "To saturate hepatic enzymes and switch the drug to zero-order kinetics.", "explanation": "Saturating enzymes is generally an undesirable effect that leads to toxicity, not a therapeutic goal."},
 {"text": "To see if the patient will have an allergic reaction to a small, initial dose.", "explanation": "A loading dose is a *large* dose, not a small test dose, designed to fill the Vd."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L115L116_p_page-0065.jpg"
 },
 {
 "id": 24,
@@ -309,7 +332,8 @@ const L115L116 = [
 {"text": "LD = (Dose * F) / C<sub>ss</sub>", "explanation": "This is an incorrect arrangement of the Vd formula, not the LD formula."},
 {"text": "LD = (Vmax * C) / (Km + C)", "explanation": "This is the Michaelis-Menten equation for the rate of elimination, not the loading dose."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L115L116_p_page-0064.jpg"
 },
 {
 "id": 25,
@@ -322,7 +346,8 @@ const L115L116 = [
 {"text": "Bioavailability (F)", "explanation": "Bioavailability (F) is factored in for oral dosing, but the parameter that determines the 'rate out' (elimination) is clearance."},
 {"text": "Extraction Ratio (E)", "explanation": "The extraction ratio is a component of clearance but is not the parameter itself used in the final maintenance dose formula."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L115L116_p_page-0064.jpg"
 },
 {
 "id": 26,
@@ -335,7 +360,8 @@ const L115L116 = [
 {"text": "365 mg", "explanation": "This is an incorrect calculation."},
 {"text": "700 mg", "explanation": "This is an incorrect calculation, perhaps multiplying by the patient's weight incorrectly."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L115L116_p_page-0066.jpg"
 },
 {
 "id": 27,
@@ -348,7 +374,8 @@ const L115L116 = [
 {"text": "35 mg/h", "explanation": "This is an incorrect calculation."},
 {"text": "350 mg/h", "explanation": "This would be the *loading dose*, not the hourly maintenance rate."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L115L116_p_page-0068.jpg"
 },
 {
 "id": 28,
@@ -361,7 +388,8 @@ const L115L116 = [
 {"text": "672 mg", "explanation": "This is double the correct dose, perhaps from miscalculating the 12-hour interval."},
 {"text": "700 mg", "explanation": "This would be the correct dose if the interval (τ) was 24 hours, not 12 hours."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L115L116_p_page-0069.jpg"
 },
 {
 "id": 29,
@@ -374,7 +402,8 @@ const L115L116 = [
 {"text": "A high hepatic extraction ratio and a large volume of distribution.", "explanation": "These are pharmacokinetic properties, but they are not the *primary criteria* for requiring TDM."},
 {"text": "A lack of a reliable drug assay and a high cost.", "explanation": "TDM is only possible if a *reliable* and *cost-effective* assay is available."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L115L116_p_page-0076.jpg"
 },
 {
 "id": 30,
@@ -387,7 +416,8 @@ const L115L116 = [
 {"text": "Urine output", "explanation": "Urine output is a measure of renal function, not a direct measure of the antihypertensive drug's primary effect."},
 {"text": "Calculating the drug's half-life", "explanation": "This is a pharmacokinetic calculation, not a measurement of the drug's *clinical effect* in the patient."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L115L116_p_page-0083.jpg"
 },
 {
 "id": 31,
@@ -400,7 +430,8 @@ const L115L116 = [
 {"text": "Vd will decrease and CL will increase.", "explanation": "CL will decrease, not increase, due to reduced organ blood flow."},
 {"text": "Vd and CL will remain unchanged.", "explanation": "Both parameters are highly dependent on adequate blood flow and will be significantly altered in shock."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L115L116_p_page-0072.jpg"
 },
 {
 "id": 32,
@@ -413,7 +444,8 @@ const L115L116 = [
 {"text": "t<sub>1/2</sub> will be unchanged because the drug is eliminated by the kidneys, not the heart.", "explanation": "Renal elimination is *dependent* on blood flow (perfusion) from the heart; poor cardiac output (HF) *decreases* renal clearance."},
 {"text": "t<sub>1/2</sub> will decrease, because Vd is decreased in heart failure.", "explanation": "While Vd may decrease in HF (decreasing t<sub>1/2</sub>), the effect of *decreased clearance* from both HF and age is dominant and *increases* t<sub>1/2</sub>."}
 ],
-"correctAnswerIndex": 0
+"correctAnswerIndex": 0,
+"slideImagePath": "images/L115L116_p_page-0072.jpg"
 },
 {
 "id": 33,
@@ -426,7 +458,8 @@ const L115L116 = [
 {"text": "Decreased clearance (CL) and increased half-life (t<sub>1/2</sub>).", "explanation": "Correct. CKD reduces the kidney's ability to filter, *decreasing* clearance. Because t<sub>1/2</sub> is inversely proportional to CL, the half-life will *increase*, leading to drug accumulation and potential toxicity."},
 {"text": "No change in CL or t<sub>1/2</sub>, as the drug is not metabolized.", "explanation": "Because the drug is 100% *renally excreted*, renal disease (CKD) will have the *maximum* possible impact on its clearance."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L115L116_p_page-0072.jpg"
 },
 {
 "id": 34,
@@ -439,7 +472,8 @@ const L115L116 = [
 {"text": "Decreased bioavailability (F) and increased clearance (CL).", "explanation": "This is the opposite of what is expected; F will increase and CL will decrease."},
 {"text": "No change in F or CL, as the drug is given orally.", "explanation": "Hepatic cirrhosis has a profound impact on both the first-pass effect (F) and systemic clearance (CL) of a high-extraction drug."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L115L116_p_page-0072.jpg"
 },
 {
 "id": 35,
@@ -452,7 +486,8 @@ const L115L116 = [
 {"text": "Vd will decrease, and t<sub>1/2</sub> will increase.", "explanation": "Vd will increase, not decrease, for a hydrophilic drug in this scenario."},
 {"text": "Vd and t<sub>1/2</sub> will be unchanged, as ascites fluid is extravascular.", "explanation": "The Vd is an *apparent* volume; this extra fluid compartment is accessible to the drug and will increase its Vd."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L115L116_p_page-0072.jpg"
 },
 {
 "id": 36,
@@ -465,7 +500,8 @@ const L115L116 = [
 {"text": "Vd will be decreased, and t<sub>1/2</sub> will be increased.", "explanation": "Vd will be increased for a lipophilic drug in an obese patient."},
 {"text": "Vd and t<sub>1/2</sub> will be unchanged, as adipose tissue is poorly perfused.", "explanation": "While perfusion may be lower, the sheer *volume* of the adipose compartment will significantly increase the Vd for a lipophilic drug."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L115L116_p_page-0072.jpg"
 },
 {
 "id": 37,
@@ -478,7 +514,8 @@ const L115L116 = [
 {"text": "Vd will be increased due to decreased plasma protein binding.", "explanation": "While decreased albumin may occur, the dominant factor for digoxin is the *decreased tissue binding* in muscle."},
 {"text": "Vd will be decreased due to decreased renal function.", "explanation": "Decreased renal function affects *clearance* (CL), not primarily the Vd."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L115L116_p_page-0072.jpg"
 },
 {
 "id": 38,
@@ -491,7 +528,8 @@ const L115L116 = [
 {"text": "t<sub>1/2</sub> will increase, then decrease.", "explanation": "This is not a standard pharmacokinetic relationship."},
 {"text": "t<sub>1/2</sub> cannot be determined without knowing the Vmax.", "explanation": "Vmax is relevant for zero-order kinetics, not for this first-order relationship."}
 ],
-"correctAnswerIndex": 0
+"correctAnswerIndex": 0,
+"slideImagePath": "images/L115L116_p_page-0007.jpg"
 },
 {
 "id": 39,
@@ -504,7 +542,8 @@ const L115L116 = [
 {"text": "Aging causes increased plasma protein binding of creatinine.", "explanation": "Creatinine is freely filtered and not significantly protein-bound."},
 {"text": "Aging switches creatinine elimination from first-order to zero-order kinetics.", "explanation": "Creatinine elimination is a marker of GFR and follows first-order kinetics."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L115L116_p_page-0072.jpg"
 },
 {
 "id": 40,
@@ -517,7 +556,8 @@ const L115L116 = [
 {"text": "It will increase absorption by inhibiting P-glycoprotein efflux.", "explanation": "Heart failure does not directly inhibit P-glycoprotein; it reduces perfusion."},
 {"text": "It will have no effect, as absorption is 100% for all oral drugs.", "explanation": "Absorption is rarely 100% and is highly dependent on factors like blood flow and drug properties."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L115L116_p_page-0071.jpg"
 },
 {
 "id": 41,
@@ -530,7 +570,8 @@ const L115L116 = [
 {"text": "A permanent increase in warfarin's volume of distribution.", "explanation": "An increase in free drug will allow it to distribute more, *increasing* Vd, but the clinical concern is the *increased free fraction* causing toxicity."},
 {"text": "No clinical concern, as a new equilibrium will be established instantly.", "explanation": "A new equilibrium *will* be established, but the *transient* increase in free drug before that happens is clinically significant and dangerous for a narrow therapeutic window drug."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L115L116_p_page-0038.jpg"
 },
 {
 "id": 42,
@@ -543,7 +584,8 @@ const L115L116 = [
 {"text": "Vd will be 100 L, as the dose is high.", "explanation": "A high Vd (100 L) implies high *tissue* binding, not high *plasma* binding."},
 {"text": "Vd cannot be determined from protein binding.", "explanation": "Protein binding is a primary determinant of Vd; high plasma binding directly predicts a low Vd."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L115L116_p_page-0036.jpg"
 },
 {
 "id": 43,
@@ -556,7 +598,8 @@ const L115L116 = [
 {"text": "Vd will be 1.1 L.", "explanation": "A Vd of 1.1 L is very low and indicates high *plasma* protein binding, not tissue binding."},
 {"text": "Vd will be equal to the dose administered.", "explanation": "Vd is a calculated volume (Dose / C<sub>p</sub>), not equal to the dose itself."}
 ],
-"correctAnswerIndex": 0
+"correctAnswerIndex": 0,
+"slideImagePath": "images/L115L116_p_page-0036.jpg"
 },
 {
 "id": 44,
@@ -569,12 +612,13 @@ const L115L116 = [
 {"text": "Drugs with a narrow therapeutic window and high protein binding.", "explanation": "Correct. Displacement interactions are most significant for drugs that are highly protein-bound (so there is a large reservoir to be displaced) and have a narrow therapeutic window (so the transient increase in free drug pushes the concentration into the toxic range)."},
 {"text": "Drugs that are eliminated by the kidneys.", "explanation": "The route of elimination does not determine the risk of a displacement interaction."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L115L116_p_page-0038.jpg"
 },
 {
 "id": 45,
 "category": "Pharmacokinetics: Drug Interactions",
-"questionText": "A patient on a stable dose of warfarin (metabolized by CYP2C9) is started on rifampin for tuberculosis. Rifampin is a potent *inducer* of CYP450 enzymes. What change in warfarin's pharmacokinetics and effect should be anticipated?",
+"questionText": "A patient is on a stable dose of warfarin (metabolized by CYP2C9) is started on rifampin for tuberculosis. Rifampin is a potent *inducer* of CYP450 enzymes. What change in warfarin's pharmacokinetics and effect should be anticipated?",
 "options": [
 {"text": "Decreased clearance (CL), leading to increased t<sub>1/2</sub> and risk of bleeding.", "explanation": "Rifampin is an *inducer*, which *increases* clearance, not decreases it."},
 {"text": "Increased clearance (CL), leading to decreased t<sub>1/2</sub> and risk of clotting (subtherapeutic effect).", "explanation": "Correct. The inducer (rifampin) *increases* the metabolic rate of warfarin, which *increases* its clearance (CL). This *decreases* its half-life and steady-state concentration, leading to a subtherapeutic effect (risk of clotting)."},
@@ -582,7 +626,8 @@ const L115L116 = [
 {"text": "Decreased volume of distribution (Vd), leading to a decreased t<sub>1/2</sub>.", "explanation": "Enzyme inducers affect clearance (metabolism), not primarily the volume of distribution."},
 {"text": "No change, as rifampin and warfarin use different CYP enzymes.", "explanation": "Rifampin is a broad-spectrum inducer and will affect the metabolism of many drugs, including warfarin."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L115L116_p_page-0072.jpg"
 },
 {
 "id": 46,
@@ -595,7 +640,8 @@ const L115L116 = [
 {"text": "Decreased bioavailability (F), leading to a lower trough concentration.", "explanation": "This is incorrect; clearance is decreased, leading to *higher* concentrations."},
 {"text": "No change, as theophylline is eliminated by the kidneys.", "explanation": "Theophylline is eliminated by hepatic metabolism (CYP1A2), which is why this interaction is clinically significant."}
 ],
-"correctAnswerIndex": 0
+"correctAnswerIndex": 0,
+"slideImagePath": "images/L115L116_p_page-0072.jpg"
 },
 {
 "id": 47,
@@ -607,7 +653,8 @@ const L115L116 = [
 {"text": "Dose will be unchanged as smoking only affects CYP inhibition.", "explanation": "Smoking is a well-known enzyme *inducer*."},
 {"text": "Dose may need to be *decreased* because clearance (CL) will increase.", "explanation": "Cessation of induction will *decrease* clearance, not increase it, which is why the dose must be decreased."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L115L116_p_page-0072.jpg"
 },
 {
 "id": 48,
@@ -620,7 +667,8 @@ const L115L116 = [
 {"text": "Decreased t<sub>1/2</sub> and increased risk of toxicity.", "explanation": "These two effects are contradictory; a decreased half-life would mean faster elimination and less risk of toxicity."},
 {"text": "No change in t<sub>1/2</sub> or risk of toxicity.", "explanation": "Heart failure significantly impacts clearance and is a major risk factor for toxicity with drugs like theophylline."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L115L116_p_page-0072.jpg"
 },
 {
 "id": 49,
@@ -633,7 +681,8 @@ const L115L116 = [
 {"text": "Half-life (t<sub>1/2</sub>)", "explanation": "Half-life is a parameter of elimination, not absorption."},
 {"text": "Extraction Ratio (E)", "explanation": "The extraction ratio refers to the first-pass effect in the liver, which occurs *after* absorption."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L115L116_p_page-0071.jpg"
 },
 {
 "id": 50,
@@ -646,7 +695,8 @@ const L115L116 = [
 {"text": "F will decrease, because P-gp is required for active transport into the blood.", "explanation": "P-glycoprotein is an *efflux* pump (transport *out* of the cell), not an absorptive transporter."},
 {"text": "F will be unchanged, but the half-life (t<sub>1/2</sub>) will decrease.", "explanation": "F will increase. P-gp inhibition in the *kidney* would also *decrease* clearance, which would *increase* the half-life."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L115L116_p_page-0027.jpg"
 },
 {
 "id": 51,
@@ -659,7 +709,8 @@ const L115L116 = [
 {"text": "F = 1.67", "explanation": "This is an incorrect calculation (100 / 60); bioavailability cannot be greater than 1."},
 {"text": "F = 60", "explanation": "Bioavailability is a *fraction* or *percentage*, not the absolute milligram amount."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L115L116_p_page-0027.jpg"
 },
 {
 "id": 52,
@@ -672,7 +723,8 @@ const L115L116 = [
 {"text": "20%", "explanation": "This represents the *difference* in AUC, not the bioavailability fraction itself."},
 {"text": "Cannot be determined from AUC.", "explanation": "AUC is the standard method used to calculate and compare bioavailability."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L115L116_p_page-0031.jpg"
 },
 {
 "id": 53,
@@ -685,7 +737,8 @@ const L115L116 = [
 {"text": "Biosimilarity", "explanation": "This term applies to *biological* (protein) products, not standard chemical tablets."},
 {"text": "Interchangeable Biological Product", "explanation": "This is a higher standard for biosimilars, allowing substitution by a pharmacist."}
 ],
-"correctAnswerIndex": 0
+"correctAnswerIndex": 0,
+"slideImagePath": "images/L115L116_p_page-0011.jpg"
 },
 {
 "id": 54,
@@ -698,7 +751,8 @@ const L115L116 = [
 {"text": "Absolute Bioavailability", "explanation": "This would require comparing one of the drugs to an IV formulation, not to each other."},
 {"text": "Clinical Efficacy", "explanation": "While bioequivalence *implies* similar efficacy, this study measured pharmacokinetic parameters (AUC), not direct clinical outcomes."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L115L116_p_page-0011.jpg"
 },
 {
 "id": 55,
@@ -711,7 +765,8 @@ const L115L116 = [
 {"text": "The generic drug contains a different active ingredient for the same disease.", "explanation": "This is a therapeutic *alternative*, not a therapeutic *equivalent*."},
 {"text": "The generic drug is cheaper but has not been tested for efficacy.", "explanation": "Therapeutic equivalence means it has been proven bioequivalent and *can* be expected to have the same clinical effect and safety."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L115L116_p_page-0011.jpg"
 },
 {
 "id": 56,
@@ -724,7 +779,8 @@ const L115L116 = [
 {"text": "15.15 mg", "explanation": "This is an incorrect calculation (5 mg/h / 0.33)."},
 {"text": "5 mg", "explanation": "This is the hourly IV rate, not the daily oral dose."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L115L116_p_page-0028.jpg"
 },
 {
 "id": 57,
@@ -737,7 +793,8 @@ const L115L116 = [
 {"text": "It determines the time to steady state (Css).", "explanation": "The time to steady state is determined by the half-life, not the AUC."},
 {"text": "It is only used for drugs with zero-order kinetics.", "explanation": "AUC is used for all drugs, but the calculations (CL = Dose / AUC) are simplest for first-order kinetics."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L115L116_p_page-0029.jpg"
 },
 {
 "id": 58,
@@ -750,7 +807,8 @@ const L115L116 = [
 {"text": "4 half-lives", "explanation": "Correct. It takes 4 half-lives to reach ~94% of steady state, which is the point considered to be at steady state for clinical purposes."},
 {"text": "Steady state is reached immediately with an IV infusion.", "explanation": "This is incorrect. Steady state is only reached 'immediately' if a loading dose is given, and even then, true steady state (rate in = rate out) takes 4-5 half-lives to establish."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L115L116_p_page-0059.jpg"
 },
 {
 "id": 59,
@@ -763,7 +821,8 @@ const L115L116 = [
 {"text": "12-15 days (4-5 half-lives)", "explanation": "Correct. The time to reach steady state is a function of the half-life and is independent of the dose. It will take the *same* 4-5 half-lives (4-5 x 3 days = 12-15 days) to reach the *new* steady state."},
 {"text": "It will be reached immediately because the dose was doubled.", "explanation": "The time to reach steady state is *independent* of the dose."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L115L116_p_page-0060.jpg"
 },
 {
 "id": 60,
@@ -776,6 +835,7 @@ const L115L116 = [
 {"text": "94%", "explanation": "Correct. The time from 12:00 PM to 8:00 PM is 8 hours. Since the t<sub>1/2</sub> is 2 hours, this represents 4 half-lives. After 4 half-lives, ~94% of the drug is eliminated."},
 {"text": "100%", "explanation": "Elimination is exponential and never truly reaches 100%, though it becomes negligible after 4-5 half-lives."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L115L116_p_page-0059.jpg"
 }
 ];

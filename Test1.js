@@ -1,4 +1,4 @@
-const L103 = [
+window.L103 = [
 {
 "id": 1,
 "category": "Cranial Nerves",
@@ -10,7 +10,8 @@ const L103 = [
 {"text": "CN VI (Abducens)", "explanation": "CN VI only innervates the lateral rectus muscle; its damage causes an inability to abduct the eye, but not ptosis or pupillary issues."},
 {"text": "CN V (Trigeminal)", "explanation": "CN V is primarily for somatic sensation to the face and motor to muscles of mastication, not eye movement or pupillary control."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L103_p46.jpg"
 },
 {
 "id": 2,
@@ -23,7 +24,8 @@ const L103 = [
 {"text": "CN XI (Accessory)", "explanation": "CN XI controls the sternocleidomastoid and trapezius muscles; its damage results in difficulty shrugging or turning the head."},
 {"text": "CN XII (Hypoglossal)", "explanation": "CN XII provides somatic motor innervation to most tongue muscles; when damaged, the tongue deviates toward the side of the paralyzed muscle due to the action of the contralateral genioglossus muscle."}
 ],
-"correctAnswerIndex": 4
+"correctAnswerIndex": 4,
+"slideImagePath": "images/L103_p56.jpg"
 },
 {
 "id": 3,
@@ -36,7 +38,8 @@ const L103 = [
 {"text": "III, IV, and VI", "explanation": "CN III, IV, and VI are grouped together as nerves providing ONLY somatic motor fibers for eye movement."},
 {"text": "I, II, and VIII", "explanation": "CN I (Olfactory), CN II (Optic), and CN VIII (Vestibulocochlear) are grouped as carrying only special sensory fibers (smell, vision, hearing/balance)."}
 ],
-"correctAnswerIndex": 4
+"correctAnswerIndex": 4,
+"slideImagePath": "images/L103_p57.jpg"
 },
 {
 "id": 4,
@@ -49,7 +52,8 @@ const L103 = [
 {"text": "CN IX (Glossopharyngeal)", "explanation": "CN IX provides general sensation to the pharynx and posterior tongue, but not the teeth."},
 {"text": "CN X (Vagus)", "explanation": "CN X is a complex nerve involved in parasympathetic control and laryngeal motor function, not sensation of the teeth."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L103_p49.jpg"
 },
 {
 "id": 5,
@@ -62,7 +66,8 @@ const L103 = [
 {"text": "The auditory (pharyngotympanic) tube to equalize pressure during suckling.", "explanation": "The auditory tube connects the nasopharynx to the middle ear, and this is not the pathway for ingested fluid."},
 {"text": "The choanae, where it is warmed and humidified before being swallowed.", "explanation": "The choanae are the internal nares, which are the boundaries leading to the nasopharynx, a path the milk must bypass."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L103_p18.jpg"
 },
 {
 "id": 6,
@@ -75,7 +80,8 @@ const L103 = [
 {"text": "Anterior cerebral artery", "explanation": "The Anterior Cerebral Artery is a major branch inside the skull, not typically located directly beneath the Pterion."},
 {"text": "External carotid artery", "explanation": "The External Carotid artery is outside the skull, primarily supplying external structures of the head and face."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L103_p23.jpg"
 },
 {
 "id": 7,
@@ -88,7 +94,8 @@ const L103 = [
 {"text": "Parotid gland", "explanation": "The parotid gland is a major salivary gland located anterior to the ear."},
 {"text": "Parathyroid glands", "explanation": "The parathyroid glands produce PTH to regulate calcium and phosphorus metabolism, sitting within the thyroid gland."}
 ],
-"correctAnswerIndex": 4
+"correctAnswerIndex": 4,
+"slideImagePath": "images/L103_p37.jpg"
 },
 {
 "id": 8,
@@ -101,7 +108,8 @@ const L103 = [
 {"text": "Recurrent laryngeal nerve", "explanation": "The recurrent laryngeal nerve, a branch of CN X, innervates most intrinsic laryngeal muscles necessary for speech and is vulnerable to compression by neck masses like a goiter."},
 {"text": "Glossopharyngeal nerve (CN IX)", "explanation": "CN IX controls the stylopharyngeus muscle and is not the primary motor nerve for the larynx."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L103_p38.jpg"
 },
 {
 "id": 9,
@@ -114,7 +122,8 @@ const L103 = [
 {"text": "Jugular vein", "explanation": "The jugular vein drains blood from the head and is not a chemoreceptor."},
 {"text": "Vagus nerve (CN X)", "explanation": "The Vagus nerve innervates structures, but the carotid body itself is the cluster of chemosensitive cells."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L103_p21.jpg"
 },
 {
 "id": 10,
@@ -127,7 +136,8 @@ const L103 = [
 {"text": "Temporal bone and the Mandible (TMJ)", "explanation": "The Temporomandibular Joint (TMJ) allows for jaw movement (e.g., mastication, speech)."},
 {"text": "Frontal bone and the Parietal bone", "explanation": "These bones are joined by the coronal suture, a synarthrosis (immobile joint)."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L103_p08.jpg"
 },
 {
 "id": 11,
@@ -140,7 +150,8 @@ const L103 = [
 {"text": "Cavernous sinus", "explanation": "The valveless Facial Vein drains superiorly via the Ophthalmic Veins directly into the Cavernous Sinus, a 'Danger Zone' due to the critical nerves and artery it contains."},
 {"text": "Internal jugular vein", "explanation": "The Internal Jugular Vein drains the cavernous sinus, but the direct pathway for infection spread is into the sinus itself."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L103_p28.jpg"
 },
 {
 "id": 12,
@@ -153,7 +164,8 @@ const L103 = [
 {"text": "CN X (Vagus); Visceral Sensory", "explanation": "CN X carries some visceral sensory fibers, but it is not responsible for olfaction."},
 {"text": "CN VIII (Vestibulocochlear); Special Sensory", "explanation": "CN VIII is special sensory, but its functions are hearing and balance, not smell."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L103_p44.jpg"
 },
 {
 "id": 13,
@@ -166,7 +178,8 @@ const L103 = [
 {"text": "Nasopharynx", "explanation": "The Nasopharynx is the superior part of the pharynx, starting at the internal nares and ending at the uvula."},
 {"text": "Larynx", "explanation": "The Larynx is the voice box, an entrance to the trachea, not a region of the pharynx."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L103_p15.jpg"
 },
 {
 "id": 14,
@@ -179,11 +192,12 @@ const L103 = [
 {"text": "CN X (Vagus)", "explanation": "CN X is involved in speech and swallowing but not the muscles of facial expression."},
 {"text": "CN XII (Hypoglossal)", "explanation": "CN XII controls the muscles of the tongue, not the facial expression muscles."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L103_p51.jpg"
 },
 {
 "id": 15,
-"category": "Glands/Organs",
+"category": "Glands/Senses",
 "questionText": "The drainage system for tears starts at the lacrimal gland and ducts and eventually empties into the nasal cavity, which is why crying often causes sniffing. The final part of this pathway is the nasolacrimal duct opening into which anatomical space?",
 "options": [
 {"text": "Lacrimal sac", "explanation": "The Lacrimal Sac collects tears from the canaliculi; it is not the final exit into the nasal cavity."},
@@ -192,7 +206,8 @@ const L103 = [
 {"text": "Nasopharynx", "explanation": "The Nasopharynx is posterior to the nasal cavity, but the duct opens directly into the anterior part of the nasal cavity."},
 {"text": "Superior Canaliculus", "explanation": "The Superior Canaliculus collects tears from the eye surface, it is near the beginning of the drainage pathway."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L103_p36.jpg"
 },
 {
 "id": 16,
@@ -205,20 +220,22 @@ const L103 = [
 {"text": "CN V (Trigeminal)", "explanation": "CN V is primarily sensory and motor for mastication, not the superior oblique muscle."},
 {"text": "CN VII (Facial)", "explanation": "CN VII controls facial expression, not eye movement."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L103_p47.jpg"
 },
 {
 "id": 17,
 "category": "Architecture/Development",
 "questionText": "Which statement accurately describes the function of fontanelles in infants?",
 "options": [
-{"text": "They are bony projections that interlock the cranial bones at birth.", "explanation": "Fontanelles are soft, fibrous tissues (soft spots) between cranial bones, not bony projections."},
+{"text": "They are bony projections that interlock the cranial bones at birth.", "explanation": "Fontanelles are soft, fibrous tissues ('soft spots') between cranial bones, not bony projections."},
 {"text": "They serve as pivot joints that allow lateral rotation of the neck.", "explanation": "Lateral head rotation is facilitated by the Axis (C2) and Atlas (C1), not the fontanelles."},
 {"text": "They primarily allow for the articulation of the mandible with the cranium.", "explanation": "The articulation of the mandible is the Temporomandibular Joint (TMJ)."},
 {"text": "They enable the baby's skull bones to overlap for passage through the birth canal and accommodate rapid postnatal brain growth.", "explanation": "Fontanelles allow for movement and deformation of the skull during birth and subsequent brain growth."},
 {"text": "They are the bony fusion points (sutures) that rapidly ossify before birth.", "explanation": "Fontanelles are non-ossified fibrous areas; sutures are the eventual bony fusion points."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L103_p11.jpg"
 },
 {
 "id": 18,
@@ -231,7 +248,8 @@ const L103 = [
 {"text": "Compression of the trachea and esophagus leading to difficulty swallowing.", "explanation": "This is a complication of the goiter, not the underlying cause of its enlargement."},
 {"text": "A rupture of the thyroid's investing fascia due to a viral infection.", "explanation": "The investing fascia is a dense layer; its rupture is not the mechanism of goiter formation."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L103_p38.jpg"
 },
 {
 "id": 19,
@@ -244,7 +262,8 @@ const L103 = [
 {"text": "They all exit the skull through the superior orbital fissure.", "explanation": "Only CN III, IV, V1 (ophthalmic division of V), and VI exit through the superior orbital fissure."},
 {"text": "They are the only cranial nerves that contain parasympathetic (visceral motor) fibers.", "explanation": "CN III, VII, IX, and X contain parasympathetic fibers, but CN V does not."}
 ],
-"correctAnswerIndex": 0
+"correctAnswerIndex": 0,
+"slideImagePath": "images/L103_p57.jpg"
 },
 {
 "id": 20,
@@ -257,7 +276,8 @@ const L103 = [
 {"text": "The epiglottis descends to block the entry into the larynx.", "explanation": "The epiglottis blocks the laryngeal inlet (trachea) in the second (pharyngeal) phase, preventing aspiration into the lungs."},
 {"text": "The nasopharynx opens to allow air to pass into the lungs.", "explanation": "Respiration is temporarily stopped in the pharyngeal phase; the nasopharynx is blocked."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L103_p17.jpg"
 },
 {
 "id": 21,
@@ -270,7 +290,8 @@ const L103 = [
 {"text": "CN X (Vagus)", "explanation": "CN X is mainly involved in parasympathetic control and laryngeal motor function."},
 {"text": "CN III (Oculomotor)", "explanation": "CN III is a motor nerve for eye movement."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L103_p49.jpg"
 },
 {
 "id": 22,
@@ -279,24 +300,26 @@ const L103 = [
 "options": [
 {"text": "Internal jugular vein", "explanation": "The Internal Jugular Vein drains the face and structures inside the skull (including the brain via dural sinuses)."},
 {"text": "Maxillary vein", "explanation": "The Maxillary Vein is a deep vein in the face that contributes to the retromandibular vein, but not the primary external skull drainage."},
-{"text": "Facial vein", "explanation": "The Facial Vein drains the face and connects to the Internal Jugular Vein and the cavernous sinus."},
+{"text": "Facial vein", "explanation": "The Facial Vein drains the face and connects to the Internal JugVular Vein and the cavernous sinus."},
 {"text": "External jugular vein", "explanation": "The External Jugular Vein drains the temporal and occipital regions (outside the skull) before draining into the subclavian vein."},
 {"text": "Superior sagittal sinus", "explanation": "The Superior Sagittal Sinus is an intracranial dural venous sinus."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L103_p25.jpg"
 },
 {
 "id": 23,
 "category": "Glands/Senses",
 "questionText": "Which major salivary gland is located anterior to the ears, in the posterior cheek region, and secretes copious, watery saliva upon parasympathetic innervation?",
 "options": [
-{"text": "Parotid gland", "explanation": "The Parotid gland is located anterior to the ears in the posterior cheek region and secretes watery (serous) saliva via the parotid duct."},
+{"text": "Parotid gland", "explanation": "The Parotid gland is located anterior to the ears in the posterior cheek region and and secretes watery (serous) saliva via the parotid duct."},
 {"text": "Submandibular gland", "explanation": "The Submandibular gland is located below the mandible."},
 {"text": "Sublingual gland", "explanation": "The Sublingual gland is located in the floor of the mouth."},
 {"text": "Thyroid gland", "explanation": "The thyroid gland produces hormones and is not a salivary gland."},
 {"text": "Thymus gland", "explanation": "The thymus gland is part of the immune system and is not a salivary gland."}
 ],
-"correctAnswerIndex": 0
+"correctAnswerIndex": 0,
+"slideImagePath": "images/L103_p35.jpg"
 },
 {
 "id": 24,
@@ -309,7 +332,8 @@ const L103 = [
 {"text": "Pia mater and Cerebrum", "explanation": "The Pia mater is adherent to the cerebrum (brain tissue); the space is typically microscopic."},
 {"text": "Arachnoid mater and Choroid plexus", "explanation": "The Choroid plexus is inside the ventricles and is the source of CSF, not a meningeal boundary."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L103_p24.jpg"
 },
 {
 "id": 25,
@@ -322,7 +346,8 @@ const L103 = [
 {"text": "Alar fascia and Prevertebral fascia", "explanation": "The space between the Alar fascia and the Prevertebral fascia is the retropharyngeal (or danger) space, providing an open pathway for infection spread into the thorax and mediastinum."},
 {"text": "Investing fascia and Alar fascia", "explanation": "The Investing Fascia is superficial and not directly bordering this deep space."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L103_p30.jpg"
 },
 {
 "id": 26,
@@ -335,7 +360,8 @@ const L103 = [
 {"text": "Glossopharyngeal nerve (CN IX)", "explanation": "CN IX is involved in taste and pharyngeal sensation."},
 {"text": "Hypoglossal nerve (CN XII)", "explanation": "CN XII is responsible for tongue movement."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L103_p52.jpg"
 },
 {
 "id": 27,
@@ -345,10 +371,11 @@ const L103 = [
 {"text": "Neurocranium and Mandible", "explanation": "The skull is defined as the cranium (neurocranium + viscerocranium) and the mandible."},
 {"text": "Neurocranium and Viscerocranium", "explanation": "The Neurocranium (braincase) and Viscerocranium (face) together form the cranium; the skull includes the cranium PLUS the mandible."},
 {"text": "Cranium and Mandible", "explanation": "The skull is composed of the cranium and the mandible."},
-{"text": "Frontal bone and Temporal bone", "explanation": "These are only two components of the larger cranium."},
+{"textF": "Frontal bone and Temporal bone", "explanation": "These are only two components of the larger cranium."},
 {"text": "Sutures and Fontanelles", "explanation": "Sutures and Fontanelles are the junctions between the skull bones, not the entire regions."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L103_p07.jpg"
 },
 {
 "id": 28,
@@ -361,12 +388,13 @@ const L103 = [
 {"text": "CN X (Vagus)", "explanation": "CN X carries taste from the epiglottis, a more superior and posterior structure."},
 {"text": "CN XII (Hypoglossal)", "explanation": "CN XII is the somatic motor nerve for tongue movement."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L103_p53.jpg"
 },
 {
 "id": 29,
 "category": "Cranial Nerves",
-"questionText": "In addition to motor innervation of the sternocleidomastoid and trapezius muscles (allowing head rotation and shoulder shrugs), the somatic motor-only group of cranial nerves includes those responsible for motor functions of the eye. This group does **not** include which of the following nerves?",
+"questionText": "A somatic motor-only group of cranial nerves includes those responsible for motor functions of the eye. This group does **not** include which of the following nerves?",
 "options": [
 {"text": "Oculomotor nerve (CN III)", "explanation": "CN III provides somatic motor to most extraocular muscles, but also carries visceral motor fibers for the pupil/ciliary body."},
 {"text": "Trochlear nerve (CN IV)", "explanation": "CN IV provides only somatic motor fibers (superior oblique m.)."},
@@ -374,7 +402,8 @@ const L103 = [
 {"text": "Accessory nerve (CN XI)", "explanation": "CN XI provides only somatic motor fibers (SCM and trapezius mm.)."},
 {"text": "Hypoglossal nerve (CN XII)", "explanation": "CN XII provides only somatic motor fibers (tongue muscles)."}
 ],
-"correctAnswerIndex": 0
+"correctAnswerIndex": 0,
+"slideImagePath": "images/L103_p57.jpg"
 },
 {
 "id": 30,
@@ -383,10 +412,11 @@ const L103 = [
 "options": [
 {"text": "External carotid artery, CN V, VII, VIII", "explanation": "The External Carotid Artery is not in the cavernous sinus; CN VII and VIII are not contained within the sinus."},
 {"text": "Vertebral artery, CN I, II, IV", "explanation": "The Vertebral Artery and CN I & II are not located within the cavernous sinus."},
-{"text": "Internal carotid artery, CN III, IV, V1, V2, VI", "explanation": "The Internal Carotid Artery, CN III, IV, VI (running free), and V1/V2 (in the lateral wall) are the critical neurovascular structures associated with the cavernous sinus."},
+{"text": "Internal carotid artery, CN III, IV, V1, V2, VI", "explanation": "The Internal Carotid Artery, CN III, IV, VI, and V1/V2 are the critical neurovascular structures associated with the cavernous sinus."},
 {"text": "Brachiocephalic trunk, CN III, IV, V", "explanation": "The Brachiocephalic Trunk is in the thorax/neck, not the head; CN V has only V1 and V2 divisions near the sinus."},
 {"text": "Subclavian artery, CN X, XI, XII", "explanation": "The Subclavian Artery and CN X, XI, XII are primarily in the neck/jugular foramen, not the cavernous sinus."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L103_p26.jpg"
 }
 ];

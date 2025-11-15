@@ -1,4 +1,4 @@
-const L102 = [
+window.L102 = [
 {
 "id": 1,
 "category": "Lumbar Somatic Dysfunction Diagnosis",
@@ -10,7 +10,8 @@ const L102 = [
 {"text": "L3 Extended, Rotated Right, Sidebent Right (ERS R)", "explanation": "Extended dysfunctions (ERS) become more symmetrical in extension, not flexion."},
 {"text": "L3 Flexed, Rotated Right, Sidebent Right (FRS R)", "explanation": "The **posterior left TP** means rotation ease is **Right** (vertebral body rotates toward the posterior TP side). Improvement in flexion (Child's Pose) names it **Flexed**. Following Type II mechanics, rotation and sidebending are coupled to the same side. Thus: **FRS R** (Flexed, Rotated Right, Sidebent Right)."}
 ],
-"correctAnswerIndex": 4
+"correctAnswerIndex": 4,
+"slideImagePath": "images/L102_p18.jpg"
 },
 {
 "id": 2,
@@ -23,7 +24,8 @@ const L102 = [
 {"text": "Iliac Crest", "explanation": "The highest points of the iliac crests are typically at the level of L4 or the L4-L5 interspace."},
 {"text": "Sacral sulci", "explanation": "The sacral sulci are palpable just above the sacrum, near the L5-S1 junction, but S2 is marked by the PSIS."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L102_p08.jpg"
 },
 {
 "id": 3,
@@ -36,7 +38,8 @@ const L102 = [
 {"text": "Patient inability to lie prone due to pregnancy", "explanation": "While this requires a modification (e.g., seated or lateral recumbent position), it is a positioning modification, not a contraindication to the soft tissue *principle*."},
 {"text": "Asymmetry of the iliac crests", "explanation": "Iliac crest asymmetry is a diagnostic finding (TART: Asymmetry) and an indication for treatment, not a contraindication."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L102_p33.jpg"
 },
 {
 "id": 4,
@@ -45,11 +48,12 @@ const L102 = [
 "options": [
 {"text": "L1-L4 N Rl Sr", "explanation": "The posterior transverse process on the right indicates a rotation right dysfunction (ease), and in a Type I dysfunction, sidebending is opposite, thus sidebent left. This notation incorrectly lists rotation left and sidebent right."},
 {"text": "L1-L4 N Sr Rr", "explanation": "The posterior transverse process on the right indicates a rotation right dysfunction (ease), not rotation left. This notation is named for the restricted side/direction."},
-{"text": "L1-L4 N Sl Rr", "explanation": "The posterior transverse process on the right indicates a rotation right dysfunction (ease), and in a Type I dysfunction, sidebending is opposite, thus sidebent left. This notation incorrectly lists sidebent left and rotated right (should be Rr Sl)."},
+{"text": "L1-L4 N Sl Rr", "explanation": "A posterior TP on the right indicates **Rotation Right (Rr)** freedom of motion. In **Type I (Neutral) mechanics**, rotation and sidebending are coupled to **opposite sides**. Therefore, the sidebending freedom is **Sidebent Left (Sl)**. This notation (Sl Rr) is correct but often written Rr Sl."},
 {"text": "L1-L4 N Sl Rl", "explanation": "This notation lists rotation left and sidebent left, which are opposite directions and thus incorrect for a posterior right TP and opposite-side coupling."},
 {"text": "L1-L4 N Rr Sl", "explanation": "A posterior TP on the right indicates **Rotation Right (Rr)** freedom of motion. In **Type I (Neutral) mechanics**, rotation and sidebending are coupled to **opposite sides**. Therefore, the sidebending freedom is **Sidebent Left (Sl)**."}
 ],
-"correctAnswerIndex": 4
+"correctAnswerIndex": 4,
+"slideImagePath": "images/L102_p24.jpg"
 },
 {
 "id": 5,
@@ -62,7 +66,8 @@ const L102 = [
 {"text": "\"The body is a unit; the person is a unit of body, mind, and spirit.\"", "explanation": "This is one of the four key osteopathic tenets concerning the holistic nature of the patient."},
 {"text": "\"Structure governs function.\"", "explanation": "This is one of the four key osteopathic tenets, but does not specifically refer to the circulatory goals of soft tissue techniques."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L102_p32.jpg"
 },
 {
 "id": 6,
@@ -75,7 +80,8 @@ const L102 = [
 {"text": "Left, and the right TP is posterior", "explanation": "The left TP is the one that is resisting being pushed anteriorly, so the left TP is posterior."},
 {"text": "Rotation motion is restricted to the left", "explanation": "The motion is restricted to the right (cannot be pushed anteriorly on the left, to rotate right); somatic dysfunctions are named for the ease of motion (rotation left), not the restriction."}
 ],
-"correctAnswerIndex": 0
+"correctAnswerIndex": 0,
+"slideImagePath": "images/L102_p13.jpg"
 },
 {
 "id": 7,
@@ -88,7 +94,8 @@ const L102 = [
 {"text": "Restriction or stiffness to the springing motion", "explanation": "Resistance or stiffness indicates a **positive test**, suggesting a restriction in anterior motion or extension somatic dysfunction at that segment."},
 {"text": "The paraspinal musculature is hypertonic or ropey", "explanation": "Hypertonicity is a TART finding (Tissue Texture Change), not the specific finding of the spring test."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L102_p29.jpg"
 },
 {
 "id": 8,
@@ -101,7 +108,8 @@ const L102 = [
 {"text": "Seated Rotational Segmental Motion Examination", "explanation": "This is a diagnostic motion test, not a soft tissue treatment technique."},
 {"text": "Lateral Recumbent Myofascial Release", "explanation": "This technique is performed with the patient lying on their side (lateral recumbent), not supine, and is not one of the techniques specifically covered in this lab."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L102_p37.jpg"
 },
 {
 "id": 9,
@@ -114,7 +122,8 @@ const L102 = [
 {"text": "Rotatores Brevis and Intertransversarii (Short Restrictors)", "explanation": "Type II dysfunctions are typically maintained by the short restrictor muscles like the rotatores brevis and intertransversarii."},
 {"text": "Gluteus Maximus and Hamstrings", "explanation": "These are large muscles of the hip/buttocks, involved in hip extension and posture, but not directly involved in maintaining a single vertebral segment dysfunction."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L102_p07.jpg"
 },
 {
 "id": 10,
@@ -126,8 +135,8 @@ const L102 = [
 {"text": "Palpating for the hypertonicity (Tissue Texture Change) of the paraspinal muscles", "explanation": "This is checking the 'T' (Tissue Texture Change) component of TART through palpation, not primarily visual inspection."},
 {"text": "Having the patient touch their toes to check the curve of the side-bending motion", "explanation": "This is an active Range of Motion test (R in TART) to assess motion quality, a dynamic assessment."},
 {"text": "Asking the patient if the palpated spinous process is painful (Tenderness)", "explanation": "This is checking the 'T' (Tenderness) component of TART, but relies on subjective report/palpation, not visual inspection."}
-]
-,
-"correctAnswerIndex": 0
+],
+"correctAnswerIndex": 0,
+"slideImagePath": "images/L102_p04.jpg"
 }
 ];

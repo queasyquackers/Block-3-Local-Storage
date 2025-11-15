@@ -10,523 +10,540 @@ const L120 = [
 {"text": "Inhibition of DNA gyrase, preventing bacterial DNA replication.", "explanation": "This is the mechanism of action for fluoroquinolones, not penicillins."},
 {"text": "Inhibition of dihydropteroate synthase, blocking folate synthesis.", "explanation": "This is the mechanism of action for sulfonamides, not penicillins."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L120_p_page-0010.jpg"
 },
 {
 "id": 2,
 "category": "Antimicrobial PK/PD: Penicillins",
-"questionText": "A 45-year-old man is hospitalized for a severe *Pseudomonas aeruginosa* infection and is started on piperacillin-tazobactam via extended infusion. This dosing strategy is chosen because the bactericidal activity of piperacillin is best correlated with which PK/PD parameter?",
+"questionText": "A 45-year-old male is being treated with a continuous infusion of nafcillin for endocarditis. The physician states the goal is to keep the drug concentration above the MIC for the entire dosing interval. This (T > MIC) strategy is used because penicillins are:",
 "options": [
-{"text": "C<sub>max</sub>/MIC", "explanation": "This parameter is for concentration-dependent killers like aminoglycosides, where the goal is a high peak."},
-{"text": "AUC/MIC", "explanation": "This parameter is important for drugs like vancomycin and fluoroquinolones."},
-{"text": "T > MIC (Time above MIC)", "explanation": "Correct. Beta-lactams are time-dependent killers, and their efficacy is maximized by increasing the *duration* of time the drug concentration remains above the MIC."},
-{"text": "A long Post-Antibiotic Effect (PAE)", "explanation": "This is incorrect. Beta-lactams have a minimal or short PAE, which is why the concentration must be kept above the MIC."},
-{"text": "Minimum Bactericidal Concentration (MBC)", "explanation": "The MBC is a static lab value, not the PK/PD parameter that guides this dosing strategy."}
+{"text": "Concentration-dependent killers with a long PAE.", "explanation": "This describes aminoglycosides. Penicillins are time-dependent."},
+{"text": "Time-dependent killers with a minimal or short PAE.", "explanation": "Correct. Beta-lactams are time-dependent killers (T > MIC) with a short post-antibiotic effect (PAE), meaning bacteria regrow as soon as the drug level falls below the MIC."},
+{"text": "Bacteriostatic agents that rely on AUC/MIC.", "explanation": "Penicillins are bactericidal, and their primary parameter is T > MIC."},
+{"text": "Excreted purely by biliary mechanisms, requiring continuous flow.", "explanation": "This describes nafcillin's *excretion* route, not its *PK/PD parameter* for killing."},
+{"text": "Drugs that require a high C<sub>max</sub> to penetrate the cell wall.", "explanation": "This describes aminoglycosides. Penicillins work on the *outside* of the cell membrane."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L120_p_page-0027.jpg"
 },
 {
 "id": 3,
-"category": "Antimicrobial Resistance: MRSA",
-"questionText": "A 50-year-old man with a diabetic foot ulcer grows MRSA (Methicillin-Resistant *Staphylococcus aureus*). This organism is resistant to nafcillin, oxacillin, and all other beta-lactams. What is the molecular mechanism of this resistance?",
+"category": "Antimicrobial Spectrum: Aminopenicillins",
+"questionText": "A 2-year-old child presents with otitis media, which the physician suspects is caused by *Haemophilus influenzae*. The physician prescribes amoxicillin. This drug is classified as an 'extended-spectrum' penicillin because, unlike natural penicillin G, it has an enhanced spectrum against which organisms?",
 "options": [
-{"text": "Production of a high-efficiency beta-lactamase enzyme.", "explanation": "This is the mechanism for penicillin-resistant *S. aureus*, but *not* methicillin-resistant (MRSA). Beta-lactamase inhibitors do not restore activity against MRSA."},
-{"text": "Modification of the PBP target via the *mecA* gene.", "explanation": "Correct. MRSA resistance is due to the acquisition of the *mecA* gene, which codes for an altered target, PBP2a, that has a low affinity for beta-lactam antibiotics."},
-{"text": "Overexpression of a multi-drug efflux pump.", "explanation": "This is a common mechanism in gram-negative bacteria like *Pseudomonas*, but not the defining mechanism of MRSA."},
-{"text": "Loss of porin channels in the outer membrane.", "explanation": "This is a mechanism for gram-negative resistance; *S. aureus* is a gram-positive organism and lacks an outer membrane."},
-{"text": "Enzymatic alteration of the 30S ribosomal subunit.", "explanation": "This is a mechanism of resistance to tetracyclines or aminoglycosides, not beta-lactams."}
+{"text": "Atypical bacteria (e.g., *Mycoplasma, Chlamydia*)", "explanation": "Beta-lactams do not have activity against atypical bacteria, which lack a peptidoglycan cell wall."},
+{"text": "Gram-negative rods (e.g., *H. influenzae, E. coli*)", "explanation": "Correct. The aminopenicillins (ampicillin, amoxicillin) have an extended spectrum that includes gram-negative rods like *H. influenzae, E. coli, and Proteus mirabilis*."},
+{"text": "Methicillin-resistant *Staphylococcus aureus* (MRSA)", "explanation": "MRSA is resistant to all penicillins except for specialized anti-MRSA cephalosporins."},
+{"text": "Anaerobic bacteria (e.g., *Bacteroides fragilis*)", "explanation": "While they have some anaerobic coverage, their *defining* extended spectrum is against gram-negative rods."},
+{"text": "Gram-positive cocci (e.g., *Streptococcus pneumoniae*)", "explanation": "This is the primary spectrum of *natural* penicillin; amoxicillin *retains* this coverage but *extends* it to gram-negatives."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L120_p_page-0039.jpg"
 },
 {
 "id": 4,
-"category": "Antimicrobial Resistance: Beta-Lactamase",
-"questionText": "A 6-year-old child with otitis media is prescribed amoxicillin. The infection does not improve. A culture reveals the pathogen is *H. influenzae* that produces a beta-lactamase. What is the mechanism of this resistance?",
+"category": "Antimicrobial Class: Antistaphylococcal",
+"questionText": "A patient is diagnosed with cellulitis from a beta-lactamase-producing strain of *Staphylococcus aureus* (MSSA). Which of the following drugs is specifically designed to be resistant to this enzyme and is considered the drug of choice?",
 "options": [
-{"text": "The bacteria has altered its PBP target site.", "explanation": "This is a mechanism of resistance, but the most common one for *H. influenzae* against amoxicillin is beta-lactamase production."},
-{"text": "The bacteria has lost its porin channels, blocking drug entry.", "explanation": "This is a resistance mechanism, but it is not the most common one against amoxicillin."},
-{"text": "The bacteria is using an efflux pump to remove the amoxicillin.", "explanation": "This is a resistance mechanism, but it is not the most common one against amoxicillin."},
-{"text": "The bacteria is producing an enzyme that hydrolyzes the beta-lactam ring.", "explanation": "Correct. This is the most common mechanism of resistance, where the beta-lactamase enzyme cleaves and inactivates the amoxicillin molecule before it can reach its PBP target."},
-{"text": "The bacteria has switched to anaerobic metabolism, which does not require PBPs.", "explanation": "This is incorrect. Bacteria cannot simply switch metabolism to avoid an antibiotic."}
+{"text": "Ampicillin", "explanation": "Ampicillin is an aminopenicillin and is destroyed by penicillinase."},
+{"text": "Penicillin G", "explanation": "Penicillin G is a natural penicillin and is destroyed by penicillinase."},
+{"text": "Nafcillin", "explanation": "Correct. Nafcillin is an antistaphylococcal (penicillinase-resistant) penicillin. Its bulky side chain physically blocks the beta-lactamase enzyme from binding to and cleaving the beta-lactam ring."},
+{"text": "Piperacillin", "explanation": "Piperacillin is an antipseudomonal penicillin and is destroyed by penicillinase (which is why it is often combined with tazobactam)."},
+{"text": "Amoxicillin", "explanation": "Amoxicillin is an aminopenicillin and is destroyed by penicillinase (which is why it is combined with clavulanate)."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L120_p_page-0036.jpg"
 },
 {
 "id": 5,
-"category": "Antimicrobial ADR: Hypersensitivity",
-"questionText": "A 28-year-old female is given a single IM injection of benzathine penicillin G for syphilis. Within 10 minutes, she develops diffuse urticaria, wheezing, and hypotension. This life-threatening reaction is mediated by which of the following?",
+"category": "Antimicrobial Class: Antipseudomonal",
+"questionText": "A patient in the ICU with ventilator-associated pneumonia grows *Pseudomonas aeruginosa*. The physician starts piperacillin-tazobactam. Piperacillin is selected because it belongs to which specific class of penicillins?",
 "options": [
-{"text": "IgG antibodies against cell-surface antigens (Type II HSR)", "explanation": "This describes a cytotoxic reaction, such as drug-induced hemolytic anemia."},
-{"text": "T-cell activation and cytokine release (Type IV HSR)", "explanation": "This describes a delayed-type hypersensitivity, such as SJS/TEN or contact dermatitis, which would not occur in minutes."},
-{"text"
-: "Drug-antibody complex deposition in tissues (Type III HSR)", "explanation": "This describes serum sickness, which typically occurs 7-14 days after exposure."},
-{"text": "IgE-mediated mast cell degranulation (Type I HSR)", "explanation": "Correct. This is a classic Type I (anaphylactic) hypersensitivity reaction, which is IgE-mediated, immediate, and the most feared ADR of penicillins."},
-{"text"
-: "A direct, non-immunologic pharmacologic effect (Type A ADR)", "explanation": "This is incorrect. Anaphylaxis is a Type B (idiosyncratic, immunologic) reaction, not a predictable pharmacologic effect."}
+{"text": "Natural penicillins", "explanation": "Natural penicillins (e.g., Pen G) do not have activity against *Pseudomonas*."},
+{"text": "Penicillinase-resistant penicillins", "explanation": "Antistaphylococcal penicillins (e.g., nafcillin) do not have reliable activity against *Pseudomonas*."},
+{"text": "Aminopenicillins", "explanation": "Aminopenicillins (e.g., ampicillin) do not have activity against *Pseudomonas*."},
+{"text": "Antipseudomonal penicillins", "explanation": "Correct. Piperacillin (and ticarcillin) are specifically classified as antipseudomonal penicillins due to their activity against *P. aeruginosa*."},
+{"text": "Carbapenems", "explanation": "Carbapenems (e.g., meropenem) are a different class of beta-lactams, though they also have antipseudomonal activity."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L120_p_page-0044.jpg"
 },
 {
 "id": 6,
-"category": "Antimicrobial ADR: Ampicillin Rash",
-"questionText": "A 19-year-old college student presents with a sore throat, fever, and profound fatigue. A physician mistakenly diagnoses it as a streptococcal pharyngitis and prescribes amoxicillin. Five days later, the patient develops a diffuse, maculopapular rash over his entire body. Lab tests later confirm infectious mononucleosis (EBV). What is the most likely explanation for this rash?",
+"category": "Antimicrobial MOA: Beta-Lactamase Inhibitors",
+"questionText": "A patient is prescribed amoxicillin-clavulanate. What is the primary role of the clavulanate component?",
 "options": [
-{"text": "This is a true, IgE-mediated penicillin allergy (Type I HSR) and the patient must avoid all beta-lactams forever.", "explanation": "This is incorrect. This specific rash is *not* a true IgE-mediated allergy and is not a contraindication to future penicillin use."},
-{"text": "This is a non-allergic rash commonly seen when an aminopenicillin is given during an EBV infection.", "explanation": "Correct. A high percentage of patients with infectious mononucleosis (EBV) who are given an aminopenicillin (ampicillin or amoxicillin) will develop this characteristic, non-allergic maculopapular rash."},
-{"text": "This is a sign of Stevens-Johnson Syndrome (SJS), a life-threatening Type IV HSR.", "explanation": "This is incorrect. While SJS is a risk, the classic, non-pruritic maculopapular rash in the setting of EBV is a distinct, non-allergic entity."},
-{"text": "This is a sign of a *C. difficile* superinfection caused by the amoxicillin.", "explanation": "This is incorrect. *C. difficile* causes pseudomembranous colitis (diarrhea), not a diffuse body rash."},
-{"text": "This is a direct toxic effect of the amoxicillin on the patient's skin (Type A ADR).", "explanation": "This is incorrect. This is considered an idiosyncratic (Type B) reaction related to the interplay between the drug and the viral illness, not a predictable (Type A) toxic effect."}
+{"text": "It is a potent bactericidal antibiotic that kills organisms resistant to amoxicillin.", "explanation": "This is incorrect. Clavulanate has very weak or no intrinsic antibacterial activity."},
+{"text": "It is a 'suicide inhibitor' that binds to and inactivates bacterial beta-lactamase.", "explanation": "Correct. Clavulanate is a beta-lactamase inhibitor. It binds irreversibly ('suicide inhibition') to the beta-lactamase enzyme, protecting the amoxicillin from being destroyed."},
+{"text": "It blocks the renal OAT transporter, increasing the half-life of amoxicillin.", "explanation": "This is the mechanism of probenecid, not clavulanate."},
+{"text": "It alters the PBP2a target site, allowing amoxicillin to be effective against MRSA.", "explanation": "This is incorrect. No beta-lactamase inhibitor can overcome MRSA's target site modification."},
+{"text": "It enhances the oral bioavailability of the amoxicillin.", "explanation": "This is incorrect. Amoxicillin already has excellent oral bioavailability; clavulanate protects it from enzymatic destruction."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L120_p_page-0048.jpg"
 },
 {
 "id": 7,
-"category": "Antimicrobial ADR: C. difficile",
-"questionText": "A 72-year-old male was treated with a 10-day course of ampicillin-sulbactam (Unasyn) for an aspiration pneumonia. Two weeks later, he presents with profuse, watery, foul-smelling diarrhea and abdominal cramping. A stool test is positive for *Clostridioides difficile* toxin. This condition is best described as:",
+"category": "Antimicrobial Spectrum: Natural Penicillins",
+"questionText": "A 25-year-old patient presents with a painless chancre and is diagnosed with primary syphilis (*Treponema pallidum*). Which antibiotic is the drug of choice for this infection, due to its high efficacy against this spirochete?",
 "options": [
-{"text": "A Type I hypersensitivity reaction to the sulbactam component.", "explanation": "This is incorrect. This is an infectious complication, not an allergic reaction."},
-{"text"
-: "A predictable Type A side effect of ampicillin that is self-limiting.", "explanation": "This is incorrect. Simple diarrhea is a side effect, but *C. difficile* colitis is a severe, life-threatening superinfection."},
-{"text": "An idiosyncratic (Type B) reaction unrelated to the drug's mechanism.", "explanation": "This is incorrect. This is a *secondary effect* (Type A), which is a predictable consequence of the drug's broad-spectrum mechanism (killing normal gut flora)."},
-{"text": "A pharmacodynamic antagonism between ampicillin and the gut flora.", "explanation": "This is incorrect. This is a superinfection, not a pharmacodynamic interaction."},
-{"text": "A superinfection caused by the eradication of normal gut flora by the broad-spectrum antibiotic.", "explanation": "Correct. Broad-spectrum antibiotics (especially aminopenicillins, cephalosporins, and clindamycin) wipe out the normal, protective gut flora, allowing *C. difficile* to overgrow and release its toxins."}
+{"text": "Nafcillin", "explanation": "Nafcillin is a narrow-spectrum drug used for *Staphylococcus*."},
+{"text": "Amoxicillin", "explanation": "While amoxicillin has some activity, Penicillin G is the definitive drug of choice for syphilis."},
+{"text": "Piperacillin", "explanation": "Piperacillin is a broad-spectrum antipseudomonal agent; it is not the first-line choice for syphilis."},
+{"text": "Penicillin G", "explanation": "Correct. Penicillin G (a natural penicillin) remains the drug of choice for treating all stages of syphilis, caused by the spirochete *Treponema pallidum*."},
+{"text": "Vancomycin", "explanation": "Vancomycin is a glycopeptide used for gram-positive resistant infections like MRSA; it is not first-line for syphilis."}
 ],
-"correctAnswerIndex": 4
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L120_p_page-0034.jpg"
 },
 {
 "id": 8,
-"category": "Antimicrobial Classes: Natural Penicillins",
-"questionText": "A 25-year-old male presents with a painless chancre on his penis and diffuse lymphadenopathy. A rapid plasma reagin (RPR) test is positive, and a diagnosis of primary syphilis is made. What is the single-dose, first-line treatment of choice for this condition?",
+"category": "Adverse Effects: Penicillins",
+"questionText": "A patient with no known drug allergies is given an IV infusion of ampicillin. Within 5 minutes, they develop widespread hives (urticaria), facial swelling, and wheezing. This is an example of which type of hypersensitivity reaction?",
 "options": [
-{"text": "Oral Amoxicillin", "explanation": "While amoxicillin is a penicillin, the long-acting IM form (Benzathine Pen G) is the specific drug of choice for syphilis."},
-{"text": "Intravenous Nafcillin", "explanation": "Nafcillin is for *Staphylococcus*, not *Treponema pallidum*."},
-{"text": "Oral Penicillin V", "explanation": "Oral Penicillin V does not provide high enough, sustained serum concentrations to reliably treat syphilis."},
-{"text"
-: "Intramuscular Benzathine Penicillin G", "explanation": "Correct. A single IM injection of Benzathine Penicillin G is the drug of choice. It acts as a depot, releasing effective concentrations of penicillin G for several weeks to kill the slowly dividing *T. pallidum* spirochetes."},
-{"text": "Intravenous Piperacillin-Tazobactam", "explanation": "This is an overly broad-spectrum antipseudomonal agent and is not the drug of choice for syphilis."}
+{"text": "Type I (Anaphylactic)", "explanation": "Correct. This is a classic Type I, IgE-mediated hypersensitivity reaction (anaphylaxis), which is the most feared adverse effect of penicillins."},
+{"text": "Type II (Cytotoxic)", "explanation": "Type II reactions (e.g., hemolytic anemia) are delayed and involve cell destruction by IgG/IgM."},
+{"text": "Type III (Immune Complex)", "explanation": "Type III reactions (e.g., serum sickness) are delayed (days-weeks) and involve immune complex deposition."},
+{"text": "Type IV (Cell-Mediated)", "explanation": "Type IV reactions (e.g., contact dermatitis) are delayed (48-72 hours) and T-cell mediated."},
+{"text": "Type A (Augmented)", "explanation": "This is a Type B (Bizarre/Idiosyncratic) reaction, as it is immunologic and not a predictable, dose-dependent effect."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 0,
+"slideImagePath": "images/L120_p_page-0051.jpg"
 },
 {
 "id": 9,
-"category": "Antimicrobial Classes: Natural Penicillins",
-"questionText": "A 30-year-old patient with a history of rheumatic fever must receive secondary prophylaxis. The physician prescribes Benzathine Penicillin G, to be given as an IM injection every 4 weeks. What is the primary pharmacokinetic advantage of this specific formulation?",
+"category": "Antimicrobial PK: Aminopenicillins",
+"questionText": "A patient with a URI is prescribed amoxicillin, and a patient with a GI infection is prescribed ampicillin. What is the primary pharmacokinetic advantage of amoxicillin over ampicillin that makes it a preferred oral agent?",
 "options": [
-{"text": "It is acid-stable and can be given orally.", "explanation": "This is incorrect. Benzathine Pen G is IM only; Penicillin V is the oral, acid-stable formulation."},
-{"text": "It has a bulky R-group that resists beta-lactamases.", "explanation": "This describes antistaphylococcal penicillins like nafcillin, not Pen G."},
-{"text"
-: "It acts as an intramuscular depot, providing low, sustained drug levels for weeks.", "explanation": "Correct. Benzathine Penicillin G is a long-acting formulation that, when injected IM, provides a depot that slowly releases the drug, maintaining low, protective levels for 3-4 weeks."},
-{"text": "It achieves a very high C<sub>max</sub>/MIC ratio, which is ideal for time-dependent killers.", "explanation": "This is incorrect. It provides a *low*, sustained level (ideal for T > MIC), and a high C<sub>max</sub> is for *concentration-dependent* killers."},
-{"text": "It is combined with probenecid to block its renal excretion.", "explanation": "This is incorrect. Probenecid *can* be used to boost penicillin levels, but it is a separate drug and not part of the Benzathine G formulation itself."}
+{"text": "Amoxicillin is resistant to beta-lactamase.", "explanation": "This is incorrect. Both ampicillin and amoxicillin are susceptible to beta-lactamase."},
+{"text": "Amoxicillin has a much longer half-life.", "explanation": "This is incorrect. Their half-lives are similar."},
+{"text": "Amoxicillin has better oral absorption (bioavailability).", "explanation": "Correct. Amoxicillin is better absorbed from the GI tract than ampicillin, leading to higher, more reliable plasma concentrations."},
+{"text": "Amoxicillin has activity against *Pseudomonas*.", "explanation": "This is incorrect. Neither drug has activity against *Pseudomonas*."},
+{"text": "Amoxicillin is cleared by the liver, whereas ampicillin is cleared by the kidneys.", "explanation": "This is incorrect. Both are primarily cleared by the kidneys."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L120_p_page-0039.jpg"
 },
 {
 "id": 10,
-"category": "Antimicrobial Classes: Natural Penicillins",
-"questionText": "A patient with a *Streptococcus pyogenes* pharyngitis ('strep throat') is prescribed an oral antibiotic. The physician chooses Penicillin V over Penicillin G. What is the primary rationale for this choice?",
+"category": "Antimicrobial PK: Antistaphylococcal",
+"questionText": "A patient with severe staphylococcal endocarditis is being treated with IV nafcillin. The patient has severe chronic kidney disease (CKD). Why does nafcillin *not* require a dose adjustment in this patient?",
 "options": [
-{"text": "Penicillin V is bactericidal, whereas Penicillin G is bacteriostatic.", "explanation": "This is incorrect. Both are bactericidal."},
-{"text": "Penicillin V is acid-stable and well-absorbed from the GI tract.", "explanation": "Correct. Penicillin G is acid-labile (destroyed by stomach acid) and must be given parenterally (IV/IM). Penicillin V is acid-stable and designed for oral administration."},
-{"text": "Penicillin V is resistant to staphylococcal beta-lactamases.", "explanation": "This is incorrect. Neither Pen G nor Pen V is resistant to beta-lactamases."},
-{"text": "Penicillin V has a broader spectrum, including *Pseudomonas*.", "explanation": "This is incorrect. Both have the same narrow, gram-positive spectrum."},
-{"text": "Penicillin V does not cause allergic reactions.", "explanation": "This is incorrect. All penicillins share the risk of hypersensitivity."}
+{"text": "Nafcillin is eliminated primarily by biliary excretion.", "explanation": "Correct. Unlike most other penicillins, which are cleared renally, nafcillin is primarily cleared by the liver (biliary excretion) and does not require dose adjustment for renal failure."},
+{"text": "Nafcillin is inactivated by CYP450 enzymes.", "explanation": "This is incorrect. While it is cleared hepatically, the primary route is biliary excretion, not CYP450 metabolism."},
+{"text": "Nafcillin is a prodrug activated by the kidneys.", "explanation": "This is incorrect. Nafcillin is an active drug, not a prodrug."},
+{"text": "Nafcillin is resistant to renal clearance.", "explanation": "This is incorrect. It is simply not cleared renally; it is cleared by the liver."},
+{"text": "Nafcillin's half-life is not affected by clearance.", "explanation": "This is impossible. A drug's half-life is directly dependent on its clearance."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 0,
+"slideImagePath": "images/L120_p_page-0036.jpg"
 },
 {
 "id": 11,
-"category": "Antimicrobial Classes: Antistaphylococcal",
-"questionText": "A 40-year-old IV drug user presents with fever, chills, and a new heart murmur. Blood cultures grow gram-positive cocci in clusters, identified as Methicillin-Sensitive *Staphylococcus aureus* (MSSA). What is the intravenous drug of choice for this patient's endocarditis?",
+"category": "Antimicrobial Spectrum: Natural Penicillins",
+"questionText": "A patient with 'strep throat' (*Strep. pyogenes*) is prescribed an oral antibiotic. The physician chooses Penicillin V over Penicillin G. What is the primary rationale for this choice?",
 "options": [
-{"text": "Penicillin G", "explanation": "This is incorrect. Most *S. aureus* (even MSSA) produce beta-lactamases that will destroy Penicillin G."},
-{"text": "Vancomycin", "explanation": "This is incorrect. While vancomycin *covers* MSSA, the antistaphylococcal penicillins (e.g., nafcillin) are superior and are the drugs of choice."},
-{"text": "Nafcillin or Oxacillin", "explanation": "Correct. These penicillinase-resistant penicillins are the drugs of choice for serious MSSA infections like endocarditis because they are bactericidal and superior to vancomycin."},
-{"text": "Ampicillin-Sulbactam", "explanation": "While this combination *covers* MSSA (due to the sulbactam), the first-line, standard-of-care agents are nafcillin or oxacillin."},
-{"text": "Piperacillin-Tazobactam", "explanation": "While this covers MSSA, it is an overly broad-spectrum agent. Nafcillin or oxacillin is the preferred, narrower-spectrum drug of choice."}
+{"text": "Penicillin V has a broader spectrum against gram-negatives.", "explanation": "This is incorrect. Both Pen G and Pen V have a similar, narrow spectrum."},
+{"text": "Penicillin G is resistant to beta-lactamase.", "explanation": "This is incorrect. Neither is resistant to beta-lactamase."},
+{"text": "Penicillin V is more acid-stable and better absorbed orally.", "explanation": "Correct. Penicillin G is destroyed by stomach acid (acid-labile) and must be given IV/IM. Penicillin V is acid-stable, allowing it to be given orally."},
+{"text": "Penicillin V has a longer half-life.", "explanation": "This is incorrect. Both have short half-lives."},
+{"text": "Penicillin G only covers *Staphylococcus*.", "explanation": "This is incorrect. Pen G is the drug of choice for *Streptococcus*, but it is not orally bioavailable."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L120_p_page-0033.jpg"
 },
 {
 "id": 12,
-"category": "Antimicrobial Classes: Antistaphylococcal",
-"questionText": "A patient has an MSSA infection, which is known to produce penicillinase (a type of beta-lactamase). Why is nafcillin effective against this organism when penicillin G is not?",
+"category": "Antimicrobial Resistance: MRSA",
+"questionText": "A patient has a severe infection confirmed to be MRSA. The physician knows that no penicillin-class drug will be effective. This is because MRSA has acquired the *mecA* gene, which leads to which mechanism of resistance?",
 "options": [
-{"text": "Nafcillin has an altered PBP target site.", "explanation": "This is incorrect. The *drug* does not have an altered target; it is the *bacteria* (e.g., MRSA) that alters its target."},
-{"text": "Nafcillin has a bulky R-group that sterically hinders beta-lactamase binding.", "explanation": "Correct. The antistaphylococcal penicillins were specifically designed with a large, bulky R-group that prevents the beta-lactamase enzyme from accessing and hydrolyzing the beta-lactam ring."},
-{"text": "Nafcillin is a natural suicide inhibitor of beta-lactamase.", "explanation": "This is incorrect. This describes the mechanism of clavulanate and tazobactam; nafcillin just *resists* the enzyme."},
-{"text"
-: "Nafcillin follows zero-order kinetics, overwhelming the enzyme.", "explanation": "This is incorrect. It follows first-order kinetics, and its mechanism is steric hindrance."},
-{"text": "Nafcillin uses porin channels that the enzyme cannot enter.", "explanation": "This is incorrect. *S. aureus* is gram-positive and does not have porin channels in an outer membrane."}
+{"text": "Production of a high-efficiency efflux pump.", "explanation": "This is a mechanism of resistance, but it is not the one used by MRSA."},
+{"text": "Production of a potent beta-lactamase.", "explanation": "This is a common mechanism for *Staph. aureus*, but the *methicillin-resistance* in MRSA is due to a target change."},
+{"text": "Modification of the target (PBP) to PBP2a.", "explanation": "Correct. The *mecA* gene codes for a novel penicillin-binding protein (PBP2a) that has a very low affinity for beta-lactam antibiotics, so the drugs cannot bind and work."},
+{"text": "Alteration of the drug's D-Ala-D-Ala target to D-Ala-D-Lac.", "explanation": "This is the mechanism of resistance for Vancomycin-Resistant *Enterococcus* (VRE), not MRSA."},
+{"text": "Formation of a new metabolic pathway for peptidoglycan synthesis.", "explanation": "This is incorrect. The pathway is the same, but the enzyme (target) is altered."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L120_p_page-0018.jpg"
 },
 {
 "id": 13,
-"category": "Antimicrobial ADR: Nafcillin",
-"questionText": "A patient being treated with a long-term, high-dose course of intravenous nafcillin for MSSA osteomyelitis develops a fever and a new rash. Lab work is significant for an elevated creatinine and eosinophilia. A urinalysis shows white blood cell casts. This presentation is most consistent with which adverse drug reaction?",
+"category": "Antimicrobial Resistance: Beta-Lactamase",
+"questionText": "A strain of *Staphylococcus aureus* is resistant to Penicillin G but remains susceptible to Nafcillin. This pattern of resistance is due to which mechanism?",
 "options": [
-{"text": "Anaphylaxis (Type I HSR)", "explanation": "This is incorrect. Anaphylaxis is an immediate reaction with wheezing and hypotension, not a delayed onset of renal failure."},
-{"text"
-: "Acute Interstitial Nephritis (AIN)", "explanation": "Correct. Methicillin was removed from the market for causing high rates of AIN. Nafcillin and oxacillin can also cause this Type IV hypersensitivity reaction, which classically presents with fever, rash, eosinophilia, and renal failure."},
-{"text": "Serum Sickness (Type III HSR)", "explanation": "This is incorrect. Serum sickness involves immune complex deposition, which could cause glomerulonephritis, but AIN is the more classic reaction to this drug class."},
-{"text": "*C. difficile* colitis", "explanation": "This is incorrect. *C. difficile* causes severe diarrhea, not renal failure and eosinophilia."},
-{"text"
-: "A non-allergic viral rash.", "explanation": "This is incorrect. This is an immunologic reaction to the drug, not a viral rash."}
+{"text": "Alteration of porin channels in the outer membrane.", "explanation": "*Staph. aureus* is a gram-positive organism and does not have an outer membrane with porins."},
+{"text": "Production of a beta-lactamase (penicillinase).", "explanation": "Correct. This strain produces penicillinase, which destroys Penicillin G. It is susceptible to Nafcillin because Nafcillin's bulky side chain protects it from this enzyme."},
+{"text": "Acquisition of the *mecA* gene (PBP2a).", "explanation": "This would make the organism MRSA, and it would be resistant to *both* Penicillin G and Nafcillin."},
+{"text": "Production of an efflux pump.", "explanation": "This is not the primary mechanism of penicillin resistance in *Staphylococcus*."},
+{"text": "Modification of the D-Ala-D-Ala target.", "explanation": "This is the mechanism of vancomycin resistance, not penicillin resistance."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L120_p_page-0021.jpg"
 },
 {
 "id": 14,
-"category": "Antimicrobial PK: Antistaphylococcal",
-"questionText": "A 30-year-old male is being discharged from the hospital after a course of IV nafcillin for MSSA cellulitis. The physician wants to switch him to an oral equivalent. Which of the following is an orally bioavailable, penicillinase-resistant penicillin, and what counseling must be provided?",
+"category": "Antimicrobial Resistance: Gram-Negatives",
+"questionText": "Ampicillin is often ineffective against *Pseudomonas aeruginosa* (a gram-negative rod) because the drug cannot reach its target. This is due to which intrinsic resistance mechanism?",
 "options": [
-{"text": "Amoxicillin; must be taken with a beta-lactamase inhibitor.", "explanation": "This is incorrect. Amoxicillin is *not* penicillinase-resistant."},
-{"text": "Dicloxacillin; must be taken on an empty stomach.", "explanation": "Correct. Dicloxacillin is the oral option in the antistaphylococcal class. Its absorption is significantly decreased by food, so it must be taken on an empty stomach."},
-{"text": "Penicillin V; absorption is not affected by food.", "explanation": "This is incorrect. Penicillin V is *not* penicillinase-resistant."},
-{"text": "Ampicillin; can be taken with food.", "explanation": "This is incorrect. Ampicillin is *not* penicillinase-resistant, and its absorption *is* decreased by food."},
-{"text": "Nafcillin; can be taken with food.", "explanation": "This is incorrect. Nafcillin is not available orally."}
+{"text": "The bacteria has an altered PBP2a target.", "explanation": "This is the mechanism of MRSA, a gram-positive coccus."},
+{"text": "The bacteria produces a potent penicillinase.", "explanation": "While *P. aeruginosa* *does* produce beta-lactamases, its *intrinsic* resistance to ampicillin is also due to its outer membrane."},
+{"text": "The drug cannot penetrate the outer membrane (porin channels).", "explanation": "Correct. Gram-negative bacteria have an outer membrane that acts as a permeability barrier. Drugs like ampicillin are too large or have the wrong charge to pass through the porin channels to reach the PBPs in the periplasmic space."},
+{"text": "The bacteria's ribosomes are the wrong shape.", "explanation": "Penicillins do not target ribosomes."},
+{"text": "The bacteria has no cell wall.", "explanation": "This describes atypical bacteria like *Mycoplasma*. *P. aeruginosa* has a cell wall."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L120_p_page-0023.jpg"
 },
 {
 "id": 15,
-"category": "Antimicrobial Classes: Aminopenicillins",
-"questionText": "A 68-year-old male with a history of a heart transplant (immunocompromised) is admitted with fever and confusion. Blood cultures grow *Listeria monocytogenes*. What is the antibiotic of choice for this infection?",
+"category": "Adverse Effects: Penicillins",
+"questionText": "A patient on high-dose penicillin G for several weeks develops fatigue and jaundice. Lab work reveals a positive Coombs test and hemolytic anemia. This is an example of which type of hypersensitivity reaction?",
 "options": [
-{"text": "Vancomycin", "explanation": "This is incorrect. *Listeria* is intrinsically resistant to vancomycin."},
-{"text": "Ceftriaxone", "explanation": "This is incorrect. All cephalosporins are *inactive* against *Listeria*."},
-{"text": "Ampicillin", "explanation": "Correct. Ampicillin (an aminopenicillin) is the drug of choice for *Listeria monocytogenes*."},
-{"text": "Nafcillin", "explanation": "This is incorrect. Nafcillin is for MSSA and is not the drug of choice for *Listeria*."},
-{"text": "Gentamicin", "explanation": "This is incorrect. Gentamicin is often *added* to ampicillin for synergy in severe cases, but ampicillin is the primary drug of choice."}
+{"text": "Type I (Anaphylactic)", "explanation": "Type I is an immediate, IgE-mediated reaction (e.g., hives, wheezing)."},
+{"text": "Type II (Cytotoxic)", "explanation": "Correct. Drug-induced hemolytic anemia is a classic Type II (cytotoxic) hypersensitivity, where IgG/IgM antibodies bind to the drug on the RBC surface, leading to cell lysis."},
+{"text": "Type III (Immune Complex)", "explanation": "Type III (e.g., serum sickness) involves the deposition of *circulating* immune complexes, not antibodies binding directly to cells."},
+{"text": "Type IV (Cell-Mediated)", "explanation": "Type IV is a T-cell mediated, delayed reaction (e.g., contact dermatitis)."},
+{"text": "Anaphylactoid Reaction", "explanation": "An anaphylactoid reaction is a non-IgE-mediated mast cell degranulation (like 'Red Man Syndrome' from vancomycin)."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L120_p_page-0051.jpg"
 },
 {
 "id": 16,
-"category": "Antimicrobial PK: Aminopenicillins",
-"questionText": "A 2-year-old child is prescribed amoxicillin oral suspension for acute otitis media. The parent is advised that the medication can be given without regard to meals. Why is amoxicillin's absorption *not* affected by food, unlike ampicillin or dicloxacillin?",
+"category": "Adverse Effects: Penicillins",
+"questionText": "A patient develops a fever, rash, and joint pain 10 days after starting a penicillin infusion. This is determined to be 'serum sickness.' This is an example of which type of hypersensitivity reaction?",
 "options": [
-{"text": "Amoxicillin is acid-labile and is destroyed by food-induced acid production.", "explanation": "This is incorrect. Amoxicillin is acid-stable, and food does *not* significantly affect its absorption."},
-{"text": "Amoxicillin is well-absorbed from the GI tract, and its absorption is not affected by food.", "explanation": "Correct. Amoxicillin is unique among these penicillins in that it is very well-absorbed orally and its bioavailability is *not* significantly decreased by the presence of food."},
-{"text"
-: "Amoxicillin is a prodrug that is only activated in the liver.", "explanation": "This is incorrect. Amoxicillin is an active drug, not a prodrug."},
-{"text": "Amoxicillin is 100% bioavailable and not subject to first-pass metabolism.", "explanation": "This is incorrect. Its bioavailability is high (75-90%) but not 100%."},
-{"text": "Food *increases* the absorption of amoxicillin by slowing GI transit time.", "explanation": "This is incorrect. Food has a negligible effect on amoxicillin's absorption, unlike ampicillin, which is *decreased* by food."}
+{"text": "Type I (Anaphylactic)", "explanation": "Type I is an immediate, IgE-mediated reaction."},
+{"text": "Type II (Cytotoxic)", "explanation": "Type II involves antibodies binding directly to cells (e.g., hemolytic anemia)."},
+{"text": "Type III (Immune Complex)", "explanation": "Correct. Serum sickness is a classic Type III hypersensitivity, where circulating antigen-antibody complexes get lodged in tissues (like joints and blood vessels), causing a systemic inflammatory response."},
+{"text": "Type IV (Cell-Mediated)", "explanation": "Type IV is a T-cell mediated, delayed reaction (e.g., contact dermatitis)."},
+{"text": "Type A (Augmented)", "explanation": "This is a Type B (Bizarre/Idiosyncratic) immunologic reaction, not a predictable Type A effect."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L120_p_page-0051.jpg"
 },
 {
 "id": 17,
-"category": "Antimicrobial Classes: Aminopenicillins",
-"questionText": "A physician is choosing an antibiotic for a gram-negative rod infection. The aminopenicillins (ampicillin/amoxicillin) extend the spectrum of Penicillin G to include some gram-negative organisms. This extended spectrum is best remembered by the mnemonic 'HELPSS,' which includes all of the following EXCEPT:",
+"category": "Adverse Effects: Penicillins",
+"questionText": "A patient who previously used a neomycin-containing topical cream now develops an itchy, red rash 48 hours after a new application. This T-cell mediated reaction is an example of which type of hypersensitivity?",
 "options": [
-{"text": "*Haemophilus influenzae*", "explanation": "This is incorrect. *H. influenzae* is part of the 'HELPSS' spectrum."},
-{"text": "*Escherichia coli*", "explanation": "This is incorrect. *E. coli* is part of the 'HELPSS' spectrum."},
-{"text": "*Listeria monocytogenes*", "explanation": "This is incorrect. *Listeria* is part of the 'HELPSS' spectrum and ampicillin is the drug of choice."},
-{"text": "*Pseudomonas aeruginosa*", "explanation": "Correct. *Pseudomonas* is *not* covered by aminopenicillins. Coverage for *Pseudomonas* requires an antipseudomonal penicillin like piperacillin."},
-{"text": "*Salmonella* species", "explanation": "This is incorrect. *Salmonella* and *Shigella* are part of the 'HELPSS' spectrum."}
+{"text": "Type I (Anaphylactic)", "explanation": "Type I is an immediate (minutes) IgE-mediated reaction."},
+{"text": "Type II (Cytotoxic)", "explanation": "Type II is an antibody-mediated reaction against cells."},
+{"text": "Type III (Immune Complex)", "explanation": "Type III is an immune-complex deposition reaction."},
+{"text": "Type IV (Cell-Mediated)", "explanation": "Correct. Contact dermatitis is a classic Type IV (delayed-type) hypersensitivity, which is mediated by T-cells and takes 24-72 hours to develop upon re-exposure."},
+{"text": "Type A (Augmented)", "explanation": "This is an unpredictable (Type B) immunologic reaction."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L120_p_page-0051.jpg"
 },
 {
 "id": 18,
-"category": "Antimicrobial Classes: Antipseudomonal",
-"questionText": "A patient in the ICU with ventilator-associated pneumonia grows *Pseudomonas aeruginosa* in his sputum culture. The physician wants to use a penicillin with activity against this organism. Which of the following is the most appropriate choice?",
+"category": "Antimicrobial Spectrum: Natural Penicillins",
+"questionText": "A patient is diagnosed with gas gangrene caused by *Clostridium perfringens*. The physician initiates treatment with high-dose IV Penicillin G. This choice is appropriate because Penicillin G's spectrum includes:",
 "options": [
-{"text": "Ampicillin-Sulbactam", "explanation": "This is incorrect. Ampicillin does not have activity against *Pseudomonas*."},
-{"text": "Nafcillin", "explanation": "This is incorrect. Nafcillin is a narrow-spectrum agent for MSSA and has no gram-negative activity."},
-{"text": "Amoxicillin-Clavulanate", "explanation": "This is incorrect. Amoxicillin does not have activity against *Pseudomonas*."},
-{"text": "Piperacillin-Tazobactam", "explanation": "Correct. Piperacillin is the only penicillin listed with intrinsic activity against *Pseudomonas aeruginosa*. It is co-formulated with tazobactam to inhibit beta-lactamases."},
-{"text": "Penicillin G", "explanation": "This is incorrect. Penicillin G has a very narrow gram-positive and anaerobe spectrum and is not active against *Pseudomonas*."}
+{"text": "Gram-positive rods like *Clostridium*.", "explanation": "Correct. The spectrum for natural penicillins includes gram-positive cocci (like *Strep*) and gram-positive rods (like *Clostridium*)."},
+{"text": "Gram-negative rods like *Pseudomonas*.", "explanation": "This is incorrect. Penicillin G has no activity against *Pseudomonas*."},
+{"text": "Gram-negative rods like *E. coli*.", "explanation": "This is incorrect. This is the spectrum for aminopenicillins, not natural penicillins."},
+{"text": "Methicillin-resistant *Staphylococcus aureus* (MRSA).", "explanation": "This is incorrect. MRSA is resistant to all penicillins."},
+{"text": "Atypical bacteria like *Mycoplasma*.", "explanation": "This is incorrect. Penicillins are not active against atypicals."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 0,
+"slideImagePath": "images/L120_p_page-0034.jpg"
 },
 {
 "id": 19,
-"category": "Antimicrobial MOA: Beta-Lactamase Inhibitors",
-"questionText": "A patient with a diabetic foot ulcer is treated with ampicillin-sulbactam (Unasyn). The sulbactam component has minimal intrinsic antibacterial activity. What is its primary role in this combination?",
+"category": "Antimicrobial Spectrum: Antistaphylococcal",
+"questionText": "A 30-year-old IV drug user presents with fever and a new heart murmur. Blood cultures grow gram-positive cocci in clusters that are catalase-positive, coagulase-positive, and penicillin-resistant (due to penicillinase) but methicillin-susceptible. What is the drug of choice for this infection (MSSA)?",
 "options": [
-{"text": "It acts as a 'suicide inhibitor' that irreversibly binds to and inactivates beta-lactamase enzymes.", "explanation": "Correct. Beta-lactamase inhibitors like sulbactam, clavulanate, and tazobactam are 'suicide inhibitors' that are preferentially attacked by and irreversibly bind to beta-lactamases, thereby 'protecting' the partner penicillin."},
-{"text": "It blocks the PBP2a target site on MRSA, allowing ampicillin to work.", "explanation": "This is incorrect. Beta-lactamase inhibitors do *not* overcome PBP modification, which is the mechanism of MRSA resistance."},
-{"text": "It blocks the renal OAT transporter, increasing the half-life of ampicillin.", "explanation": "This is the mechanism of *probenecid*, not sulbactam."},
-{"text": "It inhibits the 30S ribosome, providing synergistic bactericidal activity.", "explanation": "This is incorrect. Sulbactam's mechanism is enzyme inhibition, not ribosomal activity."},
-{"text": "It damages the gram-negative outer membrane, allowing ampicillin to enter.", "explanation": "This is incorrect. This is not the mechanism of beta-lactamase inhibitors."}
+{"text": "Penicillin G", "explanation": "This is incorrect. The organism is penicillin-resistant because it produces penicillinase, which would destroy Penicillin G."},
+{"text": "Nafcillin (or Oxacillin)", "explanation": "Correct. This organism is MSSA (methicillin-susceptible *Staph. aureus*). The drugs of choice are penicillinase-resistant penicillins, such as IV nafcillin or oxacillin."},
+{"text": "Vancomycin", "explanation": "This is incorrect. Vancomycin is the drug of choice for *MRSA* (methicillin-resistant), not MSSA. Using vancomycin for MSSA is an example of poor antimicrobial stewardship."},
+{"text": "Ampicillin-Sulbactam", "explanation": "While this combination *would* be effective (the sulbactam inhibits the penicillinase), the drug of choice and standard of care is a penicillinase-resistant penicillin like nafcillin."},
+{"text": "Ceftriaxone", "explanation": "This is incorrect. Ceftriaxone (a 3rd-gen cephalosporin) does not have reliable activity against *Staph. aureus*."}
 ],
-"correctAnswerIndex": 0
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L120_p_page-0037.jpg"
 },
 {
 "id": 20,
-"category": "Antimicrobial Combos: Spectrum",
-"questionText": "A patient is prescribed oral amoxicillin-clavulanate (Augmentin) for a dog bite wound. The addition of clavulanate expands amoxicillin's spectrum to cover beta-lactamase producing organisms. Which of the following organisms, *not* covered by amoxicillin alone, would be covered by this combination?",
+"category": "Antimicrobial Spectrum: Aminopenicillins",
+"questionText": "A 60-year-old man with a prosthetic heart valve is scheduled for a dental cleaning. To prevent infective endocarditis, he is given a single oral dose of amoxicillin 1 hour before the procedure. Amoxicillin is chosen in this prophylactic setting for its effectiveness against which organism?",
 "options": [
-{"text": "*Treponema pallidum* (Syphilis)", "explanation": "This is incorrect. *T. pallidum* is covered by amoxicillin *alone* (as it is susceptible to natural penicillins) and does not produce beta-lactamase."},
-{"text": "*Listeria monocytogenes*", "explanation": "This is incorrect. *Listeria* is covered by amoxicillin *alone*."},
-{"text": "*Bacteroides fragilis* (Anaerobe)", "explanation": "Correct. *B. fragilis* is a common anaerobe that produces beta-lactamase, making it resistant to amoxicillin. The addition of clavulanate inhibits this enzyme and restores activity, making Augmentin a good choice for bite wounds."},
-{"text": "*Pseudomonas aeruginosa*", "explanation": "This is incorrect. Amoxicillin has no intrinsic activity against *Pseudomonas*, so adding an inhibitor does not help. Piperacillin is needed."},
-{"text": "MRSA (*Staphylococcus aureus*)", "explanation": "This is incorrect. MRSA resistance is due to PBP alteration, not beta-lactamase, so clavulanate has no effect."}
+{"text": "*Staphylococcus aureus*", "explanation": "This is incorrect. Amoxicillin is destroyed by the penicillinase produced by most *Staph. aureus*."},
+{"text": "*Pseudomonas aeruginosa*", "explanation": "This is incorrect. Amoxicillin has no activity against *Pseudomonas*."},
+{"text": "*Viridans group Streptococci*", "explanation": "Correct. Dental procedures commonly aerosolize *Viridans group Streptococci* (which are normal oral flora) into the bloodstream. Amoxicillin is used to kill these bacteria before they can seed the patient's prosthetic valve."},
+{"text": "*Enterococcus faecalis*", "explanation": "While ampicillin/amoxicillin *are* used to treat *Enterococcus*, the primary target for *dental* prophylaxis is *Viridans Streptococci*."},
+{"text": "*Haemophilus influenzae*", "explanation": "This is incorrect. *H. influenzae* is a respiratory pathogen, not the target of dental prophylaxis."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L120_p_page-0040.jpg"
 },
 {
 "id": 21,
-"category": "Antimicrobial Combos: MRSA",
-"questionText": "A physician is treating a severe skin and soft tissue infection. The culture grows MRSA. The physician considers starting piperacillin-tazobactam (Zosyn). Why is this drug combination ineffective for treating MRSA?",
+"category": "Antimicrobial MOA: Beta-Lactamase Inhibitors",
+"questionText": "A patient is prescribed Augmentin (amoxicillin-clavulanate). The clavulanate component has minimal intrinsic antibacterial activity. What is its mechanism of action?",
 "options": [
-{"text": "MRSA produces a beta-lactamase that is resistant to tazobactam.", "explanation": "This is incorrect. The resistance mechanism of MRSA is not beta-lactamase production."},
-{"text": "Piperacillin has no intrinsic activity against gram-positive organisms.", "explanation": "This is incorrect. Piperacillin has good activity against *Strep* and *Enterococcus*."},
-{"text": "MRSA resistance is due to an altered PBP (PBP2a) that beta-lactams cannot bind.", "explanation": "Correct. MRSA resistance is due to an altered target (PBP2a from the *mecA* gene). Since neither piperacillin nor tazobactam can bind to this altered PBP, the combination is ineffective."},
-{"text": "MRSA is a gram-negative organism and piperacillin only covers gram-positives.", "explanation": "This is incorrect. MRSA (*S. aureus*) is a gram-positive coccus."},
-{"text": "Tazobactam is hydrolyzed by the PBP2a protein.", "explanation": "This is incorrect. PBP2a is the *target* that is not bound; it is not an enzyme that hydrolyzes the inhibitor."}
+{"text": "It inhibits the renal OAT transporter, increasing amoxicillin's half-life.", "explanation": "This is the mechanism of probenecid, not clavulanate."},
+{"text": "It alters the PBP target, making amoxicillin effective against MRSA.", "explanation": "This is incorrect. No beta-lactamase inhibitor can overcome PBP modification."},
+{"text": "It acts as a 'suicide inhibitor,' irreversibly binding to and inactivating beta-lactamase enzymes.", "explanation": "Correct. Clavulanate, sulbactam, and tazobactam are beta-lactamase inhibitors that protect the penicillin from enzymatic degradation."},
+{"text": "It is a protein synthesis inhibitor that works synergistically with amoxicillin.", "explanation": "This is incorrect. It is not a protein synthesis inhibitor."},
+{"text": "It disrupts the gram-negative outer membrane, allowing amoxicillin to enter.", "explanation": "This is incorrect. It is an enzyme inhibitor."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L120_p_page-0048.jpg"
 },
 {
 "id": 22,
-"category": "Antimicrobial PK: Renal",
-"questionText": "A 70-year-old male with a creatinine clearance of 25 mL/min is being treated with IV piperacillin-tazobactam. How should this patient's dosing be adjusted compared to a patient with normal renal function?",
+"category": "Antimicrobial Spectrum: Combos",
+"questionText": "A 50-year-old diabetic patient is admitted with a severe, polymicrobial diabetic foot infection. The physician starts IV piperacillin-tazobactam (Zosyn). This combination is chosen because it provides broad-spectrum coverage against all of the following EXCEPT:",
 "options": [
-{"text": "The dose should be increased to overcome renal resistance.", "explanation": "This is incorrect. Reduced renal function will *decrease* clearance, leading to *accumulation*."},
-{"text": "The dose or frequency should be reduced to account for decreased renal clearance.", "explanation": "Correct. Penicillins, including piperacillin, are primarily excreted by the kidneys. In renal failure, clearance is reduced, and the dose or dosing interval must be adjusted (e.g., less drug or given less frequently) to prevent accumulation and toxicity (like seizures)."},
-{"text": "No adjustment is needed, as piperacillin is hepatically metabolized.", "explanation": "This is incorrect. Piperacillin is primarily *renally* cleared."},
-{"text"
-: "No adjustment is needed, as piperacillin is not toxic.", "explanation": "This is incorrect. At high doses, especially in renal failure, all penicillins can accumulate and cause neurotoxicity (seizures)."},
-{"text": "The patient should be switched to nafcillin, which is also renally cleared.", "explanation": "This is incorrect. Nafcillin is *hepatically* cleared, which *would* be an option, but the statement that it is *renally* cleared is false."}
+{"text": "Gram-positive cocci (e.g., *Streptococci*)", "explanation": "Piperacillin (like Pen G) is active against *Streptococci*."},
+{"text": "Gram-negative rods (e.g., *E. coli*)", "explanation": "Piperacillin (an antipseudomonal) is active against many gram-negative rods."},
+{"text": "Anaerobes (e.g., *Bacteroides*)", "explanation": "Piperacillin/tazobactam has excellent anaerobic coverage."},
+{"text": "*Pseudomonas aeruginosa*", "explanation": "Piperacillin is an antipseudomonal penicillin, and this combination is a first-line agent for *Pseudomonas*."},
+{"text": "Methicillin-Resistant *Staphylococcus aureus* (MRSA)", "explanation": "Correct. No penicillin/inhibitor combination is effective against MRSA, which has an altered PBP target, not an enzyme that can be inhibited."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 4,
+"slideImagePath": "images/L120_p_page-0049.jpg"
 },
 {
 "id": 23,
-"category": "Antimicrobial PK: Drug Interactions",
-"questionText": "A patient is receiving high-dose IV penicillin G. The physician also administers probenecid, an older drug used for gout. What is the pharmacokinetic mechanism by which probenecid increases the half-life of penicillin?",
+"category": "Adverse Effects: Penicillins",
+"questionText": "A patient being treated with high-dose, long-term IV nafcillin for osteomyelitis develops a fever and a critically low white blood cell count. This adverse effect, which is most associated with nafcillin, is known as:",
 "options": [
-{"text": "It inhibits CYP450 enzymes, decreasing penicillin's metabolism.", "explanation": "This is incorrect. Penicillins are not significantly metabolized by CYP enzymes; they are renally excreted."},
-{"text": "It displaces penicillin from plasma proteins, increasing its Vd.", "explanation": "This is incorrect. This is not the mechanism of probenecid."},
-{"text": "It blocks the Organic Anion Transporter (OAT) in the renal tubule.", "explanation": "Correct. Penicillins are actively secreted into the urine by the OAT. Probenecid competes for and blocks this transporter, *decreasing* renal clearance and thereby *increasing* the half-life and plasma concentration of penicillin."},
-{"text": "It acidifies the urine, promoting passive reabsorption of the penicillin.", "explanation": "This is incorrect. The mechanism is active transporter competition, not pH-dependent passive reabsorption."},
-{"text": "It induces P-glycoprotein, increasing penicillin's absorption.", "explanation": "This is incorrect. This describes an induction/absorption interaction; probenecid works on renal *excretion*."}
+{"text": "Hemolytic anemia", "explanation": "This is a Type II hypersensitivity that can occur, but neutropenia is more specifically associated with nafcillin."},
+{"text": "Neutropenia", "explanation": "Correct. While all penicillins can cause bone marrow suppression, nafcillin is particularly associated with causing neutropenia (a low neutrophil count)."},
+{"text": "Thrombocytopenia", "explanation": "This is a low platelet count, which is a less common hematologic side effect than nafcillin-induced neutropenia."},
+{"text": "Maculopapular rash", "explanation": "This is a common side effect of aminopenicillins, especially with mononucleosis."},
+{"text": "Serum sickness", "explanation": "This is a Type III hypersensitivity, not a direct hematologic toxicity."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L120_p_page-0052.jpg"
 },
 {
 "id": 24,
-"category": "Antimicrobial PK: Distribution",
-"questionText": "A 30-year-old patient is diagnosed with bacterial meningitis caused by *Neisseria meningitidis*. The physician starts high-dose IV penicillin G. Why is penicillin G effective in this scenario, even though it normally has poor penetration into the CNS?",
+"category": "Adverse Effects: Penicillins",
+"questionText": "A 19-year-old college student with infectious mononucleosis (mono) is mistakenly prescribed ampicillin for a sore throat. They subsequently develop a diffuse, non-pruritic, maculopapular rash. This well-known reaction is:",
 "options": [
-{"text": "Penicillin G is actively transported across the blood-brain barrier by P-glycoprotein.", "explanation": "This is incorrect. P-glycoprotein is an *efflux* pump that would *remove* the drug from the CNS."},
-{"text": "Meningeal inflammation disrupts the blood-brain barrier, allowing penicillin to enter.", "explanation": "Correct. Penicillins normally have poor CNS penetration, but in the presence of inflammation (as in meningitis), the tight junctions of the blood-brain barrier become more permeable, allowing the antibiotic to enter the CSF in therapeutic concentrations."},
-{"text": "Penicillin G follows zero-order kinetics and can saturate the blood-brain barrier.", "explanation": "This is incorrect. Penicillin G follows first-order kinetics, and its entry is based on permeability, not saturation."},
-{"text": "Penicillin G is highly lipophilic and easily diffuses into the CNS.", "explanation": "This is incorrect. Penicillins are generally hydrophilic (water-soluble), which is *why* they normally have poor CNS penetration."},
-{"text": "Meningitis is an infection of the blood, not the CNS, so penetration is not needed.", "explanation": "This is incorrect. Meningitis is a life-threatening infection *of the CNS* (the meninges)."}
+{"text": "A life-threatening Type I (anaphylactic) reaction.", "explanation": "This is incorrect. The 'mono rash' is non-allergic, not IgE-mediated, and is not anaphylaxis."},
+{"text": "A non-allergic, maculopapular rash.", "explanation": "Correct. This is a very common, non-allergic reaction that occurs when aminopenicillins are given to patients with infectious mononucleosis. It is not a true 'allergy.'"},
+{"text": "Stevens-Johnson Syndrome (SJS).", "explanation": "This is incorrect. SJS is a severe, blistering, life-threatening Type IV reaction, not a non-pruritic maculopapular rash."},
+{"text": "A secondary effect from *C. difficile*.", "explanation": "This is incorrect. *C. difficile* causes colitis (diarrhea), not a rash."},
+{"text": "A Type III (serum sickness) reaction.", "explanation": "This is incorrect. Serum sickness involves immune complex deposition and typically presents with fever and arthralgias."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L120_p_page-0052.jpg"
 },
 {
 "id": 25,
-"category": "Antimicrobial ADR: Neurotoxicity",
-"questionText": "An 80-year-old male with end-stage renal disease (ESRD) is being treated for an infection with a penicillin-based antibiotic. The dose is not properly adjusted for his renal failure. The patient develops confusion, myoclonic jerks, and a generalized tonic-clonic seizure. This presentation is most consistent with which adverse effect?",
+"category": "Antimicrobial PK: Penicillins",
+"questionText": "A physician administers probenecid concurrently with penicillin G. What is the pharmacokinetic mechanism by which probenecid increases the serum concentration and prolongs the half-life of penicillin?",
 "options": [
-{"text": "Anaphylaxis (Type I HSR)", "explanation": "This is incorrect. Anaphylaxis presents with urticaria, wheezing, and hypotension, not seizures."},
-{"text"
-: "Acute Interstitial Nephritis (AIN)", "explanation": "This is incorrect. AIN would present as a *worsening* of his renal failure (a rise in creatinine), not acutely as a seizure."},
-{"text": "Neurotoxicity due to drug accumulation", "explanation": "Correct. Penicillins are neurotoxic at very high concentrations, which can easily occur in patients with renal failure if the dose is not adjusted. This neurotoxicity classically manifests as seizures."},
-{"text"
-: "*C. difficile* superinfection", "explanation": "This is incorrect. *C. difficile* causes severe diarrhea, not seizures."},
-{"text": "Ampicillin-EBV non-allergic rash", "explanation": "This is incorrect. This is a benign rash and is not associated with seizures."}
+{"text": "It inhibits CYP450 enzymes in the liver.", "explanation": "This is incorrect. Penicillin is not cleared by CYP450 enzymes."},
+{"text": "It displaces penicillin from plasma albumin.", "explanation": "This is incorrect. This is not the primary mechanism of probenecid."},
+{"text": "It blocks the Organic Anion Transporter (OAT) in the renal tubule.", "explanation": "Correct. Penicillin is actively secreted into the urine by the OAT. Probenecid competes for this same transporter, blocking penicillin's secretion and thereby increasing its plasma concentration and half-life."},
+{"text": "It enhances the oral bioavailability of penicillin G.", "explanation": "This is incorrect. Penicillin G is not given orally (it's acid-labile), and probenecid works on renal excretion, not GI absorption."},
+{"text": "It induces P-glycoprotein in the gut.", "explanation": "This is incorrect. This would *decrease* levels, and the mechanism is at the OAT transporter in the kidney."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L120_p_page-0012.jpg"
 },
 {
 "id": 26,
-"category": "Antimicrobial Classes: Antistaphylococcal",
-"questionText": "A 50-year-old male has MSSA bacteremia. The physician is deciding between IV vancomycin and IV nafcillin. Why is nafcillin considered the drug of choice over vancomycin for this infection?",
+"category": "Antimicrobial MOA: Penicillins",
+"questionText": "What is the key structural component of all penicillin and cephalosporin antibiotics that is essential for their mechanism of action?",
 "options": [
-{"text": "Nafcillin is bactericidal, while vancomycin is bacteriostatic.", "explanation": "This is incorrect. Both nafcillin and vancomycin are bactericidal agents."},
-{"text"
-: "Nafcillin has superior clinical efficacy (is a 'better killer') for MSSA than vancomycin.", "explanation": "Correct. Clinical data shows that for serious MSSA infections, antistaphylococcal penicillins (nafcillin/oxacillin) are more rapidly bactericidal and lead to better outcomes than vancomycin."},
-{"text": "Nafcillin can be given orally, while vancomycin is IV only.", "explanation": "This is incorrect. Nafcillin is IV only; dicloxacillin is the oral option."},
-{"text": "Nafcillin has a much broader spectrum of activity, covering gram-negatives.", "explanation": "This is incorrect. Nafcillin has a *narrower* spectrum than vancomycin (which covers MRSA) and has no gram-negative activity."},
-{"text": "Nafcillin has a significantly lower risk of allergic reactions than vancomycin.", "explanation": "This is incorrect. Penicillin allergy (hypersensitivity) is the *most common* ADR for all penicillins, including nafcillin."}
+{"text": "A 30S ribosomal binding site", "explanation": "This is a target, not a structural component of the drug."},
+{"text": "A beta-lactam ring", "explanation": "Correct. The four-membered beta-lactam ring is the core chemical structure responsible for binding to and inhibiting PBPs."},
+{"text": "A D-Ala-D-Lac terminus", "explanation": "This is the *altered target* in VRE, not part of the penicillin drug."},
+{"text": "A polycyclic aromatic hydrocarbon", "explanation": "This is incorrect. This describes a different class of chemical compounds."},
+{"text": "A macrolide ring", "explanation": "This is the core structure of macrolide antibiotics (e.g., azithromycin)."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L120_p_page-0008.jpg"
 },
 {
 "id": 27,
-"category": "Antimicrobial Combos: Spectrum",
-"questionText": "A 45-year-old patient presents with a severe, polymicrobial diabetic foot infection. The physician needs an IV antibiotic with a broad spectrum, including gram-positives, gram-negatives, and anaerobes like *Bacteroides fragilis*. Which of the following penicillin-based drugs would be the most appropriate single agent?",
+"category": "Antimicrobial MOA: Penicillins",
+"questionText": "What is the normal physiological function of Penicillin-Binding Proteins (PBPs) in a bacterium?",
 "options": [
-{"text": "Penicillin G", "explanation": "This is incorrect. Penicillin G is narrow-spectrum and is destroyed by beta-lactamases produced by many of these organisms."},
-{"text": "Nafcillin", "explanation": "This is incorrect. Nafcillin is narrow-spectrum for MSSA only; it has no gram-negative or anaerobic coverage."},
-{"text"
-: "Ampicillin", "explanation": "This is incorrect. Ampicillin would be destroyed by beta-lactamases and does not reliably cover *Bacteroides*."},
-{"text": "Amoxicillin", "explanation": "This is incorrect. Amoxicillin is oral only (in the US) and would be destroyed by beta-lactamases."},
-{"text": "Piperacillin-Tazobactam (Zosyn)", "explanation": "Correct. This combination has the broadest spectrum, covering gram-positives, gram-negatives (including *Pseudomonas*), and anaerobes (including *B. fragilis* due to the tazobactam)."}
+{"text": "They act as efflux pumps to remove toxins.", "explanation": "This is incorrect. This is the function of efflux pump proteins."},
+{"text": "They are transpeptidase enzymes that cross-link the peptidoglycan cell wall.", "explanation": "Correct. PBPs are the bacterial enzymes (transpeptidases) that build the cell wall. Penicillin inhibits them, preventing this construction."},
+{"text": "They are ribosomal subunits responsible for protein synthesis.", "explanation": "This is incorrect. Ribosomes are the target of other antibiotics (e.g., aminoglycosides, macrolides)."},
+{"text": "They are DNA gyrase enzymes needed for DNA replication.", "explanation": "This is incorrect. DNA gyrase is the target of fluoroquinolones."},
+{"text": "They are porin channels that control nutrient entry.", "explanation": "This is incorrect. Porins are channels in the *outer* membrane of gram-negative bacteria."}
 ],
-"correctAnswerIndex": 4
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L120_p_page-0010.jpg"
 },
 {
 "id": 28,
-"category": "Antimicrobial ADR: Penicillins",
-"questionText": "A 30-year-old female is prescribed oral dicloxacillin for mastitis. She calls the office complaining of significant nausea and upset stomach. Which of the following is the most common adverse drug reaction associated with the penicillin class?",
+"category": "Antimicrobial Resistance: Beta-Lactamase",
+"questionText": "How do beta-lactamase enzymes confer resistance to penicillins?",
 "options": [
-{"text": "Hepatotoxicity", "explanation": "This is incorrect. While some penicillins (like nafcillin) can affect the liver, the *most common* ADRs are GI upset and hypersensitivity."},
-{"text": "Neurotoxicity (seizures)", "explanation": "This is incorrect. This is a rare toxicity seen with very high doses or in renal failure, not a common ADR."},
-{"text"
-: "GI disturbances (nausea, vomiting, diarrhea)", "explanation": "Correct. GI upset and hypersensitivity are the two most common adverse effects of the penicillin class."},
-{"text"
-: "Hemolytic anemia (Type II HSR)", "explanation": "This is incorrect. This is a rare, immunologic reaction, not a common ADR."},
-{"text": "Nephrotoxicity (AIN)", "explanation": "This is incorrect. This is a rare, immunologic reaction (most associated with methicillin/nafcillin), not a common ADR."}
+{"text": "They alter the drug's target (PBP) so the penicillin cannot bind.", "explanation": "This is the mechanism of MRSA, not beta-lactamase."},
+{"text": "They hydrolyze (cleave) the beta-lactam ring, inactivating the antibiotic.", "explanation": "Correct. Beta-lactamases are enzymes that break the beta-lactam ring, rendering the antibiotic structurally useless."},
+{"text": "They pump the antibiotic out of the cell (efflux).", "explanation": "This is a different mechanism of resistance."},
+{"text": "They create a new metabolic pathway that bypasses the need for a cell wall.", "explanation": "This is incorrect. This mechanism applies to antimetabolites, and bacteria cannot bypass the need for a cell wall."},
+{"text": "They bind to the penicillin in the bloodstream (chemical antagonism).", "explanation": "This is incorrect. The enzyme is produced *by the bacteria* and acts locally."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L120_p_page-0021.jpg"
 },
 {
 "id": 29,
-"category": "Antimicrobial Classes: Aminopenicillins",
-"questionText": "A 2-year-old child with a high fever and bulging tympanic membrane is diagnosed with acute otitis media. The physician prescribes high-dose oral amoxicillin. This drug is considered the first-line drug of choice for this indication because it covers the most common causative organism, which is:",
+"category": "Antimicrobial Resistance: Gram-Negatives",
+"questionText": "Why are gram-negative bacteria, such as *E. coli*, intrinsically more resistant to many penicillins than gram-positive bacteria, such as *Streptococcus*?",
 "options": [
-{"text": "*Staphylococcus aureus* (MSSA)", "explanation": "This is incorrect. MSSA is a rare cause of otitis media; amoxicillin is also destroyed by its beta-lactamases."},
-{"text": "*Pseudomonas aeruginosa*", "explanation": "This is incorrect. *Pseudomonas* is not a common cause of otitis media, and amoxicillin does not cover it."},
-{"text": "*Streptococcus pneumoniae*", "explanation": "Correct. Amoxicillin is the drug of choice for acute otitis media because it is highly effective against *Streptococcus pneumoniae*, the most common bacterial cause."},
-{"text": "*Listeria monocytogenes*", "explanation": "This is incorrect. *Listeria* causes meningitis in this age group, not typically otitis media."},
-{"text": "*Treponema pallidum*", "explanation": "This is incorrect. This spirochete causes syphilis."}
+{"text": "They have a much thicker peptidoglycan layer.", "explanation": "This is incorrect. Gram-negatives have a very *thin* peptidoglycan layer; gram-positives have the thick layer."},
+{"text": "They have an outer membrane that acts as a permeability barrier.", "explanation": "Correct. Gram-negative bacteria possess an outer lipopolysaccharide (LPS) membrane that prevents many antibiotics from reaching the periplasmic space where the PBPs are located."},
+{"text": "They lack PBPs.", "explanation": "This is incorrect. All bacteria with a peptidoglycan cell wall have PBPs."},
+{"text": "They all possess the *mecA* gene.", "explanation": "This is incorrect. The *mecA* gene is characteristic of MRSA, a gram-positive organism."},
+{"text": "They all change their target to D-Ala-D-Lac.", "explanation": "This is the mechanism of VRE, a gram-positive organism."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L120_p_page-0023.jpg"
 },
 {
 "id": 30,
-"category": "Antimicrobial Resistance: *Strep. pneumoniae*",
-"questionText": "A 65-year-old male is diagnosed with community-acquired pneumonia. The sputum culture grows Penicillin-Resistant *Streptococcus pneumoniae* (PRSP). What is the mechanism of resistance in this organism?",
+"category": "Antimicrobial Resistance: MRSA",
+"questionText": "What is the specific altered target in MRSA that confers resistance to nafcillin and all other beta-lactams?",
 "options": [
-{"text": "Production of a high-level beta-lactamase.", "explanation": "This is incorrect. Unlike *S. aureus* or *H. influenzae*, *Strep. pneumoniae* resistance is *not* due to beta-lactamase production. Adding clavulanate does not help."},
-{"text": "Modification of the PBP target sites.", "explanation": "Correct. Penicillin resistance in *Strep. pneumoniae* is due to alterations in the structure of its PBPs, which reduces the drug's binding affinity."},
-{"text": "Acquisition of the *mecA* gene.", "explanation": "This is incorrect. The *mecA* gene (coding for PBP2a) is the mechanism for MRSA, not PRSP."},
-{"text": "Overexpression of a multi-drug efflux pump.", "explanation": "This is incorrect. This is not the primary mechanism of resistance for PRSP."},
-{"text": "Loss of porin channels in the outer membrane.", "explanation": "This is incorrect. *Strep. pneumoniae* is gram-positive and does not have an outer membrane."}
+{"text": "A high-affinity beta-lactamase enzyme.", "explanation": "This is incorrect. The mechanism is a target change, not an enzyme."},
+{"text": "An altered D-Ala-D-Ala terminus.", "explanation": "This is the mechanism of VRE."},
+{"text": "An altered PBP called PBP2a, encoded by the *mecA* gene.", "explanation": "Correct. MRSA produces PBP2a, an altered transpeptidase that has low affinity for beta-lactams, making them ineffective."},
+{"text": "A mutation in the 30S ribosomal subunit.", "explanation": "This is incorrect. Beta-lactams do not target the ribosome."},
+{"text": "A new porin channel that blocks drug entry.", "explanation": "This is incorrect. MRSA is gram-positive and does not have porins."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L120_p_page-0018.jpg"
 },
 {
 "id": 31,
-"category": "Antimicrobial Combos: Spectrum",
-"questionText": "A patient with a hospital-acquired pneumonia is started on IV piperacillin-tazobactam (Zosyn). The addition of tazobactam to piperacillin confers activity against which of the following organisms that would be resistant to piperacillin alone?",
+"category": "Antimicrobial Class: Natural Penicillins",
+"questionText": "Which of the following drugs are classified as Natural Penicillins?",
 "options": [
-{"text": "MRSA (*Staphylococcus aureus*)", "explanation": "This is incorrect. MRSA is resistant due to altered PBPs, so tazobactam adds no benefit."},
-{"text": "*Treponema pallidum*", "explanation": "This is incorrect. *T. pallidum* is highly sensitive to piperacillin (and penicillin) alone; it does not produce beta-lactamase."},
-{"text": "Beta-lactamase producing *Bacteroides fragilis*", "explanation": "Correct. Piperacillin alone is susceptible to many beta-lactamases, including those from *B. fragilis*. Tazobactam inhibits these enzymes, providing excellent anaerobic coverage."},
-{"text"
-: "*Listeria monocytogenes*", "explanation": "This is incorrect. *Listeria* is sensitive to piperacillin alone; it does not produce beta-lactamase."},
-{"text": "*Pseudomonas aeruginosa*", "explanation": "This is incorrect. Piperacillin *already* has intrinsic activity against *Pseudomonas*. Tazobactam is added to cover beta-lactamase-producing strains *of Pseudomonas* or other co-pathogens, but it doesn't *add* the *Pseudomonas* coverage itself."}
+{"text": "Ampicillin and Amoxicillin", "explanation": "These are aminopenicillins (extended-spectrum)."},
+{"text": "Nafcillin and Oxacillin", "explanation": "These are antistaphylococcal (penicillinase-resistant) penicillins."},
+{"text": "Piperacillin and Ticarcillin", "explanation": "These are antipseudomonal penicillins."},
+{"text": "Penicillin G and Penicillin V", "explanation": "Correct. These are the original natural penicillins."},
+{"text": "Vancomycin and Daptomycin", "explanation": "These are not beta-lactams."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L120_p_page-0032.jpg"
 },
 {
 "id": 32,
-"category": "Antimicrobial Classes: Antistaphylococcal",
-"questionText": "A 50-year-old male is being treated with IV nafcillin. The pharmacist notes that this drug is unique among penicillins because its clearance is primarily hepatic (biliary excretion). What is the clinical implication of this property?",
+"category": "Antimicrobial Class: Antistaphylococcal",
+"questionText": "Which of the following drugs are classified as Penicillinase-Resistant (Antistaphylococcal) Penicillins?",
 "options": [
-{"text": "The dose must be significantly reduced in patients with renal failure.", "explanation": "This is incorrect. Because it is hepatically cleared, nafcillin does *not* require dose adjustment in renal failure, making it a good choice for these patients."},
-{"text"
-: "The drug is contraindicated in patients with G6PD deficiency.", "explanation": "This is incorrect. This is not a known contraindication."},
-{"text": "The drug is highly effective against MRSA.", "explanation": "This is incorrect. Nafcillin is *ineffective* against MRSA, which is resistant via PBP alteration."},
-{"text": "The drug's half-life is prolonged by probenecid.", "explanation": "This is incorrect. Probenecid blocks *renal* secretion; it would have little effect on the *hepatically* cleared nafcillin."},
-{"text": "The drug is a potent inducer of CYP3A4 enzymes.", "explanation": "This is incorrect. While it is a substrate and inducer of some CYPs, the primary clinical implication of its hepatic clearance is its use in renal failure."}
+{"text": "Ampicillin, Amoxicillin, and Piperacillin", "explanation": "These are all destroyed by penicillinase."},
+{"text": "Nafcillin, Oxacillin, and Dicloxacillin", "explanation": "Correct. These drugs have bulky side chains that protect them from staphylococcal beta-lactamase."},
+{"text": "Penicillin G and Penicillin V", "explanation": "These are natural penicillins and are destroyed by penicillinase."},
+{"text": "Ceftriaxone and Cefepime", "explanation": "These are cephalosporins, a different class of beta-lactams."},
+{"text": "Clavulanate, Sulbactam, and Tazobactam", "explanation": "These are beta-lactamase *inhibitors*, not antistaphylococcal penicillins."}
 ],
-"correctAnswerIndex": 0
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L120_p_page-0036.jpg"
 },
 {
 "id": 33,
-"category": "Antimicrobial MOA: Penicillins",
-"questionText": "A patient is being treated with penicillin for a *Streptococcus* infection. The physician considers adding doxycycline, a bacteriostatic agent. Why might this combination be antagonistic, especially in a severe infection like meningitis?",
+"category": "Antimicrobial Class: Aminopenicillins",
+"questionText": "Which of the following drugs are classified as Aminopenicillins (Extended-Spectrum)?",
 "options": [
-{"text": "Doxycycline induces the renal clearance of penicillin.", "explanation": "This is incorrect. The antagonism is pharmacodynamic, not pharmacokinetic."},
-{"text": "Penicillin requires actively dividing cells, and doxycycline inhibits cell division.", "explanation": "Correct. Penicillins (and all beta-lactams) are bactericidal only to bacteria that are actively growing and synthesizing new cell walls. Bacteriostatic agents like doxycycline *stop* this growth, making the bacteria tolerant to penicillin's lytic effect."},
-{"text": "Both drugs compete for the same PBP binding site.", "explanation": "This is incorrect. Doxycycline binds to the 30S ribosome, not PBPs."},
-{"text": "Doxycycline chelates the penicillin, inactivating it.", "explanation": "This is incorrect. This is not the mechanism of antagonism."},
-{"text": "Both drugs are bactericidal and cause excessive, rapid lysis.", "explanation": "This is incorrect. Doxycycline is bacteriostatic."}
+{"text": "Ampicillin and Amoxicillin", "explanation": "Correct. These are the two aminopenicillins, which extend the spectrum of natural penicillins to include some gram-negative rods."},
+{"text": "Nafcillin and Oxacillin", "explanation": "These are antistaphylococcal penicillins."},
+{"text": "Piperacillin and Ticarcillin", "explanation": "These are antipseudomonal penicillins."},
+{"text": "Penicillin G and Penicillin V", "explanation": "These are natural penicillins."},
+{"text": "Azithromycin and Clarithromycin", "explanation": "These are macrolides, not penicillins."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 0,
+"slideImagePath": "images/L120_p_page-0039.jpg"
 },
 {
 "id": 34,
-"category": "Antimicrobial Classes: Aminopenicillins",
-"questionText": "A patient presents with a severe gastrointestinal infection after eating contaminated cheese. Blood cultures grow *Listeria monocytogenes*. Why is ampicillin the drug of choice, over a third-generation cephalosporin like ceftriaxone?",
+"category": "Antimicrobial Class: Antipseudomonal",
+"questionText": "Which of the following drugs are classified as Antipseudomonal Penicillins?",
 "options": [
-{"text": "*Listeria* is a gram-negative rod, and ampicillin has the best gram-negative coverage.", "explanation": "This is incorrect. *Listeria* is a gram-positive rod, and ceftriaxone has a *broader* gram-negative spectrum."},
-{"text": "*Listeria* is intrinsically resistant to all cephalosporins.", "explanation": "Correct. *Listeria monocytogenes* is famously and intrinsically resistant to all cephalosporins. Ampicillin is the drug of choice."},
-{"text": "Ampicillin is bactericidal, while ceftriaxone is bacteriostatic.", "explanation": "This is incorrect. Both ampicillin and ceftriaxone are bactericidal."},
-{"text"
-: "Ampicillin can be given orally, while ceftriaxone is IV only.", "explanation": "This is incorrect. For a severe infection like *Listeria* sepsis or meningitis, ampicillin would be given IV, not orally."},
-{"text": "Ceftriaxone does not penetrate the CNS.", "explanation": "This is incorrect. Ceftriaxone has *excellent* CNS penetration and is a first-line drug for *other* causes of meningitis."}
+{"text": "Ampicillin and Amoxicillin", "explanation": "These are aminopenicillins and do not cover *Pseudomonas*."},
+{"text": "Nafcillin and Oxacillin", "explanation": "These are antistaphylococcal penicillins and do not cover *Pseudomonas*."},
+{"text": "Piperacillin and Ticarcillin", "explanation": "Correct. These are the two primary antipseudomonal penicillins."},
+{"text": "Penicillin G and Penicillin V", "explanation": "These are natural penicillins and do not cover *Pseudomonas*."},
+{"text": "Ceftazidime and Cefepime", "explanation": "These are *cephalosporins* that cover *Pseudomonas*, but they are not in the penicillin class."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L120_p_page-0044.jpg"
 },
 {
 "id": 35,
-"category": "Antimicrobial Combos: Unasyn vs Augmentin",
-"questionText": "A patient has a severe aspiration pneumonia, and the physician wants to cover mouth anaerobes (like *Bacteroides*) and common hospital pathogens. The physician has a choice between two aminopenicillin/beta-lactamase inhibitor combinations. Which of the following is an IV-only formulation?",
+"category": "Adverse Effects: Penicillins",
+"questionText": "A patient with renal failure who is receiving a very high dose of IV Penicillin G develops seizures. This is a known, dose-dependent neurotoxicity. This adverse reaction is best classified as:",
 "options": [
-{"text": "Amoxicillin-Clavulanate (Augmentin)", "explanation": "This is incorrect. Amoxicillin-Clavulanate is an *oral* (PO) formulation."},
-{"text": "Ampicillin-Sulbactam (Unasyn)", "explanation": "Correct. Ampicillin-Sulbactam is an *intravenous* (IV) formulation. Amoxicillin has much better oral bioavailability than ampicillin."},
-{"text": "Piperacillin-Tazobactam (Zosyn)", "explanation": "While this is also IV, it is an *antipseudomonal* penicillin combination, not an *aminopenicillin* combination."},
-{"text"
-: "Nafcillin-Clavulanate", "explanation": "This combination does not exist; nafcillin is already beta-lactamase resistant."},
-{"text": "Dicloxacillin-Sulbactam", "explanation": "This combination does not exist; dicloxacillin is already beta-lactamase resistant."}
+{"text": "Type A (Augmented/Toxic)", "explanation": "Correct. Seizures from high-dose penicillins, especially in renal failure, are a predictable, dose-dependent toxic effect (Type A)."},
+{"text": "Type B (Idiosyncratic)", "explanation": "This is incorrect. This is a predictable toxic effect at high doses, not an unpredictable immunologic reaction."},
+{"text": "Type C (Chronic)", "explanation": "This is incorrect. This is an acute toxic effect, not a chronic/cumulative one."},
+{"text": "Type D (Delayed)", "explanation": "This is incorrect. This is an acute toxic effect."},
+{"text": "Type E (End of Use)", "explanation": "This is incorrect. This is a withdrawal syndrome, which does not happen with penicillins."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 0,
+"slideImagePath": "images/L120_p_page-0052.jpg"
 },
 {
 "id": 36,
-"category": "Antimicrobial PK: Penicillins",
-"questionText": "A 60-year-old male with severe penicillin-sensitive *Strep. pneumoniae* meningitis is treated with high-dose IV penicillin G. He also has severe renal dysfunction (CrCl < 10 mL/min). What is the most significant toxicity this patient is at risk for if the dose is not adjusted?",
+"category": "Antimicrobial Spectrum: Combos",
+"questionText": "A patient is prescribed the oral antibiotic Augmentin. This combination product contains Amoxicillin and which beta-lactamase inhibitor?",
 "options": [
-{"text": "Hepatotoxicity", "explanation": "This is incorrect. Penicillin G is not associated with hepatotoxicity."},
-{"text": "Anaphylaxis", "explanation": "This is incorrect. Anaphylaxis is an allergic reaction (Type B) and is not related to dose accumulation from renal failure."},
-{"text": "Seizures (Neurotoxicity)", "explanation": "Correct. All penicillins are cleared renally (except nafcillin/oxacillin). In renal failure, they can accumulate to very high levels, cross the inflamed BBB, and cause neurotoxicity, which manifests as confusion, myoclonus, and seizures."},
-{"text": "*C. difficile* colitis", "explanation": "This is incorrect. This is a superinfection, not a direct dose-dependent toxicity from accumulation."},
-{"text": "Acute Interstitial Nephritis (AIN)", "explanation": "This is incorrect. AIN is an allergic reaction (Type IV HSR), not a direct dose-dependent toxicity from accumulation."}
+{"text": "Tazobactam", "explanation": "Tazobactam is combined with piperacillin (Zosyn)."},
+{"text": "Sulbactam", "explanation": "Sulbactam is combined with ampicillin (Unasyn)."},
+{"text": "Clavulanate", "explanation": "Correct. Augmentin is the brand name for Amoxicillin + Clavulanate."},
+{"text": "Avibactam", "explanation": "Avibactam is a newer inhibitor combined with ceftazidime (Avycaz)."},
+{"text": "Probenecid", "explanation": "Probenecid is not a beta-lactamase inhibitor; it blocks renal excretion."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L120_p_page-0049.jpg"
 },
 {
 "id": 37,
-"category": "Antimicrobial Resistance: Gram-Negatives",
-"questionText": "A 40-year-old female has a complicated UTI with a gram-negative rod. The organism is found to be resistant to ampicillin. The physician explains that this is likely due to the drug's inability to cross the bacterial outer membrane to reach the PBPs in the periplasmic space. This mechanism of resistance is known as:",
+"category": "Antimicrobial Spectrum: Combos",
+"questionText": "A patient is prescribed the IV antibiotic Unasyn. This combination product contains Ampicillin and which beta-lactamase inhibitor?",
 "options": [
-{"text": "PBP modification", "explanation": "This is a target-site modification, not an issue of drug entry."},
-{"text"
-: "Beta-lactamase production", "explanation": "This is enzymatic inactivation, which occurs *after* the drug has crossed the outer membrane."},
-{"text": "Impaired penetration (Porin loss)", "explanation": "Correct. Gram-negative bacteria have an outer membrane that hydrophilic drugs (like penicillins) must cross via porin channels. Mutations or loss of these porins is a key mechanism of resistance that prevents the drug from ever reaching its target."},
-{"text": "Efflux pump overexpression", "explanation": "This is incorrect. Efflux pumps *remove* the drug from the periplasm, but *impaired penetration* means it never gets in at all."},
-{"text": "Biofilm formation", "explanation": "Biofilm is a complex community structure, not a specific molecular mechanism of resistance for a single bacterium."}
+{"text": "Tazobactam", "explanation": "Tazobactam is combined with piperacillin (Zosyn)."},
+{"text": "Sulbactam", "explanation": "Correct. Unasyn is the brand name for Ampicillin + Sulbactam."},
+{"text": "Clavulanate", "explanation": "Clavulanate is combined with amoxicillin (Augmentin)."},
+{"text": "Avibactam", "explanation": "Avibactam is a newer inhibitor combined with ceftazidime (Avycaz)."},
+{"text": "Relebactam", "explanation": "Relebactam is a newer inhibitor combined with imipenem."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L120_p_page-0049.jpg"
 },
 {
 "id": 38,
-"category": "Antimicrobial PK: Food",
-"questionText": "A patient is prescribed oral ampicillin for an *Enterococcus* infection. The physician instructs the patient to take the medication 1 hour before or 2 hours after meals. What is the pharmacokinetic reason for this instruction?",
+"category": "Antimicrobial Spectrum: Combos",
+"questionText": "A patient in the ICU is prescribed the IV antibiotic Zosyn for a *Pseudomonas* infection. This combination product contains Piperacillin and which beta-lactamase inhibitor?",
 "options": [
-{"text": "Food chelates ampicillin, forming an insoluble complex.", "explanation": "This describes the interaction between tetracyclines and calcium, not ampicillin and food."},
-{"text": "Food *increases* the absorption of ampicillin.", "explanation": "This is incorrect. Food *decreases* the absorption of ampicillin."},
-{"text": "Food decreases the absorption (bioavailability) of ampicillin.", "explanation": "Correct. The absorption of ampicillin (and dicloxacillin) is significantly impaired by the presence of food in the stomach. In contrast, amoxicillin's absorption is not affected by food."},
-{"text"
-: "Food is required to buffer the stomach acid, which would destroy the ampicillin.", "explanation": "This is incorrect. Ampicillin is relatively acid-stable (compared to Pen G), and food *hinders* its absorption."},
-{"text": "Food induces CYP3A4, increasing the first-pass metabolism of ampicillin.", "explanation": "This is incorrect. Penicillins do not undergo significant CYP metabolism, and the interaction is at the level of absorption."}
+{"text": "Tazobactam", "explanation": "Correct. Zosyn is the brand name for Piperacillin + Tazobactam."},
+{"text": "Sulbactam", "explanation": "Sulbactam is combined with ampicillin (Unasyn)."},
+{"text": "Clavulanate", "explanation": "Clavulanate is combined with amoxicillin (Augmentin)."},
+{"text": "Avibactam", "explanation": "Avibactam is a newer inhibitor combined with ceftazidime (Avycaz)."},
+{"text": "Vaborbactam", "explanation": "Vaborbactam is a newer inhibitor combined with meropenem (Vabomere)."}
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 0,
+"slideImagePath": "images/L120_p_page-0049.jpg"
 },
 {
 "id": 39,
-"category": "Antimicrobial Classes: Antistaphylococcal",
-"questionText": "A patient with MSSA bacteremia is being treated with IV nafcillin. The patient's labs show a progressive decline in their absolute neutrophil count. The physician recognizes this as a potential dose-dependent toxicity of nafcillin. What is this adverse reaction?",
+"category": "Antimicrobial Spectrum: Natural Penicillins",
+"questionText": "A 34-year-old male presents with a skin infection consistent with 'gas gangrene.' The culture grows *Clostridium perfringens*. This organism is a:",
 "options": [
-{"text": "Acute interstitial nephritis (AIN)", "explanation": "AIN is another known ADR of nafcillin, but it presents as renal failure and eosinophilia, not isolated neutropenia."},
-{"text": "Hemolytic anemia", "explanation": "This is a rare Type II HSR, not the more common dose-dependent neutropenia."},
-{"text": "Thrombocytopenia", "explanation": "While possible, neutropenia is the more characteristic hematologic toxicity associated with nafcillin."},
-{"text": "Neutropenia", "explanation": "Correct. Nafcillin (and oxacillin) can cause dose-dependent neutropenia, which is typically reversible upon stopping the drug."},
-{"text": "Agranulocytosis", "explanation": "While severe neutropenia is agranulocytosis, this term is more specifically associated with other drugs (e.g., clozapine, methimazole). 'Neutropenia' is the direct answer."}
+{"text": "Gram-positive coccus", "explanation": "This describes *Staphylococcus* or *Streptococcus*."},
+{"text": "Gram-positive rod (anaerobe)", "explanation": "Correct. *Clostridium* species are gram-positive, spore-forming anaerobic rods."},
+{"text": "Gram-negative rod (aerobe)", "explanation": "This describes *Pseudomonas* or *E. coli*."},
+{"text": "Gram-negative coccus", "explanation": "This describes *Neisseria*."},
+{"text": "Spirochete", "explanation": "This describes *Treponema pallidum* (syphilis)."}
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L120_p_page-0034.jpg"
 },
 {
 "id": 40,
@@ -534,12 +551,12 @@ const L120 = [
 "questionText": "A patient has a severe, deep-seated infection with a 'tolerant' strain of *Enterococcus*. The physician explains this means the MIC is low, but the MBC is very high. To achieve a bactericidal effect, the physician adds gentamicin. What is the mechanism of this synergy?",
 "options": [
 {"text": "The gentamicin binds to and inactivates the beta-lactamase enzyme.", "explanation": "This is incorrect. Gentamicin is an aminoglycoside, not a beta-lactamase inhibitor."},
-{"text"
-: "The penicillin (cell wall inhibitor) facilitates the entry of the gentamicin (protein synthesis inhibitor).", "explanation": "Correct. This is the classic example of synergy. The penicillin damages the cell wall, allowing the aminoglycoside to enter the cell and reach its 30S ribosomal target in concentrations high enough to be bactericidal."},
+{"text": "The penicillin (cell wall inhibitor) facilitates the entry of the gentamicin (protein synthesis inhibitor).", "explanation": "Correct. This is the classic example of synergy. The penicillin damages the cell wall, allowing the aminoglycoside to enter the cell and reach its 30S ribosomal target in concentrations high enough to be bactericidal."},
 {"text": "The two drugs bind to different sites on the PBP, causing synergistic inhibition.", "explanation": "This is incorrect. Gentamicin does not bind to PBPs."},
 {"text": "The penicillin inhibits the efflux pump that removes gentamicin.", "explanation": "This is incorrect. The mechanism is facilitating *entry*, not blocking efflux."},
 {"text": "The gentamicin acidifies the periplasmic space, activating the penicillin.", "explanation": "This is incorrect. This is not the mechanism of synergy."}
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L120_p_page-0010.jpg"
 }
 ];

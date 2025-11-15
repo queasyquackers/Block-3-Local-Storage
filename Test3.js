@@ -10,7 +10,8 @@ const L104 = [
 {"text": "Pharyngeal Arch 4 (\"Systemic\")", "explanation": "Arch 4 derivatives are mostly laryngeal muscles (cricothyroid) and cartilages, not middle ear structures."},
 {"text": "Pharyngeal Arch 6 (\"Pulmonary\")", "explanation": "Arch 6 derivatives are intrinsic laryngeal muscles and pulmonary arteries, not the tensor tympani or malleus."},
 ],
-"correctAnswerIndex": 0
+"correctAnswerIndex": 0,
+"slideImagePath": "images/L104_p16.jpg"
 },
 {
 "id": 2,
@@ -23,7 +24,8 @@ const L104 = [
 {"text": "Intact CN X (Arch 4) for touch; Lost CN VII (Arch 2) for taste.", "explanation": "CN X supplies sensation to the epiglottis/larynx area, not the anterior tongue."},
 {"text": "Intact CN VII (Arch 2) for touch; Lost CN IX (Arch 3) for taste.", "explanation": "CN VII supplies taste, not general sensation/touch, to the anterior two-thirds of the tongue."},
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L104_p46.jpg"
 },
 {
 "id": 3,
@@ -36,7 +38,8 @@ const L104 = [
 {"text": "Pharyngeal Pouch 4", "explanation": "Pouch 4 gives rise to the superior parathyroid gland and the ultimobranchial body."},
 {"text": "Pharyngeal Cleft 1", "explanation": "Cleft 1 (ectodermal) forms the external auditory meatus."},
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L104_p39.jpg"
 },
 {
 "id": 4,
@@ -49,7 +52,8 @@ const L104 = [
 {"text": "Pharyngeal Arch 5", "explanation": "Arch 5 is rudimentary and largely disappears during human development."},
 {"text": "Pharyngeal Arch 6", "explanation": "Arch 6 is innervated by the recurrent laryngeal branch of CN X and forms the intrinsic laryngeal muscles (except cricothyroid)."},
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L104_p28.jpg"
 },
 {
 "id": 5,
@@ -62,7 +66,8 @@ const L104 = [
 {"text": "Cervical sinus cyst", "explanation": "Cervical sinus cysts typically form laterally, resulting from the failure of pharyngeal clefts 2, 3, and 4 to regress."},
 {"text": "Ultimobranchial body remnant", "explanation": "The ultimobranchial body gives rise to C-cells/parafollicular cells and is related to the thyroid gland's lateral origin, not a midline cyst."},
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L104_p50.jpg"
 },
 {
 "id": 6,
@@ -75,7 +80,8 @@ const L104 = [
 {"text": "Neural Crest Cells (NCC)", "explanation": "NCC are ectoderm-derived cells that migrate and form secondary mesenchyme, which differentiates into most of the skeletal, cartilaginous, and connective tissue of the head and neck."},
 {"text": "Notochord", "explanation": "The notochord is mesoderm-derived and provides positional signals, but does not form facial bone or connective tissue."},
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L104_p64.jpg"
 },
 {
 "id": 7,
@@ -88,7 +94,8 @@ const L104 = [
 {"text": "Arch 4 (Systemic): Hypoglossal Nerve (CN XII)", "explanation": "Incorrect match: Arch 4 is innervated by CN X (Vagus nerve, superior laryngeal branch). CN XII innervates the tongue muscles (derived from occipital somites)."},
 {"text": "Arch 6 (Pulmonary): Vagus Nerve (CN X)", "explanation": "Correct match: Arch 6 muscles (intrinsic laryngeal muscles, except cricothyroid) are innervated by CN X (Recurrent Laryngeal branch)."},
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L104_p24.jpg"
 },
 {
 "id": 8,
@@ -101,7 +108,8 @@ const L104 = [
 {"text": "Infundibulum (downgrowth of primordial pharynx)", "explanation": "The infundibulum is the funnel-shaped stalk of the diencephalon, which develops alongside the neurohypophyseal bud."},
 {"text": "Foramen cecum of the tongue", "explanation": "The foramen cecum is the origin point of the thyroid diverticulum, not the pituitary gland."},
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L104_p60.jpg"
 },
 {
 "id": 9,
@@ -114,7 +122,8 @@ const L104 = [
 {"text": "Pharyngeal Arch 4", "explanation": "Arch 4 forms laryngeal cartilages (except epiglottis)."},
 {"text": "Pharyngeal Arch 6", "explanation": "Arch 6 forms laryngeal cartilages (except epiglottis)."},
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L104_p19.jpg"
 },
 {
 "id": 10,
@@ -127,7 +136,8 @@ const L104 = [
 {"text": "Intact thyroglossal duct leading to a midline neck mass", "explanation": "This relates to thyroid descent, not the skeletal defects of arches 1 and 2."},
 {"text": "Craniosynostosis due to premature closure of the sagittal suture", "explanation": "Craniosynostosis is a different skull development disorder involving premature suture closure."},
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L104_p66.jpg"
 },
 {
 "id": 11,
@@ -140,7 +150,8 @@ const L104 = [
 {"text": "Aortic Arch 4 (Systemic)", "explanation": "Arch 4 forms the proximal part of the right subclavian artery (on the right) and the arch of the aorta (on the left)."},
 {"text": "Aortic Arch 6 (Pulmonary)", "explanation": "Arch 6 forms the proximal pulmonary arteries and the ductus arteriosus."},
 ],
-"correctAnswerIndex": 3
+"correctAnswerIndex": 3,
+"slideImagePath": "images/L104_p11.jpg"
 },
 {
 "id": 12,
@@ -153,7 +164,8 @@ const L104 = [
 {"text": "Pharyngeal Cleft 4", "explanation": "Clefts 2, 3, and 4 typically regress."},
 {"text": "Pharyngeal Membrane 1", "explanation": "Membrane 1 forms the tympanic membrane (eardrum), not the meatus itself."},
 ],
-"correctAnswerIndex": 0
+"correctAnswerIndex": 0,
+"slideImagePath": "images/L104_p37.jpg"
 },
 {
 "id": 13,
@@ -166,7 +178,8 @@ const L104 = [
 {"text": "A neurocrest cell migration pattern from Arch 3 to the lower neck.", "explanation": "Neural crest cells form C-cells, but the bulk of the thyroid (follicular cells) is endodermal."},
 {"text": "An upgrowth of the oral ectoderm that fuses with endoderm from Arch 4.", "explanation": "This describes the origin of the anterior pituitary lobe (Rathke's pouch) from oral ectoderm."},
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L104_p49.jpg"
 },
 {
 "id": 14,
@@ -179,7 +192,8 @@ const L104 = [
 {"text": "Pharyngeal Arch 4", "explanation": "Arch 4 forms the cricothyroid muscle, but not the majority of intrinsic laryngeal muscles."},
 {"text": "Pharyngeal Arch 6", "explanation": "Arch 6 forms the intrinsic laryngeal muscles (except cricothyroid) and is innervated by the recurrent laryngeal nerve."},
 ],
-"correctAnswerIndex": 4
+"correctAnswerIndex": 4,
+"slideImagePath": "images/L104_p31.jpg"
 },
 {
 "id": 15,
@@ -192,7 +206,8 @@ const L104 = [
 {"text": "Fusion of the palatine process with the primary palate.", "explanation": "This failure leads to a complete cleft palate, but cleft lip is a failure of lip components to merge."},
 {"text": "Obliteration of the thyroglossal duct with the formation of the hyoid bone.", "explanation": "This is related to thyroid descent, not facial fusion defects."},
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L104_p54.jpg"
 },
 {
 "id": 16,
@@ -205,7 +220,8 @@ const L104 = [
 {"text": "Lateral lingual swellings (Trigeminal nerve connection)", "explanation": "The lateral lingual swellings form the anterior 2/3 mucosa, not the deep musculature."},
 {"text": "Hypobranchial eminence (Glossopharyngeal nerve connection)", "explanation": "The hypobranchial eminence forms the posterior 1/3 mucosa, not the deep musculature."},
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L104_p10.jpg"
 },
 {
 "id": 17,
@@ -218,7 +234,8 @@ const L104 = [
 {"text": "Pouch 4 gives rise to the thymus, which migrates inferiorly and is positioned anteriorly.", "explanation": "The thymus is derived from Pouch 3."},
 {"text": "Pouch 1 gives rise to the ultimobranchial body, which forms the C-cells of the thyroid.", "explanation": "Pouch 1 forms the middle ear/auditory tube. The ultimobranchial body is derived from Pouch 4."},
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L104_p40.jpg"
 },
 {
 "id": 18,
@@ -231,7 +248,8 @@ const L104 = [
 {"text": "Impaired descent of the thyroid diverticulum.", "explanation": "This leads to thyroglossal duct cysts or ectopic thyroid tissue."},
 {"text": "Failure of obliteration of the secondary palate.", "explanation": "This causes cleft palate."},
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L104_p58.jpg"
 },
 {
 "id": 19,
@@ -244,7 +262,8 @@ const L104 = [
 {"text": "Thyroid Follicular Cells: Ectoderm", "explanation": "Thyroid Follicular Cells derive from the midline Endodermal outpouching (thyroid diverticulum)."},
 {"text": "Dentine of Teeth: Primary Mesoderm", "explanation": "Dentine is derived from Neural Crest Cells (mesectoderm)."},
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L104_p51.jpg"
 },
 {
 "id": 20,
@@ -257,7 +276,8 @@ const L104 = [
 {"text": "Brachiocephalic artery", "explanation": "This forms from the right Arch 4 and Arch 3 components."},
 {"text": "Aortic Arch 3 artery", "explanation": "The Arch 3 artery forms the carotid arteries."},
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L104_p11.jpg"
 },
 {
 "id": 21,
@@ -270,7 +290,8 @@ const L104 = [
 {"text": "Temporalis muscle", "explanation": "The Temporalis is a muscle of mastication (mesodermal derivative)."},
 {"text": "Sphenomandibular ligament", "explanation": "The sphenomandibular ligament is a derivative/remnant of Meckel's cartilage, not the cartilage itself."},
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L104_p16.jpg"
 },
 {
 "id": 22,
@@ -283,7 +304,8 @@ const L104 = [
 {"text": "At the palatine tonsil (internal opening).", "explanation": "This is the internal opening site of a branchial fistula, but the question asks for the external opening."},
 {"text": "In the midline, inferior to the hyoid bone.", "explanation": "This is the location of the thyroglossal duct cyst."},
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L104_p41.jpg"
 },
 {
 "id": 23,
@@ -296,7 +318,8 @@ const L104 = [
 {"text": "CN X (Vagus)", "explanation": "CN X provides taste and sensation to the area near the epiglottis."},
 {"text": "CN XII (Hypoglossal)", "explanation": "CN XII provides motor innervation to the tongue muscles."},
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L104_p46.jpg"
 },
 {
 "id": 24,
@@ -309,7 +332,8 @@ const L104 = [
 {"text": "Diencephalon", "explanation": "Diencephalon is a brain region, not a bone component."},
 {"text": "Meckel's Cartilage", "explanation": "Meckel's cartilage is a specific cartilaginous precursor for the mandible/middle ear ossicles."},
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L104_p56.jpg"
 },
 {
 "id": 25,
@@ -322,7 +346,8 @@ const L104 = [
 {"text": "Lateral cervical mass, anterior to the SCM.", "explanation": "This location is characteristic of branchial cysts."},
 {"text": "Submandibular gland hypertrophy.", "explanation": "The submandibular gland is a salivary gland unrelated to the thyroglossal duct."},
 ],
-"correctAnswerIndex": 1
+"correctAnswerIndex": 1,
+"slideImagePath": "images/L104_p50.jpg"
 },
 {
 "id": 26,
@@ -335,7 +360,8 @@ const L104 = [
 {"text": "Tongue and Hyoid.", "explanation": "Tongue muscles are somite derivatives (CN XII); parts of the hyoid are Arch 2 and 3 derivatives."},
 {"text": "Carotid Arteries and Stylopharyngeus.", "explanation": "These are Arch 3 derivatives, innervated by CN IX."},
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L104_p34.jpg"
 },
 {
 "id": 27,
@@ -348,7 +374,8 @@ const L104 = [
 {"text": "Stylopharyngeus muscle.", "explanation": "Muscles are derived from mesoderm/somitomeres."},
 {"text": "Parotid Gland.", "explanation": "Parotid gland is derived from Ectoderm."},
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L104_p39.jpg"
 },
 {
 "id": 28,
@@ -361,7 +388,8 @@ const L104 = [
 {"text": "Paracrine cells (regulates local inflammation).", "explanation": "Not a major cell type derived from the ultimobranchial body."},
 {"text": "Adrenal medullary cells (produces epinephrine).", "explanation": "These cells are derived from Neural Crest Cells, but form the adrenal medulla."},
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L104_p40.jpg"
 },
 {
 "id": 29,
@@ -374,7 +402,8 @@ const L104 = [
 {"text": "Primitive Tympanic Cavity (from Pouch 1).", "explanation": "Pouch 1 derivatives remain superior/cranial."},
 {"text": "Ultimobranchial body (from Pouch 4).", "explanation": "This fuses with the thyroid and remains in the neck, not migrating as extensively as the inferior parathyroid gland."},
 ],
-"correctAnswerIndex": 0
+"correctAnswerIndex": 0,
+"slideImagePath": "images/L104_p40.jpg"
 },
 {
 "id": 30,
@@ -387,6 +416,7 @@ const L104 = [
 {"text": "Parietal bone", "explanation": "The parietal bone is formed via membranous ossification, but is part of the Desmocranium (calvaria), not the Viscerocranium."},
 {"text": "Ethmoid bone", "explanation": "The ethmoid bone is formed via endochondral ossification (Chondrocranium)."},
 ],
-"correctAnswerIndex": 2
+"correctAnswerIndex": 2,
+"slideImagePath": "images/L104_p56.jpg"
 }
 ];
